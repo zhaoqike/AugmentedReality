@@ -1,0 +1,4769 @@
+hello world
+preprocessor begin
+camera open successfully
+getFirst  0
+getSecond  0
+Frame size: 640  480
+get first is true now
+create first keyframe
+keyframe number: 1
+first keyframe keypoints number: 1973F keeping 1181 / 1269
+1269 matches before, 1181 new matches after Fundamental Matrix
+F keeping 1139 / 1235
+1235 matches before, 1139 new matches after Fundamental Matrix
+F keeping 1154 / 1249
+1249 matches before, 1154 new matches after Fundamental Matrix
+F keeping 1036 / 1200
+1200 matches before, 1036 new matches after Fundamental Matrix
+F keeping 1103 / 1224
+1224 matches before, 1103 new matches after Fundamental Matrix
+F keeping 1093 / 1219
+1219 matches before, 1093 new matches after Fundamental Matrix
+F keeping 1146 / 1238
+1238 matches before, 1146 new matches after Fundamental Matrix
+F keeping 1027 / 1191
+1191 matches before, 1027 new matches after Fundamental Matrix
+F keeping 1077 / 1216
+1216 matches before, 1077 new matches after Fundamental Matrix
+F keeping 1038 / 1178
+1178 matches before, 1038 new matches after Fundamental Matrix
+F keeping 1077 / 1207
+1207 matches before, 1077 new matches after Fundamental Matrix
+F keeping 1090 / 1197
+1197 matches before, 1090 new matches after Fundamental Matrix
+F keeping 983 / 1174
+1174 matches before, 983 new matches after Fundamental Matrix
+F keeping 1012 / 1196
+1196 matches before, 1012 new matches after Fundamental Matrix
+F keeping 1052 / 1183
+1183 matches before, 1052 new matches after Fundamental Matrix
+F keeping 1015 / 1204
+1204 matches before, 1015 new matches after Fundamental Matrix
+F keeping 1003 / 1188
+1188 matches before, 1003 new matches after Fundamental Matrix
+get second is true now
+F keeping 1138 / 1213
+1213 matches before, 1138 new matches after Fundamental Matrix
+F keeping 1138 / 1213
+1213 matches before, 1138 new matches after Fundamental Matrix
+=========================== Baseline triangulation ===========================
+Find camera matrices...
+before fundamentalMat 1213
+F keeping 1138 / 1213
+1213 matches before, 1138 new matches after Fundamental Matrix
+after fundamentalMat 1138
+K
+[640, 0, 320;
+  0, 640, 240;
+  0, 0, 1]
+F
+[6.115538476136137e-007, -3.131876974346842e-005, 0.02630687155240205;
+  2.852140835371509e-005, 2.597948364335483e-006, -0.1269654753420236;
+  -0.02686161237117613, 0.1257095848280694, 1]
+det(F)
+8.39489e-020
+E
+[0.2504924559825362, -12.82816808692466, 12.15108098893183;
+  11.6823688616817, 1.064119650031814, -75.01767491929235;
+  -12.68529736643081, 74.439095115264, 0.518496799691583]
+----------------------- SVD ------------------------
+U:
+[-0.221261741415431, -0.06034093523520798, 0.9733458857573455;
+  0.8400516753706486, -0.5187436056402832, 0.1588025639411555;
+  0.4953346590869423, 0.8527977738844413, 0.165467617269857]
+W:
+[77.10102830205688; 76.38933812930888; 2.391319830648519e-012]
+Vt:
+[0.04506945974183968, 0.5266409930029862, -0.8488922241883283;
+  -0.2211468624240466, 0.8339325167612232, 0.5056190490164428;
+  0.97419854703165, 0.1649418745410654, 0.1540498912180758]
+----------------------------------------------------
+singular value ratio: 0.990769
+P
+[1, 0, 0, 0;
+  0, 1, 0, 0;
+  0, 0, 1, 0]
+Testing P1 
+[0.8965812744241689, 0.3132848458041928, 0.3130409298180925, 0.9733458857573455;
+  0.3171005252879156, -0.9475448628612937, 0.04007480165016267, 0.1588025639411555;
+  0.3091751529700612, 0.06333512654613575, -0.9488937698875065, 0.165467617269857]
+test branch 1
+Triangulating...Done. (1138points, 0.0987091s, mean reproj err = 1.27396)
+Triangulating...Done. (1138points, 0.0976539s, mean reproj err = 1.2661)
+765/1138 = 67.2232% are in front of camera
+P
+[1, 0, 0, 0;
+  0, 1, 0, 0;
+  0, 0, 1, 0]
+Testing P1 
+[0.8965812744241689, 0.3132848458041928, 0.3130409298180925, -0.9733458857573455;
+  0.3171005252879156, -0.9475448628612937, 0.04007480165016267, -0.1588025639411555;
+  0.3091751529700612, 0.06333512654613575, -0.9488937698875065, -0.165467617269857]
+test branch 2
+Triangulating...Done. (1138points, 0.0935249s, mean reproj err = 1.27396)
+Triangulating...Done. (1138points, 0.0942546s, mean reproj err = 1.2661)
+373/1138 = 32.7768% are in front of camera
+P
+[1, 0, 0, 0;
+  0, 1, 0, 0;
+  0, 0, 1, 0]
+Testing P1 
+[0.9998830209039119, 0.007806144143107652, -0.01315327418113124, 0.9733458857573455;
+  -0.007690071175166763, 0.9999312480180569, 0.008852233750410367, 0.1588025639411555;
+  0.01322147168010646, -0.008750048609468226, 0.9998743067685779, 0.165467617269857]
+test branch 3
+Triangulating...Done. (1138points, 0.0937151s, mean reproj err = 1.99842)
+Triangulating...Done. (1138points, 0.093524s, mean reproj err = 1.95549)
+78/1138 = 6.85413% are in front of camera
+P
+[1, 0, 0, 0;
+  0, 1, 0, 0;
+  0, 0, 1, 0]
+Testing P1 
+[0.9998830209039119, 0.007806144143107652, -0.01315327418113124, -0.9733458857573455;
+  -0.007690071175166763, 0.9999312480180569, 0.008852233750410367, -0.1588025639411555;
+  0.01322147168010646, -0.008750048609468226, 0.9998743067685779, -0.165467617269857]
+test branch 4
+Triangulating...Done. (1138points, 0.0940775s, mean reproj err = 1.99842)
+Triangulating...Done. (1138points, 0.09543s, mean reproj err = 1.95549)
+1060/1138 = 93.1459% are in front of camera
+1060/1138 = 93.1459% are in front of camera
+Done. (0.807559s)
+begin triangulation
+p query index 1
+[1, 0, 0, 0;
+  0, 1, 0, 0;
+  0, 0, 1, 0]
+p train index 0
+[0.9998830209039119, 0.007806144143107652, -0.01315327418113124, -0.9733458857573455;
+  -0.007690071175166763, 0.9999312480180569, 0.008852233750410367, -0.1588025639411555;
+  0.01322147168010646, -0.008750048609468226, 0.9998743067685779, -0.165467617269857]
+getalign
+triangulate points
+Triangulating...Done. (1138points, 0.0993403s, mean reproj err = 1.99842)
+triangulation reproj error 1.99842
+test triangulate
+1060/1138 = 93.1459% are in front of camera
+1060/1138 = 93.1459% are in front of camera
+filtered out 88 high-error points
+0/1050 points were found in other views, adding 1050 new
+ after 1050
+create second keyframe
+create init map
+keyframe number: 2
+second keyframe keypoints number: 2280
+point number: 1050
+1050/1973
+1050/2280
+start tracking is true now
+F keeping 1298 / 1435
+1435 matches before, 1298 new matches after Fundamental Matrix
+-----------------------------------------------------------------
+find 2d 3d correspondences
+query frame keypoints: 2306
+train frame keypoints: 2280
+match size: 1435
+-----------------------------------------------------------------
+found 714 3d-2d point correspondences
+-------------------------------------------------------------------------
+find pose estimation
+3d point: 714
+2d point: 714
+inliers size: 540
+projected point: 714
+--------------------------------------------------------------------------
+(540/714)
+found t = [0.01560624209273703; 0.004361713038739445; 0.1049539198695513]
+R = 
+[0.9999965521975515, 0.00164828660339405, -0.00204419771126802;
+  -0.001649628072741749, 0.9999984250330304, -0.0006547203069301782;
+  0.002043115325013262, 0.0006580902155146431, 0.999997696295865]
+frame pose [0.9999965521975515, 0.00164828660339405, -0.00204419771126802, 0.01560624209273703;
+  -0.001649628072741749, 0.9999984250330304, -0.0006547203069301782, 0.004361713038739445;
+  0.002043115325013262, 0.0006580902155146431, 0.999997696295865, 0.1049539198695513]
+next to triangulate ,inliers size: 540
+match size: 1435
+match size: 540
+begin triangulation
+p query index 2
+[0.9999965521975515, 0.00164828660339405, -0.00204419771126802, 0.01560624209273703;
+  -0.001649628072741749, 0.9999984250330304, -0.0006547203069301782, 0.004361713038739445;
+  0.002043115325013262, 0.0006580902155146431, 0.999997696295865, 0.1049539198695513]
+p train index 1
+[1, 0, 0, 0;
+  0, 1, 0, 0;
+  0, 0, 1, 0]
+getalign
+triangulate points
+Triangulating...Done. (540points, 0.0453745s, mean reproj err = 15.6827)
+triangulation reproj error 15.6827
+test triangulate
+269/540 = 49.8148% are in front of camera
+Triangulation did not succeed
+F keeping 1338 / 1417
+1417 matches before, 1338 new matches after Fundamental Matrix
+-----------------------------------------------------------------
+find 2d 3d correspondences
+query frame keypoints: 2260
+train frame keypoints: 2280
+match size: 1417
+-----------------------------------------------------------------
+found 692 3d-2d point correspondences
+-------------------------------------------------------------------------
+find pose estimation
+3d point: 692
+2d point: 692
+inliers size: 280
+projected point: 692
+--------------------------------------------------------------------------
+(280/692)
+found t = [-0.4036450312039047; -0.1729884127557138; -0.6149711406185929]
+R = 
+[0.9999578459386991, 0.003484659779103464, 0.008494909761788764;
+  -0.003518895758009428, 0.999985734148569, 0.004018565912344447;
+  -0.00848078523966376, -0.004048289215396067, 0.9999558428431463]
+frame pose [0.9999578459386991, 0.003484659779103464, 0.008494909761788764, -0.4036450312039047;
+  -0.003518895758009428, 0.999985734148569, 0.004018565912344447, -0.1729884127557138;
+  -0.00848078523966376, -0.004048289215396067, 0.9999558428431463, -0.6149711406185929]
+next to triangulate ,inliers size: 280
+match size: 1417
+match size: 280
+begin triangulation
+p query index 3
+[0.9999578459386991, 0.003484659779103464, 0.008494909761788764, -0.4036450312039047;
+  -0.003518895758009428, 0.999985734148569, 0.004018565912344447, -0.1729884127557138;
+  -0.00848078523966376, -0.004048289215396067, 0.9999558428431463, -0.6149711406185929]
+p train index 1
+[1, 0, 0, 0;
+  0, 1, 0, 0;
+  0, 0, 1, 0]
+getalign
+triangulate points
+Triangulating...Done. (280points, 0.0238565s, mean reproj err = 3.55694)
+triangulation reproj error 3.55694
+test triangulate
+251/280 = 89.6429% are in front of camera
+251/280 = 89.6429% are in front of camera
+filtered out 39 high-error points
+131/241 points were found in other views, adding 110 new
+before triangulation: 1160 after 1160
+======================== Bundle Adjustment ==========================
+N (cams) = 2 M (points) = 241 K (measurements) = 482
+intrinsic before bundle = [ 640 0 320 
+0 640 240 
+0 0 1 ]
+Read the 3D points.
+Read the cameras.
+Read 482 valid 2D measurements.
+mean reprojection error (in pixels): 2.81337
+K0 = [ 1 0 0.5 
+0 1 0.375 
+0 0 1 ]
+optimizer status = 0
+refined K = [ 1.08523 0 0.513893 
+0 1.08523 0.341727 
+0 0 1 ]
+Knew = [ 694.545 0 328.892 
+0 694.545 218.705 
+0 0 1 ]
+mean reprojection error (in pixels): 0.37247
+use new K 
+[694.5446199321856, 0, 328.8918008196476;
+  0, 694.5446199321856, 218.7051259958595;
+  0, 0, 1]
+F keeping 1304 / 1445
+1445 matches before, 1304 new matches after Fundamental Matrix
+-----------------------------------------------------------------
+find 2d 3d correspondences
+query frame keypoints: 2371
+train frame keypoints: 2280
+match size: 1445
+-----------------------------------------------------------------
+found 794 3d-2d point correspondences
+-------------------------------------------------------------------------
+find pose estimation
+3d point: 794
+2d point: 794
+inliers size: 453
+projected point: 794
+--------------------------------------------------------------------------
+(453/794)
+found t = [0.2838967991511208; 1.057827409438698; 7.459544656140068]
+R = 
+[0.9997921443231024, -0.004460040662060094, -0.01989412443676878;
+  0.004743829939893891, 0.9998873433246468, 0.01424067191818046;
+  0.01982836925504053, -0.01433208625681055, 0.9997006687385045]
+frame pose [0.9997921443231024, -0.004460040662060094, -0.01989412443676878, 0.2838967991511208;
+  0.004743829939893891, 0.9998873433246468, 0.01424067191818046, 1.057827409438698;
+  0.01982836925504053, -0.01433208625681055, 0.9997006687385045, 7.459544656140068]
+next to triangulate ,inliers size: 453
+match size: 1445
+match size: 453
+begin triangulation
+p query index 4
+[0.9997921443231024, -0.004460040662060094, -0.01989412443676878, 0.2838967991511208;
+  0.004743829939893891, 0.9998873433246468, 0.01424067191818046, 1.057827409438698;
+  0.01982836925504053, -0.01433208625681055, 0.9997006687385045, 7.459544656140068]
+p train index 1
+[0.999919011955257, 0.003082037946570342, -0.0123478974938354, -0.1067822786355399;
+  -0.003063119849285356, 0.999994106280201, 0.001550710047106897, 1.53174868731334;
+  0.01235260406599681, -0.001512761368221903, 0.9999225593643893, 9.420202160953544]
+getalign
+triangulate points
+Triangulating...Done. (453points, 0.039418s, mean reproj err = 38.8455)
+triangulation reproj error 38.8455
+test triangulate
+428/453 = 94.4812% are in front of camera
+433/453 = 95.585% are in front of camera
+filtered out 53 high-error points
+273/400 points were found in other views, adding 127 new
+before triangulation: 1287 after 1287
+======================== Bundle Adjustment ==========================
+N (cams) = 2 M (points) = 400 K (measurements) = 800
+intrinsic before bundle = [ 694.545 0 328.892 
+0 694.545 218.705 
+0 0 1 ]
+Read the 3D points.
+Read the cameras.
+Read 800 valid 2D measurements.
+mean reprojection error (in pixels): 12.421
+K0 = [ 1 0 0.473536 
+0 1 0.31489 
+0 0 1 ]
+optimizer status = 0
+refined K = [ 0.978285 0 0.482355 
+0 0.978285 0.312829 
+0 0 1 ]
+Knew = [ 679.462 0 335.017 
+0 679.462 217.274 
+0 0 1 ]
+mean reprojection error (in pixels): 0.934143
+use new K 
+[679.4623499640406, 0, 335.0171754551239;
+  0, 679.4623499640406, 217.2736548133998;
+  0, 0, 1]
+F keeping 1330 / 1396
+1396 matches before, 1330 new matches after Fundamental Matrix
+-----------------------------------------------------------------
+find 2d 3d correspondences
+query frame keypoints: 2257
+train frame keypoints: 2280
+match size: 1396
+-----------------------------------------------------------------
+found 856 3d-2d point correspondences
+-------------------------------------------------------------------------
+find pose estimation
+3d point: 856
+2d point: 856
+inliers size: 436
+projected point: 856
+--------------------------------------------------------------------------
+(436/856)
+found t = [-0.5565316750540044; 0.4768255482207917; 3.405580156704986]
+R = 
+[0.9999196388123617, 0.01096212929971207, 0.006367702770437036;
+  -0.01116508342720346, 0.9994007809646548, 0.03276308775591338;
+  -0.006004733917487434, -0.03283155080794218, 0.9994428610191408]
+frame pose [0.9999196388123617, 0.01096212929971207, 0.006367702770437036, -0.5565316750540044;
+  -0.01116508342720346, 0.9994007809646548, 0.03276308775591338, 0.4768255482207917;
+  -0.006004733917487434, -0.03283155080794218, 0.9994428610191408, 3.405580156704986]
+next to triangulate ,inliers size: 436
+match size: 1396
+match size: 436
+begin triangulation
+p query index 5
+[0.9999196388123617, 0.01096212929971207, 0.006367702770437036, -0.5565316750540044;
+  -0.01116508342720346, 0.9994007809646548, 0.03276308775591338, 0.4768255482207917;
+  -0.006004733917487434, -0.03283155080794218, 0.9994428610191408, 3.405580156704986]
+p train index 1
+[0.9998432743405494, -0.0003834502621490455, -0.01769970965480172, 0.04793138672587779;
+  0.0005569162542444485, 0.9999518569701758, 0.009796610953929818, 2.132290623182139;
+  0.01769510102411352, -0.009804932829619787, 0.9997953524056565, 0.7501957140563532]
+getalign
+triangulate points
+Triangulating...Done. (436points, 0.0373138s, mean reproj err = 28.9742)
+triangulation reproj error 28.9742
+test triangulate
+430/436 = 98.6239% are in front of camera
+427/436 = 97.9358% are in front of camera
+filtered out 149 high-error points
+202/287 points were found in other views, adding 85 new
+before triangulation: 1372 after 1372
+======================== Bundle Adjustment ==========================
+N (cams) = 2 M (points) = 287 K (measurements) = 574
+intrinsic before bundle = [ 679.462 0 335.017 
+0 679.462 217.274 
+0 0 1 ]
+Read the 3D points.
+Read the cameras.
+Read 574 valid 2D measurements.
+mean reprojection error (in pixels): 16.5662
+K0 = [ 1 0 0.493062 
+0 1 0.319773 
+0 0 1 ]
+optimizer status = 0
+refined K = [ 0.99168 0 0.525598 
+0 0.99168 0.319686 
+0 0 1 ]
+Knew = [ 673.81 0 357.124 
+0 673.81 217.214 
+0 0 1 ]
+mean reprojection error (in pixels): 0.742562
+use new K 
+[673.8095512278978, 0, 357.1240646780767;
+  0, 673.8095512278978, 217.2143132848113;
+  0, 0, 1]
+F keeping 1277 / 1420
+1420 matches before, 1277 new matches after Fundamental Matrix
+-----------------------------------------------------------------
+find 2d 3d correspondences
+query frame keypoints: 2235
+train frame keypoints: 2280
+match size: 1420
+-----------------------------------------------------------------
+found 935 3d-2d point correspondences
+-------------------------------------------------------------------------
+find pose estimation
+3d point: 935
+2d point: 935
+inliers size: 402
+projected point: 935
+--------------------------------------------------------------------------
+(402/935)
+found t = [-2.146370150749414; 1.138973489702563; 5.389413315154528]
+R = 
+[0.9994380809659182, 0.009118527702615299, -0.03225484099634047;
+  -0.00867758077891006, 0.9998673362853758, 0.01378439049841235;
+  0.03237625529594271, -0.01349675079876144, 0.9993846185582846]
+frame pose [0.9994380809659182, 0.009118527702615299, -0.03225484099634047, -2.146370150749414;
+  -0.00867758077891006, 0.9998673362853758, 0.01378439049841235, 1.138973489702563;
+  0.03237625529594271, -0.01349675079876144, 0.9993846185582846, 5.389413315154528]
+next to triangulate ,inliers size: 402
+match size: 1420
+match size: 402
+begin triangulation
+p query index 6
+[0.9994380809659182, 0.009118527702615299, -0.03225484099634047, -2.146370150749414;
+  -0.00867758077891006, 0.9998673362853758, 0.01378439049841235, 1.138973489702563;
+  0.03237625529594271, -0.01349675079876144, 0.9993846185582846, 5.389413315154528]
+p train index 1
+[0.9999419761981452, 0.004376353831607614, -0.009843361422113998, -3.06344163819034;
+  -0.0042027025770899, 0.9998363897904712, 0.01759349146145924, 1.313249824889343;
+  0.009918746291458001, -0.0175511018997807, 0.9997967679954294, 4.820713610434106]
+getalign
+triangulate points
+Triangulating...Done. (402points, 0.0350767s, mean reproj err = 1.29543)
+triangulation reproj error 1.29543
+test triangulate
+389/402 = 96.7662% are in front of camera
+389/402 = 96.7662% are in front of camera
+filtered out 26 high-error points
+311/376 points were found in other views, adding 65 new
+before triangulation: 1437 after 1437
+======================== Bundle Adjustment ==========================
+N (cams) = 2 M (points) = 376 K (measurements) = 752
+intrinsic before bundle = [ 673.81 0 357.124 
+0 673.81 217.214 
+0 0 1 ]
+Read the 3D points.
+Read the cameras.
+Read 752 valid 2D measurements.
+mean reprojection error (in pixels): 15.3405
+K0 = [ 1 0 0.530007 
+0 1 0.322368 
+0 0 1 ]
+optimizer status = 0
+refined K = [ 0.984565 0 0.530408 
+0 0.984565 0.303812 
+0 0 1 ]
+Knew = [ 663.409 0 357.394 
+0 663.409 204.712 
+0 0 1 ]
+mean reprojection error (in pixels): 1.16016
+use new K 
+[663.409441256583, 0, 357.3938561570629;
+  0, 663.409441256583, 204.7115768121809;
+  0, 0, 1]
+F keeping 1273 / 1458
+1458 matches before, 1273 new matches after Fundamental Matrix
+-----------------------------------------------------------------
+find 2d 3d correspondences
+query frame keypoints: 2309
+train frame keypoints: 2280
+match size: 1458
+-----------------------------------------------------------------
+found 963 3d-2d point correspondences
+-------------------------------------------------------------------------
+find pose estimation
+3d point: 963
+2d point: 963
+inliers size: 195
+projected point: 963
+--------------------------------------------------------------------------
+(195/963)
+found t = [-5.25867523505301; 1.648905767485619; -2.180787860631718]
+R = 
+[0.9994637770808363, -0.009244653123572463, 0.03141169673757121;
+  0.008130923187291365, 0.9993401287724005, 0.03540049594687009;
+  -0.03171823436811525, -0.03512610729623793, 0.9988794272557536]
+frame pose [0.9994637770808363, -0.009244653123572463, 0.03141169673757121, -5.25867523505301;
+  0.008130923187291365, 0.9993401287724005, 0.03540049594687009, 1.648905767485619;
+  -0.03171823436811525, -0.03512610729623793, 0.9988794272557536, -2.180787860631718]
+next to triangulate ,inliers size: 195
+match size: 1458
+match size: 195
+begin triangulation
+p query index 7
+[0.9994637770808363, -0.009244653123572463, 0.03141169673757121, -5.25867523505301;
+  0.008130923187291365, 0.9993401287724005, 0.03540049594687009, 1.648905767485619;
+  -0.03171823436811525, -0.03512610729623793, 0.9988794272557536, -2.180787860631718]
+p train index 1
+[0.9996382208373902, 0.00884166354389275, -0.02540181936066148, -0.543767666781911;
+  -0.008237277622870373, 0.999682805042072, 0.02379992774311347, 2.766785818542145;
+  0.02560419298511166, -0.02358207558698459, 0.9993939718712477, -4.841024762375187]
+getalign
+triangulate points
+Triangulating...Done. (195points, 0.0165853s, mean reproj err = 1.41758)
+triangulation reproj error 1.41758
+test triangulate
+192/195 = 98.4615% are in front of camera
+192/195 = 98.4615% are in front of camera
+filtered out 5 high-error points
+166/190 points were found in other views, adding 24 new
+before triangulation: 1461 after 1461
+======================== Bundle Adjustment ==========================
+N (cams) = 2 M (points) = 190 K (measurements) = 380
+intrinsic before bundle = [ 663.409 0 357.394 
+0 663.409 204.712 
+0 0 1 ]
+Read the 3D points.
+Read the cameras.
+Read 380 valid 2D measurements.
+mean reprojection error (in pixels): 32.8545
+K0 = [ 1 0 0.538723 
+0 1 0.308575 
+0 0 1 ]
+optimizer status = 0
+refined K = [ 0.985524 0 0.548029 
+0 0.985524 0.310927 
+0 0 1 ]
+Knew = [ 653.806 0 363.568 
+0 653.806 206.272 
+0 0 1 ]
+mean reprojection error (in pixels): 1.1991
+use new K 
+[653.8058579247547, 0, 363.5676505928972;
+  0, 653.8058579247547, 206.2720457678219;
+  0, 0, 1]
+F keeping 1221 / 1392
+1392 matches before, 1221 new matches after Fundamental Matrix
+-----------------------------------------------------------------
+find 2d 3d correspondences
+query frame keypoints: 2189
+train frame keypoints: 2280
+match size: 1392
+-----------------------------------------------------------------
+found 972 3d-2d point correspondences
+-------------------------------------------------------------------------
+find pose estimation
+3d point: 972
+2d point: 972
+inliers size: 220
+projected point: 972
+--------------------------------------------------------------------------
+(220/972)
+found t = [-2.078084882290725; 4.787016491862131; 0.05600819522647171]
+R = 
+[0.9972680256471154, 0.07380862977198126, -0.002961620010572481;
+  -0.07354498172638373, 0.9883628349699999, -0.1331542042630674;
+  -0.006900774215282207, 0.1330082426816, 0.9910909073813473]
+frame pose [0.9972680256471154, 0.07380862977198126, -0.002961620010572481, -2.078084882290725;
+  -0.07354498172638373, 0.9883628349699999, -0.1331542042630674, 4.787016491862131;
+  -0.006900774215282207, 0.1330082426816, 0.9910909073813473, 0.05600819522647171]
+next to triangulate ,inliers size: 220
+match size: 1392
+match size: 220
+begin triangulation
+p query index 8
+[0.9972680256471154, 0.07380862977198126, -0.002961620010572481, -2.078084882290725;
+  -0.07354498172638373, 0.9883628349699999, -0.1331542042630674, 4.787016491862131;
+  -0.006900774215282207, 0.1330082426816, 0.9910909073813473, 0.05600819522647171]
+p train index 1
+[0.9998704556394106, 0.003604582484612068, -0.01568690296226786, -1.631997051912245;
+  -0.003177265249996716, 0.9996254908133322, 0.02718056477954207, 2.624299045050876;
+  0.01577900266072431, -0.02712720223899506, 0.999507447682965, -5.620836685195033]
+getalign
+triangulate points
+Triangulating...Done. (220points, 0.01924s, mean reproj err = 154.363)
+triangulation reproj error 154.363
+test triangulate
+220/220 = 100% are in front of camera
+214/220 = 97.2727% are in front of camera
+filtered out 170 high-error points
+41/50 points were found in other views, adding 9 new
+before triangulation: 1470 after 1470
+======================== Bundle Adjustment ==========================
+N (cams) = 2 M (points) = 50 K (measurements) = 100
+intrinsic before bundle = [ 653.806 0 363.568 
+0 653.806 206.272 
+0 0 1 ]
+Read the 3D points.
+Read the cameras.
+Read 100 valid 2D measurements.
+mean reprojection error (in pixels): 42.6832
+K0 = [ 1 0 0.556079 
+0 1 0.315494 
+0 0 1 ]
+optimizer status = 0
+refined K = [ 1.02301 0 0.437636 
+0 1.02301 0.321188 
+0 0 1 ]
+Knew = [ 668.851 0 286.129 
+0 668.851 209.995 
+0 0 1 ]
+mean reprojection error (in pixels): 0.910277
+use new K 
+[668.8505221158372, 0, 286.1292725142875;
+  0, 668.8505221158372, 209.9948462195301;
+  0, 0, 1]
+F keeping 1226 / 1382
+1382 matches before, 1226 new matches after Fundamental Matrix
+-----------------------------------------------------------------
+find 2d 3d correspondences
+query frame keypoints: 2224
+train frame keypoints: 2280
+match size: 1382
+-----------------------------------------------------------------
+found 961 3d-2d point correspondences
+-------------------------------------------------------------------------
+find pose estimation
+3d point: 961
+2d point: 961
+inliers size: 243
+projected point: 961
+--------------------------------------------------------------------------
+(243/961)
+found t = [-0.01536827761782966; 0.9435086783941402; 3.4436724669239]
+R = 
+[0.9991346024422305, 0.03420360635740741, 0.02366768925673994;
+  -0.03482501241438864, 0.9990456969262374, 0.02636122082731419;
+  -0.02274345428785523, -0.02716263546337627, 0.9993722662360308]
+frame pose [0.9991346024422305, 0.03420360635740741, 0.02366768925673994, -0.01536827761782966;
+  -0.03482501241438864, 0.9990456969262374, 0.02636122082731419, 0.9435086783941402;
+  -0.02274345428785523, -0.02716263546337627, 0.9993722662360308, 3.4436724669239]
+next to triangulate ,inliers size: 243
+match size: 1382
+match size: 243
+begin triangulation
+p query index 9
+[0.9991346024422305, 0.03420360635740741, 0.02366768925673994, -0.01536827761782966;
+  -0.03482501241438864, 0.9990456969262374, 0.02636122082731419, 0.9435086783941402;
+  -0.02274345428785523, -0.02716263546337627, 0.9993722662360308, 3.4436724669239]
+p train index 1
+[0.9990420982309467, 0.03989910128075386, 0.01797074509568892, 0.6782216355635091;
+  -0.03946142557350358, 0.9989307958724957, -0.02408445451421512, 3.022907450888312;
+  -0.01891247879081274, 0.02335223275253548, 0.9995483937116075, 12.20236413112825]
+getalign
+triangulate points
+Triangulating...Done. (243points, 0.021104s, mean reproj err = 17.3998)
+triangulation reproj error 17.3998
+test triangulate
+239/243 = 98.3539% are in front of camera
+243/243 = 100% are in front of camera
+filtered out 50 high-error points
+161/193 points were found in other views, adding 32 new
+before triangulation: 1502 after 1502
+======================== Bundle Adjustment ==========================
+N (cams) = 2 M (points) = 193 K (measurements) = 386
+intrinsic before bundle = [ 668.851 0 286.129 
+0 668.851 209.995 
+0 0 1 ]
+Read the 3D points.
+Read the cameras.
+Read 386 valid 2D measurements.
+mean reprojection error (in pixels): 28.5164
+K0 = [ 1 0 0.427793 
+0 1 0.313964 
+0 0 1 ]
+optimizer status = 0
+refined K = [ 1.05225 0 0.397923 
+0 1.05225 0.305298 
+0 0 1 ]
+Knew = [ 703.797 0 266.151 
+0 703.797 204.198 
+0 0 1 ]
+mean reprojection error (in pixels): 1.06043
+use new K 
+[703.7966033946124, 0, 266.1508351469264;
+  0, 703.7966033946124, 204.1983978613694;
+  0, 0, 1]
+F keeping 1306 / 1410
+1410 matches before, 1306 new matches after Fundamental Matrix
+-----------------------------------------------------------------
+find 2d 3d correspondences
+query frame keypoints: 2300
+train frame keypoints: 2280
+match size: 1410
+-----------------------------------------------------------------
+found 995 3d-2d point correspondences
+-------------------------------------------------------------------------
+find pose estimation
+3d point: 995
+2d point: 995
+inliers size: 277
+projected point: 995
+--------------------------------------------------------------------------
+(277/995)
+found t = [0.1988543880324158; 2.065800957437243; 7.513927494453775]
+R = 
+[0.9983070810677991, 0.01605981234548872, 0.05590218526424903;
+  -0.01693514243143816, 0.999740744684923, 0.01521986753103858;
+  -0.05564326410912318, -0.0161408129988284, 0.9983202398604464]
+frame pose [0.9983070810677991, 0.01605981234548872, 0.05590218526424903, 0.1988543880324158;
+  -0.01693514243143816, 0.999740744684923, 0.01521986753103858, 2.065800957437243;
+  -0.05564326410912318, -0.0161408129988284, 0.9983202398604464, 7.513927494453775]
+next to triangulate ,inliers size: 277
+match size: 1410
+match size: 277
+begin triangulation
+p query index 10
+[0.9983070810677991, 0.01605981234548872, 0.05590218526424903, 0.1988543880324158;
+  -0.01693514243143816, 0.999740744684923, 0.01521986753103858, 2.065800957437243;
+  -0.05564326410912318, -0.0161408129988284, 0.9983202398604464, 7.513927494453775]
+p train index 1
+[0.9994154132301791, 0.03293052221689694, 0.00918762779345076, 3.78622328834909;
+  -0.03291543452271929, 0.9994565398260488, -0.001788622129660571, 2.005705429258843;
+  -0.009241534944430382, 0.001485161763773022, 0.9999561932036839, 23.06789187796325]
+getalign
+triangulate points
+Triangulating...Done. (277points, 0.0229543s, mean reproj err = 26.8996)
+triangulation reproj error 26.8996
+test triangulate
+201/277 = 72.5632% are in front of camera
+Triangulation did not succeed
+F keeping 1280 / 1430
+1430 matches before, 1280 new matches after Fundamental Matrix
+-----------------------------------------------------------------
+find 2d 3d correspondences
+query frame keypoints: 2316
+train frame keypoints: 2280
+match size: 1430
+-----------------------------------------------------------------
+found 1001 3d-2d point correspondences
+-------------------------------------------------------------------------
+find pose estimation
+3d point: 1001
+2d point: 1001
+inliers size: 211
+projected point: 1001
+--------------------------------------------------------------------------
+(211/1001)
+found t = [4.750424133275183; 3.944147226498273; 16.96167846038204]
+R = 
+[0.9999756541955431, 0.006811345940618002, -0.001515448010612745;
+  -0.006835222868014792, 0.9998429365327156, -0.01635181928657086;
+  0.001403832091174405, 0.01636177961327343, 0.9998651516196304]
+frame pose [0.9999756541955431, 0.006811345940618002, -0.001515448010612745, 4.750424133275183;
+  -0.006835222868014792, 0.9998429365327156, -0.01635181928657086, 3.944147226498273;
+  0.001403832091174405, 0.01636177961327343, 0.9998651516196304, 16.96167846038204]
+next to triangulate ,inliers size: 211
+match size: 1430
+match size: 211
+begin triangulation
+p query index 11
+[0.9999756541955431, 0.006811345940618002, -0.001515448010612745, 4.750424133275183;
+  -0.006835222868014792, 0.9998429365327156, -0.01635181928657086, 3.944147226498273;
+  0.001403832091174405, 0.01636177961327343, 0.9998651516196304, 16.96167846038204]
+p train index 1
+[0.9994154132301791, 0.03293052221689694, 0.00918762779345076, 3.78622328834909;
+  -0.03291543452271929, 0.9994565398260488, -0.001788622129660571, 2.005705429258843;
+  -0.009241534944430382, 0.001485161763773022, 0.9999561932036839, 23.06789187796325]
+getalign
+triangulate points
+Triangulating...Done. (211points, 0.0178958s, mean reproj err = 5.42086)
+triangulation reproj error 5.42086
+test triangulate
+200/211 = 94.7867% are in front of camera
+201/211 = 95.2607% are in front of camera
+filtered out 17 high-error points
+154/194 points were found in other views, adding 40 new
+before triangulation: 1542 after 1542
+======================== Bundle Adjustment ==========================
+N (cams) = 2 M (points) = 194 K (measurements) = 388
+intrinsic before bundle = [ 703.797 0 266.151 
+0 703.797 204.198 
+0 0 1 ]
+Read the 3D points.
+Read the cameras.
+Read 388 valid 2D measurements.
+mean reprojection error (in pixels): 36.0795
+K0 = [ 1 0 0.378164 
+0 1 0.290138 
+0 0 1 ]
+optimizer status = 1
+refined K = [ 0.999938 0 0.381559 
+0 0.999938 0.291119 
+0 0 1 ]
+Knew = [ 703.753 0 268.54 
+0 703.753 204.888 
+0 0 1 ]
+mean reprojection error (in pixels): 1.76425
+use new K 
+[703.7527766043794, 0, 268.540183681895;
+  0, 703.7527766043794, 204.888246877522;
+  0, 0, 1]
+F keeping 1352 / 1409
+1409 matches before, 1352 new matches after Fundamental Matrix
+-----------------------------------------------------------------
+find 2d 3d correspondences
+query frame keypoints: 2216
+train frame keypoints: 2280
+match size: 1409
+-----------------------------------------------------------------
+found 1004 3d-2d point correspondences
+-------------------------------------------------------------------------
+find pose estimation
+3d point: 1004
+2d point: 1004
+inliers size: 261
+projected point: 1004
+--------------------------------------------------------------------------
+(261/1004)
+found t = [5.057456209429998; 3.45115348202471; 12.01245564271478]
+R = 
+[0.9999313801977965, 0.01168800202918104, 0.0007908882952433661;
+  -0.01168050510753796, 0.9998921796763368, -0.008899147292693744;
+  -0.0008948162730263771, 0.008889298660194656, 0.9999600890401413]
+frame pose [0.9999313801977965, 0.01168800202918104, 0.0007908882952433661, 5.057456209429998;
+  -0.01168050510753796, 0.9998921796763368, -0.008899147292693744, 3.45115348202471;
+  -0.0008948162730263771, 0.008889298660194656, 0.9999600890401413, 12.01245564271478]
+next to triangulate ,inliers size: 261
+match size: 1409
+match size: 261
+begin triangulation
+p query index 12
+[0.9999313801977965, 0.01168800202918104, 0.0007908882952433661, 5.057456209429998;
+  -0.01168050510753796, 0.9998921796763368, -0.008899147292693744, 3.45115348202471;
+  -0.0008948162730263771, 0.008889298660194656, 0.9999600890401413, 12.01245564271478]
+p train index 1
+[0.9997448929282107, 0.02118642868894915, 0.00782842917620912, 3.561345700350848;
+  -0.02112844573433432, 0.9997492596456262, -0.007416644718057218, 2.740067084216048;
+  -0.007983598487533692, 0.007249350138506204, 0.9999418528483322, 13.82317263847395]
+getalign
+triangulate points
+Triangulating...Done. (261points, 0.0223754s, mean reproj err = 7.00004)
+triangulation reproj error 7.00004
+test triangulate
+189/261 = 72.4138% are in front of camera
+Triangulation did not succeed
+F keeping 1131 / 1404
+1404 matches before, 1131 new matches after Fundamental Matrix
+-----------------------------------------------------------------
+find 2d 3d correspondences
+query frame keypoints: 2223
+train frame keypoints: 2280
+match size: 1404
+-----------------------------------------------------------------
+found 1009 3d-2d point correspondences
+-------------------------------------------------------------------------
+find pose estimation
+3d point: 1009
+2d point: 1009
+inliers size: 132
+projected point: 1009
+--------------------------------------------------------------------------
+(132/1009)
+not enough inliers to consider a good pose (132/1009)
+lost a frame
+F keeping 1208 / 1407
+1407 matches before, 1208 new matches after Fundamental Matrix
+-----------------------------------------------------------------
+find 2d 3d correspondences
+query frame keypoints: 2254
+train frame keypoints: 2280
+match size: 1407
+-----------------------------------------------------------------
+found 1029 3d-2d point correspondences
+-------------------------------------------------------------------------
+find pose estimation
+3d point: 1029
+2d point: 1029
+inliers size: 178
+projected point: 1029
+--------------------------------------------------------------------------
+(178/1029)
+not enough inliers to consider a good pose (178/1029)
+lost a frame
+F keeping 1337 / 1408
+1408 matches before, 1337 new matches after Fundamental Matrix
+-----------------------------------------------------------------
+find 2d 3d correspondences
+query frame keypoints: 2274
+train frame keypoints: 2280
+match size: 1408
+-----------------------------------------------------------------
+found 1031 3d-2d point correspondences
+-------------------------------------------------------------------------
+find pose estimation
+3d point: 1031
+2d point: 1031
+inliers size: 287
+projected point: 1031
+--------------------------------------------------------------------------
+(287/1031)
+found t = [-0.3155023799577652; -0.9497710630787708; -0.3341705412793345]
+R = 
+[0.9965710593771059, -0.0341620925791895, 0.07535963802065203;
+  0.02791355759003282, 0.9962029678348475, 0.08246502397810694;
+  -0.07789067283481853, -0.08007870071156699, 0.9937406325483962]
+frame pose [0.9965710593771059, -0.0341620925791895, 0.07535963802065203, -0.3155023799577652;
+  0.02791355759003282, 0.9962029678348475, 0.08246502397810694, -0.9497710630787708;
+  -0.07789067283481853, -0.08007870071156699, 0.9937406325483962, -0.3341705412793345]
+next to triangulate ,inliers size: 287
+match size: 1408
+match size: 287
+begin triangulation
+p query index 13
+[0.9965710593771059, -0.0341620925791895, 0.07535963802065203, -0.3155023799577652;
+  0.02791355759003282, 0.9962029678348475, 0.08246502397810694, -0.9497710630787708;
+  -0.07789067283481853, -0.08007870071156699, 0.9937406325483962, -0.3341705412793345]
+p train index 1
+[0.9997448929282107, 0.02118642868894915, 0.00782842917620912, 3.561345700350848;
+  -0.02112844573433432, 0.9997492596456262, -0.007416644718057218, 2.740067084216048;
+  -0.007983598487533692, 0.007249350138506204, 0.9999418528483322, 13.82317263847395]
+getalign
+triangulate points
+Triangulating...Done. (287points, 0.0245435s, mean reproj err = 14.9556)
+triangulation reproj error 14.9556
+test triangulate
+285/287 = 99.3031% are in front of camera
+286/287 = 99.6516% are in front of camera
+filtered out 60 high-error points
+194/227 points were found in other views, adding 33 new
+before triangulation: 1575 after 1575
+======================== Bundle Adjustment ==========================
+N (cams) = 2 M (points) = 227 K (measurements) = 454
+intrinsic before bundle = [ 703.753 0 268.54 
+0 703.753 204.888 
+0 0 1 ]
+Read the 3D points.
+Read the cameras.
+Read 454 valid 2D measurements.
+mean reprojection error (in pixels): 43.1715
+K0 = [ 1 0 0.381583 
+0 1 0.291137 
+0 0 1 ]
+optimizer status = 0
+refined K = [ 0.960242 0 0.404517 
+0 0.960242 0.271791 
+0 0 1 ]
+Knew = [ 675.773 0 284.68 
+0 675.773 191.274 
+0 0 1 ]
+mean reprojection error (in pixels): 0.862878
+use new K 
+[675.7726319800322, 0, 284.6801222382276;
+  0, 675.7726319800322, 191.2736735919781;
+  0, 0, 1]
+F keeping 1318 / 1423
+1423 matches before, 1318 new matches after Fundamental Matrix
+-----------------------------------------------------------------
+find 2d 3d correspondences
+query frame keypoints: 2292
+train frame keypoints: 2280
+match size: 1423
+-----------------------------------------------------------------
+found 1072 3d-2d point correspondences
+-------------------------------------------------------------------------
+find pose estimation
+3d point: 1072
+2d point: 1072
+inliers size: 393
+projected point: 1072
+--------------------------------------------------------------------------
+(393/1072)
+found t = [2.506065237250543; 2.837093071177416; 9.839847896115579]
+R = 
+[0.9997648747697404, 0.02162583687170859, 0.001586932967573872;
+  -0.02165119182329276, 0.9995993897557566, 0.0182287106661468;
+  -0.001192086102722469, -0.01825878362644574, 0.9998325838615214]
+frame pose [0.9997648747697404, 0.02162583687170859, 0.001586932967573872, 2.506065237250543;
+  -0.02165119182329276, 0.9995993897557566, 0.0182287106661468, 2.837093071177416;
+  -0.001192086102722469, -0.01825878362644574, 0.9998325838615214, 9.839847896115579]
+next to triangulate ,inliers size: 393
+match size: 1423
+match size: 393
+begin triangulation
+p query index 14
+[0.9997648747697404, 0.02162583687170859, 0.001586932967573872, 2.506065237250543;
+  -0.02165119182329276, 0.9995993897557566, 0.0182287106661468, 2.837093071177416;
+  -0.001192086102722469, -0.01825878362644574, 0.9998325838615214, 9.839847896115579]
+p train index 1
+[0.9998949965299735, -0.001536608910555158, 0.01440953668157956, 3.916672265107156;
+  0.0010792368509652, 0.9994969997601446, 0.03169515291475029, 3.111808034564689;
+  -0.01445099173556274, -0.03167627351071907, 0.99939370747185, -4.475414458245171]
+getalign
+triangulate points
+Triangulating...Done. (393points, 0.0337354s, mean reproj err = 24.7709)
+triangulation reproj error 24.7709
+test triangulate
+178/393 = 45.2926% are in front of camera
+Triangulation did not succeed
+F keeping 1313 / 1432
+1432 matches before, 1313 new matches after Fundamental Matrix
+-----------------------------------------------------------------
+find 2d 3d correspondences
+query frame keypoints: 2278
+train frame keypoints: 2280
+match size: 1432
+-----------------------------------------------------------------
+found 1026 3d-2d point correspondences
+-------------------------------------------------------------------------
+find pose estimation
+3d point: 1026
+2d point: 1026
+inliers size: 236
+projected point: 1026
+--------------------------------------------------------------------------
+(236/1026)
+found t = [1.474873587406309; 3.107815455257449; -2.3048146572973]
+R = 
+[0.9994511929947869, -0.0138842931930609, 0.03007555857879323;
+  0.01294066977937707, 0.9994248276196326, 0.03134570150959963;
+  -0.03049347285827605, -0.03093930089702937, 0.9990560083263824]
+frame pose [0.9994511929947869, -0.0138842931930609, 0.03007555857879323, 1.474873587406309;
+  0.01294066977937707, 0.9994248276196326, 0.03134570150959963, 3.107815455257449;
+  -0.03049347285827605, -0.03093930089702937, 0.9990560083263824, -2.3048146572973]
+next to triangulate ,inliers size: 236
+match size: 1432
+match size: 236
+begin triangulation
+p query index 15
+[0.9994511929947869, -0.0138842931930609, 0.03007555857879323, 1.474873587406309;
+  0.01294066977937707, 0.9994248276196326, 0.03134570150959963, 3.107815455257449;
+  -0.03049347285827605, -0.03093930089702937, 0.9990560083263824, -2.3048146572973]
+p train index 1
+[0.9998949965299735, -0.001536608910555158, 0.01440953668157956, 3.916672265107156;
+  0.0010792368509652, 0.9994969997601446, 0.03169515291475029, 3.111808034564689;
+  -0.01445099173556274, -0.03167627351071907, 0.99939370747185, -4.475414458245171]
+getalign
+triangulate points
+Triangulating...Done. (236points, 0.0209606s, mean reproj err = 5.64513)
+triangulation reproj error 5.64513
+test triangulate
+222/236 = 94.0678% are in front of camera
+221/236 = 93.6441% are in front of camera
+filtered out 20 high-error points
+194/216 points were found in other views, adding 22 new
+before triangulation: 1597 after 1597
+======================== Bundle Adjustment ==========================
+N (cams) = 2 M (points) = 216 K (measurements) = 432
+intrinsic before bundle = [ 675.773 0 284.68 
+0 675.773 191.274 
+0 0 1 ]
+Read the 3D points.
+Read the cameras.
+Read 432 valid 2D measurements.
+mean reprojection error (in pixels): 54.5451
+K0 = [ 1 0 0.421266 
+0 1 0.283044 
+0 0 1 ]
+optimizer status = 0
+refined K = [ 0.998795 0 0.4249 
+0 0.998795 0.284392 
+0 0 1 ]
+Knew = [ 674.958 0 287.136 
+0 674.958 192.184 
+0 0 1 ]
+mean reprojection error (in pixels): 1.14054
+use new K 
+[674.9583527030569, 0, 287.1360700272915;
+  0, 674.9583527030569, 192.1840720575349;
+  0, 0, 1]
+F keeping 1275 / 1413
+1413 matches before, 1275 new matches after Fundamental Matrix
+-----------------------------------------------------------------
+find 2d 3d correspondences
+query frame keypoints: 2246
+train frame keypoints: 2280
+match size: 1413
+-----------------------------------------------------------------
+found 1062 3d-2d point correspondences
+-------------------------------------------------------------------------
+find pose estimation
+3d point: 1062
+2d point: 1062
+inliers size: 365
+projected point: 1062
+--------------------------------------------------------------------------
+(365/1062)
+found t = [0.7272239349875145; 1.125464248516183; 1.718233441906158]
+R = 
+[0.9989962008822714, -0.03047358070761884, 0.03283217174730697;
+  0.02878991323251996, 0.9983045798612014, 0.05058761433606326;
+  -0.034318093170402, -0.04959159915758457, 0.9981798143491688]
+frame pose [0.9989962008822714, -0.03047358070761884, 0.03283217174730697, 0.7272239349875145;
+  0.02878991323251996, 0.9983045798612014, 0.05058761433606326, 1.125464248516183;
+  -0.034318093170402, -0.04959159915758457, 0.9981798143491688, 1.718233441906158]
+next to triangulate ,inliers size: 365
+match size: 1413
+match size: 365
+begin triangulation
+p query index 16
+[0.9989962008822714, -0.03047358070761884, 0.03283217174730697, 0.7272239349875145;
+  0.02878991323251996, 0.9983045798612014, 0.05058761433606326, 1.125464248516183;
+  -0.034318093170402, -0.04959159915758457, 0.9981798143491688, 1.718233441906158]
+p train index 1
+[0.9998323469440866, -0.006503507611683021, 0.01711672845557319, 2.122076070146859;
+  0.005966430897287851, 0.999493995244131, 0.03124348209263989, 3.353829639007597;
+  -0.01731125953317471, -0.03113611824987168, 0.9993652297502158, -7.130858120902673]
+getalign
+triangulate points
+Triangulating...Done. (365points, 0.0307751s, mean reproj err = 27.0513)
+triangulation reproj error 27.0513
+test triangulate
+291/365 = 79.726% are in front of camera
+278/365 = 76.1644% are in front of camera
+filtered out 131 high-error points
+204/234 points were found in other views, adding 30 new
+before triangulation: 1627 after 1627
+======================== Bundle Adjustment ==========================
+N (cams) = 2 M (points) = 234 K (measurements) = 468
+intrinsic before bundle = [ 674.958 0 287.136 
+0 674.958 192.184 
+0 0 1 ]
+Read the 3D points.
+Read the cameras.
+Read 468 valid 2D measurements.
+mean reprojection error (in pixels): 60.8449
+K0 = [ 1 0 0.425413 
+0 1 0.284735 
+0 0 1 ]
+optimizer status = 0
+refined K = [ 0.983956 0 0.456952 
+0 0.983956 0.304512 
+0 0 1 ]
+Knew = [ 664.129 0 308.424 
+0 664.129 205.533 
+0 0 1 ]
+mean reprojection error (in pixels): 1.13353
+use new K 
+[664.1292419315851, 0, 308.4236641155823;
+  0, 664.1292419315851, 205.5326573980457;
+  0, 0, 1]
+F keeping 1231 / 1427
+1427 matches before, 1231 new matches after Fundamental Matrix
+-----------------------------------------------------------------
+find 2d 3d correspondences
+query frame keypoints: 2282
+train frame keypoints: 2280
+match size: 1427
+-----------------------------------------------------------------
+found 1086 3d-2d point correspondences
+-------------------------------------------------------------------------
+find pose estimation
+3d point: 1086
+2d point: 1086
+inliers size: 214
+projected point: 1086
+--------------------------------------------------------------------------
+(214/1086)
+not enough inliers to consider a good pose (214/1086)
+lost a frame
+F keeping 1241 / 1433
+1433 matches before, 1241 new matches after Fundamental Matrix
+-----------------------------------------------------------------
+find 2d 3d correspondences
+query frame keypoints: 2251
+train frame keypoints: 2280
+match size: 1433
+-----------------------------------------------------------------
+found 1088 3d-2d point correspondences
+-------------------------------------------------------------------------
+find pose estimation
+3d point: 1088
+2d point: 1088
+inliers size: 154
+projected point: 1088
+--------------------------------------------------------------------------
+(154/1088)
+not enough inliers to consider a good pose (154/1088)
+lost a frame
+F keeping 1272 / 1386
+1386 matches before, 1272 new matches after Fundamental Matrix
+-----------------------------------------------------------------
+find 2d 3d correspondences
+query frame keypoints: 2237
+train frame keypoints: 2280
+match size: 1386
+-----------------------------------------------------------------
+found 1037 3d-2d point correspondences
+-------------------------------------------------------------------------
+find pose estimation
+3d point: 1037
+2d point: 1037
+inliers size: 120
+projected point: 1037
+--------------------------------------------------------------------------
+(120/1037)
+not enough inliers to consider a good pose (120/1037)
+lost a frame
+F keeping 1242 / 1433
+1433 matches before, 1242 new matches after Fundamental Matrix
+-----------------------------------------------------------------
+find 2d 3d correspondences
+query frame keypoints: 2328
+train frame keypoints: 2280
+match size: 1433
+-----------------------------------------------------------------
+found 1095 3d-2d point correspondences
+-------------------------------------------------------------------------
+find pose estimation
+3d point: 1095
+2d point: 1095
+inliers size: 181
+projected point: 1095
+--------------------------------------------------------------------------
+(181/1095)
+not enough inliers to consider a good pose (181/1095)
+lost a frame
+F keeping 1256 / 1416
+1416 matches before, 1256 new matches after Fundamental Matrix
+-----------------------------------------------------------------
+find 2d 3d correspondences
+query frame keypoints: 2322
+train frame keypoints: 2280
+match size: 1416
+-----------------------------------------------------------------
+found 1065 3d-2d point correspondences
+-------------------------------------------------------------------------
+find pose estimation
+3d point: 1065
+2d point: 1065
+inliers size: 189
+projected point: 1065
+--------------------------------------------------------------------------
+(189/1065)
+not enough inliers to consider a good pose (189/1065)
+lost a frame
+F keeping 1236 / 1424
+1424 matches before, 1236 new matches after Fundamental Matrix
+-----------------------------------------------------------------
+find 2d 3d correspondences
+query frame keypoints: 2270
+train frame keypoints: 2280
+match size: 1424
+-----------------------------------------------------------------
+found 1060 3d-2d point correspondences
+-------------------------------------------------------------------------
+find pose estimation
+3d point: 1060
+2d point: 1060
+inliers size: 186
+projected point: 1060
+--------------------------------------------------------------------------
+(186/1060)
+not enough inliers to consider a good pose (186/1060)
+lost a frame
+F keeping 1244 / 1432
+1432 matches before, 1244 new matches after Fundamental Matrix
+-----------------------------------------------------------------
+find 2d 3d correspondences
+query frame keypoints: 2324
+train frame keypoints: 2280
+match size: 1432
+-----------------------------------------------------------------
+found 1082 3d-2d point correspondences
+-------------------------------------------------------------------------
+find pose estimation
+3d point: 1082
+2d point: 1082
+inliers size: 222
+projected point: 1082
+--------------------------------------------------------------------------
+(222/1082)
+found t = [1.63192106601782; 0.6787844007271673; 0.0942111063648241]
+R = 
+[0.9998480593388055, -0.01394807591134855, -0.01045511428898398;
+  0.01424718215610358, 0.9994749054968288, 0.02910208038467175;
+  0.01004370633955724, -0.029246614513074, 0.9995217653970765]
+frame pose [0.9998480593388055, -0.01394807591134855, -0.01045511428898398, 1.63192106601782;
+  0.01424718215610358, 0.9994749054968288, 0.02910208038467175, 0.6787844007271673;
+  0.01004370633955724, -0.029246614513074, 0.9995217653970765, 0.0942111063648241]
+next to triangulate ,inliers size: 222
+match size: 1432
+match size: 222
+begin triangulation
+p query index 17
+[0.9998480593388055, -0.01394807591134855, -0.01045511428898398, 1.63192106601782;
+  0.01424718215610358, 0.9994749054968288, 0.02910208038467175, 0.6787844007271673;
+  0.01004370633955724, -0.029246614513074, 0.9995217653970765, 0.0942111063648241]
+p train index 1
+[0.9997338223819273, -0.01700530717028777, 0.01559178994415528, -1.319592641381569;
+  0.01637609786306586, 0.9990801605515057, 0.0396315052850368, 0.3118114707948539;
+  -0.01625139392168491, -0.03936562358737343, 0.9990927083485172, -16.00505677676589]
+getalign
+triangulate points
+Triangulating...Done. (222points, 0.0195126s, mean reproj err = 19.0845)
+triangulation reproj error 19.0845
+test triangulate
+181/222 = 81.5315% are in front of camera
+175/222 = 78.8288% are in front of camera
+filtered out 65 high-error points
+142/157 points were found in other views, adding 15 new
+before triangulation: 1642 after 1642
+======================== Bundle Adjustment ==========================
+N (cams) = 2 M (points) = 157 K (measurements) = 314
+intrinsic before bundle = [ 664.129 0 308.424 
+0 664.129 205.533 
+0 0 1 ]
+Read the 3D points.
+Read the cameras.
+Read 314 valid 2D measurements.
+mean reprojection error (in pixels): 748.663
+K0 = [ 1 0 0.464403 
+0 1 0.309477 
+0 0 1 ]
+optimizer status = 0
+refined K = [ 1.00048 0 0.456516 
+0 1.00048 0.302773 
+0 0 1 ]
+Knew = [ 664.446 0 303.186 
+0 664.446 201.08 
+0 0 1 ]
+mean reprojection error (in pixels): 2.01114
+use new K 
+[664.4461048749649, 0, 303.1857292380018;
+  0, 664.4461048749649, 201.0804702056605;
+  0, 0, 1]
+F keeping 1343 / 1414
+1414 matches before, 1343 new matches after Fundamental Matrix
+-----------------------------------------------------------------
+find 2d 3d correspondences
+query frame keypoints: 2283
+train frame keypoints: 2280
+match size: 1414
+-----------------------------------------------------------------
+found 1072 3d-2d point correspondences
+-------------------------------------------------------------------------
+find pose estimation
+3d point: 1072
+2d point: 1072
+inliers size: 164
+projected point: 1072
+--------------------------------------------------------------------------
+(164/1072)
+not enough inliers to consider a good pose (164/1072)
+lost a frame
+F keeping 1293 / 1409
+1409 matches before, 1293 new matches after Fundamental Matrix
+-----------------------------------------------------------------
+find 2d 3d correspondences
+query frame keypoints: 2239
+train frame keypoints: 2280
+match size: 1409
+-----------------------------------------------------------------
+found 1098 3d-2d point correspondences
+-------------------------------------------------------------------------
+find pose estimation
+3d point: 1098
+2d point: 1098
+inliers size: 184
+projected point: 1098
+--------------------------------------------------------------------------
+(184/1098)
+not enough inliers to consider a good pose (184/1098)
+lost a frame
+F keeping 1197 / 1416
+1416 matches before, 1197 new matches after Fundamental Matrix
+-----------------------------------------------------------------
+find 2d 3d correspondences
+query frame keypoints: 2229
+train frame keypoints: 2280
+match size: 1416
+-----------------------------------------------------------------
+found 1101 3d-2d point correspondences
+-------------------------------------------------------------------------
+find pose estimation
+3d point: 1101
+2d point: 1101
+inliers size: 225
+projected point: 1101
+--------------------------------------------------------------------------
+(225/1101)
+found t = [-0.4273583151590792; 1.473175717488791; -0.09637914501212919]
+R = 
+[0.9990839077734021, 0.03978959969627894, 0.01575223743593417;
+  -0.03995306607175046, 0.9991494718685856, 0.01020222408070317;
+  -0.01533289730267927, -0.01082222808558461, 0.9998238753098313]
+frame pose [0.9990839077734021, 0.03978959969627894, 0.01575223743593417, -0.4273583151590792;
+  -0.03995306607175046, 0.9991494718685856, 0.01020222408070317, 1.473175717488791;
+  -0.01533289730267927, -0.01082222808558461, 0.9998238753098313, -0.09637914501212919]
+next to triangulate ,inliers size: 225
+match size: 1416
+match size: 225
+begin triangulation
+p query index 18
+[0.9990839077734021, 0.03978959969627894, 0.01575223743593417, -0.4273583151590792;
+  -0.03995306607175046, 0.9991494718685856, 0.01020222408070317, 1.473175717488791;
+  -0.01533289730267927, -0.01082222808558461, 0.9998238753098313, -0.09637914501212919]
+p train index 1
+[0.9999110905361833, -0.0127449899168255, -0.003921256782900932, 3.724331780593492;
+  0.01285712707615275, 0.9994659590658108, 0.03004148718036635, 3.429261555022799;
+  0.003536284220065245, -0.03008923230460473, 0.9995409610382309, -14.85563538315334]
+getalign
+triangulate points
+Triangulating...Done. (225points, 0.0192467s, mean reproj err = 39.8288)
+triangulation reproj error 39.8288
+test triangulate
+189/225 = 84% are in front of camera
+186/225 = 82.6667% are in front of camera
+filtered out 170 high-error points
+53/55 points were found in other views, adding 2 new
+before triangulation: 1644 after 1644
+======================== Bundle Adjustment ==========================
+N (cams) = 2 M (points) = 55 K (measurements) = 110
+intrinsic before bundle = [ 664.446 0 303.186 
+0 664.446 201.08 
+0 0 1 ]
+Read the 3D points.
+Read the cameras.
+Read 110 valid 2D measurements.
+mean reprojection error (in pixels): 103.681
+K0 = [ 1 0 0.456298 
+0 1 0.302629 
+0 0 1 ]
+optimizer status = 0
+refined K = [ 0.999304 0 0.454724 
+0 0.999304 0.305339 
+0 0 1 ]
+Knew = [ 663.984 0 302.14 
+0 663.984 202.882 
+0 0 1 ]
+mean reprojection error (in pixels): 2.31379
+use new K 
+[663.9838221563139, 0, 302.1398216536831;
+  0, 663.9838221563139, 202.8815442185195;
+  0, 0, 1]
+F keeping 1180 / 1368
+1368 matches before, 1180 new matches after Fundamental Matrix
+-----------------------------------------------------------------
+find 2d 3d correspondences
+query frame keypoints: 2180
+train frame keypoints: 2280
+match size: 1368
+-----------------------------------------------------------------
+found 1066 3d-2d point correspondences
+-------------------------------------------------------------------------
+find pose estimation
+3d point: 1066
+2d point: 1066
+inliers size: 117
+projected point: 1066
+--------------------------------------------------------------------------
+(117/1066)
+not enough inliers to consider a good pose (117/1066)
+lost a frame
+F keeping 1257 / 1393
+1393 matches before, 1257 new matches after Fundamental Matrix
+-----------------------------------------------------------------
+find 2d 3d correspondences
+query frame keypoints: 2210
+train frame keypoints: 2280
+match size: 1393
+-----------------------------------------------------------------
+found 1075 3d-2d point correspondences
+-------------------------------------------------------------------------
+find pose estimation
+3d point: 1075
+2d point: 1075
+inliers size: 254
+projected point: 1075
+--------------------------------------------------------------------------
+(254/1075)
+found t = [2.19317088931611; 2.092916583361681; 6.088689360262208]
+R = 
+[0.9994654887814841, 0.02282745480955435, -0.02340179569406439;
+  -0.02266636535043913, 0.9997176883862412, 0.007125967265623426;
+  0.02355785679108753, -0.006591724705119176, 0.9997007434971841]
+frame pose [0.9994654887814841, 0.02282745480955435, -0.02340179569406439, 2.19317088931611;
+  -0.02266636535043913, 0.9997176883862412, 0.007125967265623426, 2.092916583361681;
+  0.02355785679108753, -0.006591724705119176, 0.9997007434971841, 6.088689360262208]
+next to triangulate ,inliers size: 254
+match size: 1393
+match size: 254
+begin triangulation
+p query index 19
+[0.9994654887814841, 0.02282745480955435, -0.02340179569406439, 2.19317088931611;
+  -0.02266636535043913, 0.9997176883862412, 0.007125967265623426, 2.092916583361681;
+  0.02355785679108753, -0.006591724705119176, 0.9997007434971841, 6.088689360262208]
+p train index 1
+[0.9998149629638002, 0.01779713280873225, 0.007300814850410856, 2.347328491834564;
+  -0.01795234485443815, 0.9996016909458796, 0.02177550854439301, 4.089593764735558;
+  -0.006910365252211211, -0.02190254601474292, 0.9997362278772078, -16.42263215135695]
+getalign
+triangulate points
+Triangulating...Done. (254points, 0.0232176s, mean reproj err = 152.06)
+triangulation reproj error 152.06
+test triangulate
+127/254 = 50% are in front of camera
+Triangulation did not succeed
+F keeping 1294 / 1385
+1385 matches before, 1294 new matches after Fundamental Matrix
+-----------------------------------------------------------------
+find 2d 3d correspondences
+query frame keypoints: 2215
+train frame keypoints: 2280
+match size: 1385
+-----------------------------------------------------------------
+found 1075 3d-2d point correspondences
+-------------------------------------------------------------------------
+find pose estimation
+3d point: 1075
+2d point: 1075
+inliers size: 159
+projected point: 1075
+--------------------------------------------------------------------------
+(159/1075)
+not enough inliers to consider a good pose (159/1075)
+lost a frame
+F keeping 1258 / 1384
+1384 matches before, 1258 new matches after Fundamental Matrix
+-----------------------------------------------------------------
+find 2d 3d correspondences
+query frame keypoints: 2157
+train frame keypoints: 2280
+match size: 1384
+-----------------------------------------------------------------
+found 1065 3d-2d point correspondences
+-------------------------------------------------------------------------
+find pose estimation
+3d point: 1065
+2d point: 1065
+inliers size: 128
+projected point: 1065
+--------------------------------------------------------------------------
+(128/1065)
+not enough inliers to consider a good pose (128/1065)
+lost a frame
+F keeping 1233 / 1411
+1411 matches before, 1233 new matches after Fundamental Matrix
+-----------------------------------------------------------------
+find 2d 3d correspondences
+query frame keypoints: 2198
+train frame keypoints: 2280
+match size: 1411
+-----------------------------------------------------------------
+found 1078 3d-2d point correspondences
+-------------------------------------------------------------------------
+find pose estimation
+3d point: 1078
+2d point: 1078
+inliers size: 148
+projected point: 1078
+--------------------------------------------------------------------------
+(148/1078)
+not enough inliers to consider a good pose (148/1078)
+lost a frame
+F keeping 1307 / 1428
+1428 matches before, 1307 new matches after Fundamental Matrix
+-----------------------------------------------------------------
+find 2d 3d correspondences
+query frame keypoints: 2244
+train frame keypoints: 2280
+match size: 1428
+-----------------------------------------------------------------
+found 1092 3d-2d point correspondences
+-------------------------------------------------------------------------
+find pose estimation
+3d point: 1092
+2d point: 1092
+inliers size: 164
+projected point: 1092
+--------------------------------------------------------------------------
+(164/1092)
+not enough inliers to consider a good pose (164/1092)
+lost a frame
+F keeping 1213 / 1388
+1388 matches before, 1213 new matches after Fundamental Matrix
+-----------------------------------------------------------------
+find 2d 3d correspondences
+query frame keypoints: 2237
+train frame keypoints: 2280
+match size: 1388
+-----------------------------------------------------------------
+found 1068 3d-2d point correspondences
+-------------------------------------------------------------------------
+find pose estimation
+3d point: 1068
+2d point: 1068
+inliers size: 193
+projected point: 1068
+--------------------------------------------------------------------------
+(193/1068)
+not enough inliers to consider a good pose (193/1068)
+lost a frame
+F keeping 1178 / 1393
+1393 matches before, 1178 new matches after Fundamental Matrix
+-----------------------------------------------------------------
+find 2d 3d correspondences
+query frame keypoints: 2214
+train frame keypoints: 2280
+match size: 1393
+-----------------------------------------------------------------
+found 1068 3d-2d point correspondences
+-------------------------------------------------------------------------
+find pose estimation
+3d point: 1068
+2d point: 1068
+inliers size: 214
+projected point: 1068
+--------------------------------------------------------------------------
+(214/1068)
+found t = [-1.43108645815455; -0.1012400913799718; -3.653572855693277]
+R = 
+[0.9985361922496508, -0.007597284723281349, 0.05355141484967239;
+  0.004816050010461646, 0.9986419849167434, 0.0518747686630369;
+  -0.05387279860806425, -0.05154092768257338, 0.9972167539425693]
+frame pose [0.9985361922496508, -0.007597284723281349, 0.05355141484967239, -1.43108645815455;
+  0.004816050010461646, 0.9986419849167434, 0.0518747686630369, -0.1012400913799718;
+  -0.05387279860806425, -0.05154092768257338, 0.9972167539425693, -3.653572855693277]
+next to triangulate ,inliers size: 214
+match size: 1393
+match size: 214
+begin triangulation
+p query index 20
+[0.9985361922496508, -0.007597284723281349, 0.05355141484967239, -1.43108645815455;
+  0.004816050010461646, 0.9986419849167434, 0.0518747686630369, -0.1012400913799718;
+  -0.05387279860806425, -0.05154092768257338, 0.9972167539425693, -3.653572855693277]
+p train index 1
+[0.9998149629638002, 0.01779713280873225, 0.007300814850410856, 2.347328491834564;
+  -0.01795234485443815, 0.9996016909458796, 0.02177550854439301, 4.089593764735558;
+  -0.006910365252211211, -0.02190254601474292, 0.9997362278772078, -16.42263215135695]
+getalign
+triangulate points
+Triangulating...Done. (214points, 0.018409s, mean reproj err = 1349.75)
+triangulation reproj error 1349.75
+test triangulate
+200/214 = 93.4579% are in front of camera
+179/214 = 83.6449% are in front of camera
+filtered out 78 high-error points
+119/136 points were found in other views, adding 17 new
+before triangulation: 1661 after 1661
+======================== Bundle Adjustment ==========================
+N (cams) = 2 M (points) = 136 K (measurements) = 272
+intrinsic before bundle = [ 663.984 0 302.14 
+0 663.984 202.882 
+0 0 1 ]
+Read the 3D points.
+Read the cameras.
+Read 272 valid 2D measurements.
+mean reprojection error (in pixels): 167.505
+K0 = [ 1 0 0.455041 
+0 1 0.305552 
+0 0 1 ]
+optimizer status = 0
+refined K = [ 0.990191 0 0.456574 
+0 0.990191 0.304768 
+0 0 1 ]
+Knew = [ 657.471 0 303.158 
+0 657.471 202.361 
+0 0 1 ]
+mean reprojection error (in pixels): 2.07434
+use new K 
+[657.4710621539489, 0, 303.1576924381618;
+  0, 657.4710621539489, 202.3609733861715;
+  0, 0, 1]
+F keeping 1219 / 1408
+1408 matches before, 1219 new matches after Fundamental Matrix
+-----------------------------------------------------------------
+find 2d 3d correspondences
+query frame keypoints: 2233
+train frame keypoints: 2280
+match size: 1408
+-----------------------------------------------------------------
+found 1071 3d-2d point correspondences
+-------------------------------------------------------------------------
+find pose estimation
+3d point: 1071
+2d point: 1071
+inliers size: 382
+projected point: 1071
+--------------------------------------------------------------------------
+(382/1071)
+found t = [-0.1426867647706268; -0.05217982949481206; -0.499690187126852]
+R = 
+[0.9996956580954366, -0.01147572859353322, 0.02183801360883144;
+  0.01049925754949226, 0.9989624189924727, 0.04431535886819472;
+  -0.02232390593156522, -0.04407258891822693, 0.9987788794973608]
+frame pose [0.9996956580954366, -0.01147572859353322, 0.02183801360883144, -0.1426867647706268;
+  0.01049925754949226, 0.9989624189924727, 0.04431535886819472, -0.05217982949481206;
+  -0.02232390593156522, -0.04407258891822693, 0.9987788794973608, -0.499690187126852]
+next to triangulate ,inliers size: 382
+match size: 1408
+match size: 382
+begin triangulation
+p query index 21
+[0.9996956580954366, -0.01147572859353322, 0.02183801360883144, -0.1426867647706268;
+  0.01049925754949226, 0.9989624189924727, 0.04431535886819472, -0.05217982949481206;
+  -0.02232390593156522, -0.04407258891822693, 0.9987788794973608, -0.499690187126852]
+p train index 1
+[0.9994857273441854, 0.006702306635828879, 0.03135857013674776, -1.165241700271288;
+  -0.007958449107708942, 0.9991637520845175, 0.04010560569534715, 1.525685934864353;
+  -0.03106354653065241, -0.04033454606351688, 0.9987032494544029, -13.33771326887477]
+getalign
+triangulate points
+Triangulating...Done. (382points, 0.0335225s, mean reproj err = 25.5631)
+triangulation reproj error 25.5631
+test triangulate
+279/382 = 73.0366% are in front of camera
+Triangulation did not succeed
+F keeping 1288 / 1451
+1451 matches before, 1288 new matches after Fundamental Matrix
+-----------------------------------------------------------------
+find 2d 3d correspondences
+query frame keypoints: 2415
+train frame keypoints: 2280
+match size: 1451
+-----------------------------------------------------------------
+found 1106 3d-2d point correspondences
+-------------------------------------------------------------------------
+find pose estimation
+3d point: 1106
+2d point: 1106
+inliers size: 134
+projected point: 1106
+--------------------------------------------------------------------------
+(134/1106)
+not enough inliers to consider a good pose (134/1106)
+lost a frame
+F keeping 1227 / 1429
+1429 matches before, 1227 new matches after Fundamental Matrix
+-----------------------------------------------------------------
+find 2d 3d correspondences
+query frame keypoints: 2374
+train frame keypoints: 2280
+match size: 1429
+-----------------------------------------------------------------
+found 1103 3d-2d point correspondences
+-------------------------------------------------------------------------
+find pose estimation
+3d point: 1103
+2d point: 1103
+inliers size: 220
+projected point: 1103
+--------------------------------------------------------------------------
+(220/1103)
+not enough inliers to consider a good pose (220/1103)
+lost a frame
+F keeping 1282 / 1458
+1458 matches before, 1282 new matches after Fundamental Matrix
+-----------------------------------------------------------------
+find 2d 3d correspondences
+query frame keypoints: 2385
+train frame keypoints: 2280
+match size: 1458
+-----------------------------------------------------------------
+found 1106 3d-2d point correspondences
+-------------------------------------------------------------------------
+find pose estimation
+3d point: 1106
+2d point: 1106
+inliers size: 195
+projected point: 1106
+--------------------------------------------------------------------------
+(195/1106)
+not enough inliers to consider a good pose (195/1106)
+lost a frame
+F keeping 1239 / 1441
+1441 matches before, 1239 new matches after Fundamental Matrix
+-----------------------------------------------------------------
+find 2d 3d correspondences
+query frame keypoints: 2403
+train frame keypoints: 2280
+match size: 1441
+-----------------------------------------------------------------
+found 1090 3d-2d point correspondences
+-------------------------------------------------------------------------
+find pose estimation
+3d point: 1090
+2d point: 1090
+inliers size: 149
+projected point: 1090
+--------------------------------------------------------------------------
+(149/1090)
+not enough inliers to consider a good pose (149/1090)
+lost a frame
+F keeping 1280 / 1433
+1433 matches before, 1280 new matches after Fundamental Matrix
+-----------------------------------------------------------------
+find 2d 3d correspondences
+query frame keypoints: 2433
+train frame keypoints: 2280
+match size: 1433
+-----------------------------------------------------------------
+found 1081 3d-2d point correspondences
+-------------------------------------------------------------------------
+find pose estimation
+3d point: 1081
+2d point: 1081
+inliers size: 150
+projected point: 1081
+--------------------------------------------------------------------------
+(150/1081)
+not enough inliers to consider a good pose (150/1081)
+lost a frame
+F keeping 1291 / 1420
+1420 matches before, 1291 new matches after Fundamental Matrix
+-----------------------------------------------------------------
+find 2d 3d correspondences
+query frame keypoints: 2455
+train frame keypoints: 2280
+match size: 1420
+-----------------------------------------------------------------
+found 1068 3d-2d point correspondences
+-------------------------------------------------------------------------
+find pose estimation
+3d point: 1068
+2d point: 1068
+inliers size: 131
+projected point: 1068
+--------------------------------------------------------------------------
+(131/1068)
+not enough inliers to consider a good pose (131/1068)
+lost a frame
+F keeping 1320 / 1410
+1410 matches before, 1320 new matches after Fundamental Matrix
+-----------------------------------------------------------------
+find 2d 3d correspondences
+query frame keypoints: 2472
+train frame keypoints: 2280
+match size: 1410
+-----------------------------------------------------------------
+found 1065 3d-2d point correspondences
+-------------------------------------------------------------------------
+find pose estimation
+3d point: 1065
+2d point: 1065
+inliers size: 117
+projected point: 1065
+--------------------------------------------------------------------------
+(117/1065)
+not enough inliers to consider a good pose (117/1065)
+lost a frame
+F keeping 1271 / 1422
+1422 matches before, 1271 new matches after Fundamental Matrix
+-----------------------------------------------------------------
+find 2d 3d correspondences
+query frame keypoints: 2449
+train frame keypoints: 2280
+match size: 1422
+-----------------------------------------------------------------
+found 1092 3d-2d point correspondences
+-------------------------------------------------------------------------
+find pose estimation
+3d point: 1092
+2d point: 1092
+inliers size: 113
+projected point: 1092
+--------------------------------------------------------------------------
+(113/1092)
+not enough inliers to consider a good pose (113/1092)
+lost a frame
+F keeping 1215 / 1389
+1389 matches before, 1215 new matches after Fundamental Matrix
+-----------------------------------------------------------------
+find 2d 3d correspondences
+query frame keypoints: 2394
+train frame keypoints: 2280
+match size: 1389
+-----------------------------------------------------------------
+found 1052 3d-2d point correspondences
+-------------------------------------------------------------------------
+find pose estimation
+3d point: 1052
+2d point: 1052
+inliers size: 215
+projected point: 1052
+--------------------------------------------------------------------------
+(215/1052)
+found t = [2.642362648308466; 3.059704725239827; 7.189286840631411]
+R = 
+[0.9999464877131664, 0.001440447351806612, 0.01024435559364367;
+  -0.001331957061275531, 0.9999430457483434, -0.01058919968238213;
+  -0.01025902531867736, 0.01057498798832022, 0.9998914551232837]
+frame pose [0.9999464877131664, 0.001440447351806612, 0.01024435559364367, 2.642362648308466;
+  -0.001331957061275531, 0.9999430457483434, -0.01058919968238213, 3.059704725239827;
+  -0.01025902531867736, 0.01057498798832022, 0.9998914551232837, 7.189286840631411]
+next to triangulate ,inliers size: 215
+match size: 1389
+match size: 215
+begin triangulation
+p query index 22
+[0.9999464877131664, 0.001440447351806612, 0.01024435559364367, 2.642362648308466;
+  -0.001331957061275531, 0.9999430457483434, -0.01058919968238213, 3.059704725239827;
+  -0.01025902531867736, 0.01057498798832022, 0.9998914551232837, 7.189286840631411]
+p train index 1
+[0.9994857273441854, 0.006702306635828879, 0.03135857013674776, -1.165241700271288;
+  -0.007958449107708942, 0.9991637520845175, 0.04010560569534715, 1.525685934864353;
+  -0.03106354653065241, -0.04033454606351688, 0.9987032494544029, -13.33771326887477]
+getalign
+triangulate points
+Triangulating...Done. (215points, 0.0185706s, mean reproj err = 104.659)
+triangulation reproj error 104.659
+test triangulate
+180/215 = 83.7209% are in front of camera
+147/215 = 68.3721% are in front of camera
+Triangulation did not succeed
+F keeping 1208 / 1420
+1420 matches before, 1208 new matches after Fundamental Matrix
+-----------------------------------------------------------------
+find 2d 3d correspondences
+query frame keypoints: 2445
+train frame keypoints: 2280
+match size: 1420
+-----------------------------------------------------------------
+found 1074 3d-2d point correspondences
+-------------------------------------------------------------------------
+find pose estimation
+3d point: 1074
+2d point: 1074
+inliers size: 243
+projected point: 1074
+--------------------------------------------------------------------------
+(243/1074)
+found t = [0.01756994004899859; 0.363909630023038; -0.842798854575797]
+R = 
+[0.997148802548221, -0.0262147387211679, 0.0707605331412203;
+  0.02335326533890029, 0.9988875183704955, 0.04096767801137924;
+  -0.071755770323088, -0.03919838156625893, 0.9966516925726491]
+frame pose [0.997148802548221, -0.0262147387211679, 0.0707605331412203, 0.01756994004899859;
+  0.02335326533890029, 0.9988875183704955, 0.04096767801137924, 0.363909630023038;
+  -0.071755770323088, -0.03919838156625893, 0.9966516925726491, -0.842798854575797]
+next to triangulate ,inliers size: 243
+match size: 1420
+match size: 243
+begin triangulation
+p query index 23
+[0.997148802548221, -0.0262147387211679, 0.0707605331412203, 0.01756994004899859;
+  0.02335326533890029, 0.9988875183704955, 0.04096767801137924, 0.363909630023038;
+  -0.071755770323088, -0.03919838156625893, 0.9966516925726491, -0.842798854575797]
+p train index 1
+[0.9994857273441854, 0.006702306635828879, 0.03135857013674776, -1.165241700271288;
+  -0.007958449107708942, 0.9991637520845175, 0.04010560569534715, 1.525685934864353;
+  -0.03106354653065241, -0.04033454606351688, 0.9987032494544029, -13.33771326887477]
+getalign
+triangulate points
+Triangulating...Done. (243points, 0.0214683s, mean reproj err = 18.7514)
+triangulation reproj error 18.7514
+test triangulate
+91/243 = 37.4486% are in front of camera
+Triangulation did not succeed
+F keeping 1274 / 1437
+1437 matches before, 1274 new matches after Fundamental Matrix
+-----------------------------------------------------------------
+find 2d 3d correspondences
+query frame keypoints: 2467
+train frame keypoints: 2280
+match size: 1437
+-----------------------------------------------------------------
+found 1092 3d-2d point correspondences
+-------------------------------------------------------------------------
+find pose estimation
+3d point: 1092
+2d point: 1092
+inliers size: 369
+projected point: 1092
+--------------------------------------------------------------------------
+(369/1092)
+found t = [0.7813799212711228; 1.672172226838779; 4.289551435217561]
+R = 
+[0.9995815381306074, 0.00900642119508416, 0.02748877963289455;
+  -0.009506846766219034, 0.9997904639890698, 0.01812865083463703;
+  -0.02731974547854957, -0.01838239630127949, 0.9994577124687217]
+frame pose [0.9995815381306074, 0.00900642119508416, 0.02748877963289455, 0.7813799212711228;
+  -0.009506846766219034, 0.9997904639890698, 0.01812865083463703, 1.672172226838779;
+  -0.02731974547854957, -0.01838239630127949, 0.9994577124687217, 4.289551435217561]
+next to triangulate ,inliers size: 369
+match size: 1437
+match size: 369
+begin triangulation
+p query index 24
+[0.9995815381306074, 0.00900642119508416, 0.02748877963289455, 0.7813799212711228;
+  -0.009506846766219034, 0.9997904639890698, 0.01812865083463703, 1.672172226838779;
+  -0.02731974547854957, -0.01838239630127949, 0.9994577124687217, 4.289551435217561]
+p train index 1
+[0.9994857273441854, 0.006702306635828879, 0.03135857013674776, -1.165241700271288;
+  -0.007958449107708942, 0.9991637520845175, 0.04010560569534715, 1.525685934864353;
+  -0.03106354653065241, -0.04033454606351688, 0.9987032494544029, -13.33771326887477]
+getalign
+triangulate points
+Triangulating...Done. (369points, 0.0316645s, mean reproj err = 21.2356)
+triangulation reproj error 21.2356
+test triangulate
+236/369 = 63.9566% are in front of camera
+Triangulation did not succeed
+F keeping 1299 / 1437
+1437 matches before, 1299 new matches after Fundamental Matrix
+-----------------------------------------------------------------
+find 2d 3d correspondences
+query frame keypoints: 2393
+train frame keypoints: 2280
+match size: 1437
+-----------------------------------------------------------------
+found 1099 3d-2d point correspondences
+-------------------------------------------------------------------------
+find pose estimation
+3d point: 1099
+2d point: 1099
+inliers size: 122
+projected point: 1099
+--------------------------------------------------------------------------
+(122/1099)
+not enough inliers to consider a good pose (122/1099)
+lost a frame
+F keeping 1229 / 1440
+1440 matches before, 1229 new matches after Fundamental Matrix
+-----------------------------------------------------------------
+find 2d 3d correspondences
+query frame keypoints: 2467
+train frame keypoints: 2280
+match size: 1440
+-----------------------------------------------------------------
+found 1092 3d-2d point correspondences
+-------------------------------------------------------------------------
+find pose estimation
+3d point: 1092
+2d point: 1092
+inliers size: 182
+projected point: 1092
+--------------------------------------------------------------------------
+(182/1092)
+not enough inliers to consider a good pose (182/1092)
+lost a frame
+F keeping 1304 / 1437
+1437 matches before, 1304 new matches after Fundamental Matrix
+-----------------------------------------------------------------
+find 2d 3d correspondences
+query frame keypoints: 2430
+train frame keypoints: 2280
+match size: 1437
+-----------------------------------------------------------------
+found 1102 3d-2d point correspondences
+-------------------------------------------------------------------------
+find pose estimation
+3d point: 1102
+2d point: 1102
+inliers size: 122
+projected point: 1102
+--------------------------------------------------------------------------
+(122/1102)
+not enough inliers to consider a good pose (122/1102)
+lost a frame
+F keeping 1314 / 1430
+1430 matches before, 1314 new matches after Fundamental Matrix
+-----------------------------------------------------------------
+find 2d 3d correspondences
+query frame keypoints: 2361
+train frame keypoints: 2280
+match size: 1430
+-----------------------------------------------------------------
+found 1088 3d-2d point correspondences
+-------------------------------------------------------------------------
+find pose estimation
+3d point: 1088
+2d point: 1088
+inliers size: 207
+projected point: 1088
+--------------------------------------------------------------------------
+(207/1088)
+not enough inliers to consider a good pose (207/1088)
+lost a frame
+F keeping 1296 / 1418
+1418 matches before, 1296 new matches after Fundamental Matrix
+-----------------------------------------------------------------
+find 2d 3d correspondences
+query frame keypoints: 2452
+train frame keypoints: 2280
+match size: 1418
+-----------------------------------------------------------------
+found 1076 3d-2d point correspondences
+-------------------------------------------------------------------------
+find pose estimation
+3d point: 1076
+2d point: 1076
+inliers size: 141
+projected point: 1076
+--------------------------------------------------------------------------
+(141/1076)
+not enough inliers to consider a good pose (141/1076)
+lost a frame
+F keeping 1224 / 1446
+1446 matches before, 1224 new matches after Fundamental Matrix
+-----------------------------------------------------------------
+find 2d 3d correspondences
+query frame keypoints: 2490
+train frame keypoints: 2280
+match size: 1446
+-----------------------------------------------------------------
+found 1098 3d-2d point correspondences
+-------------------------------------------------------------------------
+find pose estimation
+3d point: 1098
+2d point: 1098
+inliers size: 146
+projected point: 1098
+--------------------------------------------------------------------------
+(146/1098)
+not enough inliers to consider a good pose (146/1098)
+lost a frame
+F keeping 1220 / 1409
+1409 matches before, 1220 new matches after Fundamental Matrix
+-----------------------------------------------------------------
+find 2d 3d correspondences
+query frame keypoints: 2456
+train frame keypoints: 2280
+match size: 1409
+-----------------------------------------------------------------
+found 1094 3d-2d point correspondences
+-------------------------------------------------------------------------
+find pose estimation
+3d point: 1094
+2d point: 1094
+inliers size: 177
+projected point: 1094
+--------------------------------------------------------------------------
+(177/1094)
+not enough inliers to consider a good pose (177/1094)
+lost a frame
+F keeping 1290 / 1393
+1393 matches before, 1290 new matches after Fundamental Matrix
+-----------------------------------------------------------------
+find 2d 3d correspondences
+query frame keypoints: 2347
+train frame keypoints: 2280
+match size: 1393
+-----------------------------------------------------------------
+found 1065 3d-2d point correspondences
+-------------------------------------------------------------------------
+find pose estimation
+3d point: 1065
+2d point: 1065
+inliers size: 209
+projected point: 1065
+--------------------------------------------------------------------------
+(209/1065)
+not enough inliers to consider a good pose (209/1065)
+lost a frame
+F keeping 1178 / 1386
+1386 matches before, 1178 new matches after Fundamental Matrix
+-----------------------------------------------------------------
+find 2d 3d correspondences
+query frame keypoints: 2399
+train frame keypoints: 2280
+match size: 1386
+-----------------------------------------------------------------
+found 1044 3d-2d point correspondences
+-------------------------------------------------------------------------
+find pose estimation
+3d point: 1044
+2d point: 1044
+inliers size: 109
+projected point: 1044
+--------------------------------------------------------------------------
+(109/1044)
+not enough inliers to consider a good pose (109/1044)
+lost a frame
+F keeping 1086 / 1369
+1369 matches before, 1086 new matches after Fundamental Matrix
+-----------------------------------------------------------------
+find 2d 3d correspondences
+query frame keypoints: 2392
+train frame keypoints: 2280
+match size: 1369
+-----------------------------------------------------------------
+found 1054 3d-2d point correspondences
+-------------------------------------------------------------------------
+find pose estimation
+3d point: 1054
+2d point: 1054
+inliers size: 153
+projected point: 1054
+--------------------------------------------------------------------------
+(153/1054)
+not enough inliers to consider a good pose (153/1054)
+lost a frame
+F keeping 1210 / 1384
+1384 matches before, 1210 new matches after Fundamental Matrix
+-----------------------------------------------------------------
+find 2d 3d correspondences
+query frame keypoints: 2364
+train frame keypoints: 2280
+match size: 1384
+-----------------------------------------------------------------
+found 1055 3d-2d point correspondences
+-------------------------------------------------------------------------
+find pose estimation
+3d point: 1055
+2d point: 1055
+inliers size: 124
+projected point: 1055
+--------------------------------------------------------------------------
+(124/1055)
+not enough inliers to consider a good pose (124/1055)
+lost a frame
+F keeping 1210 / 1397
+1397 matches before, 1210 new matches after Fundamental Matrix
+-----------------------------------------------------------------
+find 2d 3d correspondences
+query frame keypoints: 2414
+train frame keypoints: 2280
+match size: 1397
+-----------------------------------------------------------------
+found 1079 3d-2d point correspondences
+-------------------------------------------------------------------------
+find pose estimation
+3d point: 1079
+2d point: 1079
+inliers size: 209
+projected point: 1079
+--------------------------------------------------------------------------
+(209/1079)
+not enough inliers to consider a good pose (209/1079)
+lost a frame
+F keeping 1204 / 1424
+1424 matches before, 1204 new matches after Fundamental Matrix
+-----------------------------------------------------------------
+find 2d 3d correspondences
+query frame keypoints: 2497
+train frame keypoints: 2280
+match size: 1424
+-----------------------------------------------------------------
+found 1103 3d-2d point correspondences
+-------------------------------------------------------------------------
+find pose estimation
+3d point: 1103
+2d point: 1103
+inliers size: 163
+projected point: 1103
+--------------------------------------------------------------------------
+(163/1103)
+not enough inliers to consider a good pose (163/1103)
+lost a frame
+F keeping 1267 / 1374
+1374 matches before, 1267 new matches after Fundamental Matrix
+-----------------------------------------------------------------
+find 2d 3d correspondences
+query frame keypoints: 2374
+train frame keypoints: 2280
+match size: 1374
+-----------------------------------------------------------------
+found 1053 3d-2d point correspondences
+-------------------------------------------------------------------------
+find pose estimation
+3d point: 1053
+2d point: 1053
+inliers size: 396
+projected point: 1053
+--------------------------------------------------------------------------
+(396/1053)
+found t = [0.391631024959441; 0.9403559718226564; -2.411300920572813]
+R = 
+[0.9996073203497382, -0.02558461600838679, 0.01142945873256146;
+  0.02556566289861377, 0.9996715220937921, 0.001801331517347752;
+  -0.01147179078306304, -0.00150842248204723, 0.9999330590983805]
+frame pose [0.9996073203497382, -0.02558461600838679, 0.01142945873256146, 0.391631024959441;
+  0.02556566289861377, 0.9996715220937921, 0.001801331517347752, 0.9403559718226564;
+  -0.01147179078306304, -0.00150842248204723, 0.9999330590983805, -2.411300920572813]
+next to triangulate ,inliers size: 396
+match size: 1374
+match size: 396
+begin triangulation
+p query index 25
+[0.9996073203497382, -0.02558461600838679, 0.01142945873256146, 0.391631024959441;
+  0.02556566289861377, 0.9996715220937921, 0.001801331517347752, 0.9403559718226564;
+  -0.01147179078306304, -0.00150842248204723, 0.9999330590983805, -2.411300920572813]
+p train index 1
+[0.9994857273441854, 0.006702306635828879, 0.03135857013674776, -1.165241700271288;
+  -0.007958449107708942, 0.9991637520845175, 0.04010560569534715, 1.525685934864353;
+  -0.03106354653065241, -0.04033454606351688, 0.9987032494544029, -13.33771326887477]
+getalign
+triangulate points
+Triangulating...Done. (396points, 0.0341139s, mean reproj err = 27.538)
+triangulation reproj error 27.538
+test triangulate
+201/396 = 50.7576% are in front of camera
+Triangulation did not succeed
+F keeping 1209 / 1367
+1367 matches before, 1209 new matches after Fundamental Matrix
+-----------------------------------------------------------------
+find 2d 3d correspondences
+query frame keypoints: 2422
+train frame keypoints: 2280
+match size: 1367
+-----------------------------------------------------------------
+found 1060 3d-2d point correspondences
+-------------------------------------------------------------------------
+find pose estimation
+3d point: 1060
+2d point: 1060
+inliers size: 138
+projected point: 1060
+--------------------------------------------------------------------------
+(138/1060)
+not enough inliers to consider a good pose (138/1060)
+lost a frame
+F keeping 1179 / 1346
+1346 matches before, 1179 new matches after Fundamental Matrix
+-----------------------------------------------------------------
+find 2d 3d correspondences
+query frame keypoints: 2485
+train frame keypoints: 2280
+match size: 1346
+-----------------------------------------------------------------
+found 1058 3d-2d point correspondences
+-------------------------------------------------------------------------
+find pose estimation
+3d point: 1058
+2d point: 1058
+inliers size: 131
+projected point: 1058
+--------------------------------------------------------------------------
+(131/1058)
+not enough inliers to consider a good pose (131/1058)
+lost a frame
+F keeping 1162 / 1291
+1291 matches before, 1162 new matches after Fundamental Matrix
+-----------------------------------------------------------------
+find 2d 3d correspondences
+query frame keypoints: 2177
+train frame keypoints: 2280
+match size: 1291
+-----------------------------------------------------------------
+found 1012 3d-2d point correspondences
+-------------------------------------------------------------------------
+find pose estimation
+3d point: 1012
+2d point: 1012
+inliers size: 194
+projected point: 1012
+--------------------------------------------------------------------------
+(194/1012)
+not enough inliers to consider a good pose (194/1012)
+lost a frame
+F keeping 1240 / 1324
+1324 matches before, 1240 new matches after Fundamental Matrix
+-----------------------------------------------------------------
+find 2d 3d correspondences
+query frame keypoints: 2227
+train frame keypoints: 2280
+match size: 1324
+-----------------------------------------------------------------
+found 1048 3d-2d point correspondences
+-------------------------------------------------------------------------
+find pose estimation
+3d point: 1048
+2d point: 1048
+inliers size: 118
+projected point: 1048
+--------------------------------------------------------------------------
+(118/1048)
+not enough inliers to consider a good pose (118/1048)
+lost a frame
+F keeping 1127 / 1354
+1354 matches before, 1127 new matches after Fundamental Matrix
+-----------------------------------------------------------------
+find 2d 3d correspondences
+query frame keypoints: 2331
+train frame keypoints: 2280
+match size: 1354
+-----------------------------------------------------------------
+found 1078 3d-2d point correspondences
+-------------------------------------------------------------------------
+find pose estimation
+3d point: 1078
+2d point: 1078
+inliers size: 239
+projected point: 1078
+--------------------------------------------------------------------------
+(239/1078)
+found t = [3.452449282088002; 3.448119930435966; -11.15603654818386]
+R = 
+[0.9994738526078765, -0.01361215629216349, -0.02944023020029914;
+  0.01369220294850805, 0.9999030842556363, 0.00251906222287196;
+  0.02940308710978762, -0.002920838431606091, 0.999563368261998]
+frame pose [0.9994738526078765, -0.01361215629216349, -0.02944023020029914, 3.452449282088002;
+  0.01369220294850805, 0.9999030842556363, 0.00251906222287196, 3.448119930435966;
+  0.02940308710978762, -0.002920838431606091, 0.999563368261998, -11.15603654818386]
+next to triangulate ,inliers size: 239
+match size: 1354
+match size: 239
+begin triangulation
+p query index 26
+[0.9994738526078765, -0.01361215629216349, -0.02944023020029914, 3.452449282088002;
+  0.01369220294850805, 0.9999030842556363, 0.00251906222287196, 3.448119930435966;
+  0.02940308710978762, -0.002920838431606091, 0.999563368261998, -11.15603654818386]
+p train index 1
+[0.9994857273441854, 0.006702306635828879, 0.03135857013674776, -1.165241700271288;
+  -0.007958449107708942, 0.9991637520845175, 0.04010560569534715, 1.525685934864353;
+  -0.03106354653065241, -0.04033454606351688, 0.9987032494544029, -13.33771326887477]
+getalign
+triangulate points
+Triangulating...Done. (239points, 0.0209106s, mean reproj err = 3.7721)
+triangulation reproj error 3.7721
+test triangulate
+230/239 = 96.2343% are in front of camera
+230/239 = 96.2343% are in front of camera
+filtered out 12 high-error points
+218/227 points were found in other views, adding 9 new
+before triangulation: 1670 after 1670
+======================== Bundle Adjustment ==========================
+N (cams) = 2 M (points) = 227 K (measurements) = 454
+intrinsic before bundle = [ 657.471 0 303.158 
+0 657.471 202.361 
+0 0 1 ]
+Read the 3D points.
+Read the cameras.
+Read 454 valid 2D measurements.
+mean reprojection error (in pixels): 136.604
+K0 = [ 1 0 0.461097 
+0 1 0.307787 
+0 0 1 ]
+optimizer status = 0
+refined K = [ 0.997671 0 0.47513 
+0 0.997671 0.300647 
+0 0 1 ]
+Knew = [ 655.94 0 312.384 
+0 655.94 197.667 
+0 0 1 ]
+mean reprojection error (in pixels): 2.40651
+use new K 
+[655.9397628306194, 0, 312.3842707258065;
+  0, 655.9397628306194, 197.6669182639883;
+  0, 0, 1]
+F keeping 1149 / 1291
+1291 matches before, 1149 new matches after Fundamental Matrix
+-----------------------------------------------------------------
+find 2d 3d correspondences
+query frame keypoints: 2238
+train frame keypoints: 2280
+match size: 1291
+-----------------------------------------------------------------
+found 1027 3d-2d point correspondences
+-------------------------------------------------------------------------
+find pose estimation
+3d point: 1027
+2d point: 1027
+inliers size: 134
+projected point: 1027
+--------------------------------------------------------------------------
+(134/1027)
+not enough inliers to consider a good pose (134/1027)
+lost a frame
+F keeping 1196 / 1324
+1324 matches before, 1196 new matches after Fundamental Matrix
+-----------------------------------------------------------------
+find 2d 3d correspondences
+query frame keypoints: 2262
+train frame keypoints: 2280
+match size: 1324
+-----------------------------------------------------------------
+found 1059 3d-2d point correspondences
+-------------------------------------------------------------------------
+find pose estimation
+3d point: 1059
+2d point: 1059
+inliers size: 210
+projected point: 1059
+--------------------------------------------------------------------------
+(210/1059)
+not enough inliers to consider a good pose (210/1059)
+lost a frame
+F keeping 1194 / 1299
+1299 matches before, 1194 new matches after Fundamental Matrix
+-----------------------------------------------------------------
+find 2d 3d correspondences
+query frame keypoints: 2222
+train frame keypoints: 2280
+match size: 1299
+-----------------------------------------------------------------
+found 1048 3d-2d point correspondences
+-------------------------------------------------------------------------
+find pose estimation
+3d point: 1048
+2d point: 1048
+inliers size: 241
+projected point: 1048
+--------------------------------------------------------------------------
+(241/1048)
+found t = [2.714219067630463; 3.106658026957742; -8.419467988957891]
+R = 
+[0.9991285005713279, -0.02210463121672279, -0.03540656188989225;
+  0.02265854159893672, 0.999625871935504, 0.01532013870017332;
+  0.03505466928526555, -0.01610904826350639, 0.9992555572651797]
+frame pose [0.9991285005713279, -0.02210463121672279, -0.03540656188989225, 2.714219067630463;
+  0.02265854159893672, 0.999625871935504, 0.01532013870017332, 3.106658026957742;
+  0.03505466928526555, -0.01610904826350639, 0.9992555572651797, -8.419467988957891]
+next to triangulate ,inliers size: 241
+match size: 1299
+match size: 241
+begin triangulation
+p query index 27
+[0.9991285005713279, -0.02210463121672279, -0.03540656188989225, 2.714219067630463;
+  0.02265854159893672, 0.999625871935504, 0.01532013870017332, 3.106658026957742;
+  0.03505466928526555, -0.01610904826350639, 0.9992555572651797, -8.419467988957891]
+p train index 1
+[0.9999906221082244, 0.004175796860245149, -0.001148223055735373, 2.092185694012072;
+  -0.004138846587957378, 0.9995264421547985, 0.03049198882155041, 3.560232644728989;
+  0.001275007656883087, -0.03048695055190265, 0.999534351686582, -19.77179172916424]
+getalign
+triangulate points
+Triangulating...Done. (241points, 0.0205716s, mean reproj err = 19.7473)
+triangulation reproj error 19.7473
+test triangulate
+159/241 = 65.9751% are in front of camera
+Triangulation did not succeed
+F keeping 1158 / 1308
+1308 matches before, 1158 new matches after Fundamental Matrix
+-----------------------------------------------------------------
+find 2d 3d correspondences
+query frame keypoints: 2232
+train frame keypoints: 2280
+match size: 1308
+-----------------------------------------------------------------
+found 1048 3d-2d point correspondences
+-------------------------------------------------------------------------
+find pose estimation
+3d point: 1048
+2d point: 1048
+inliers size: 120
+projected point: 1048
+--------------------------------------------------------------------------
+(120/1048)
+not enough inliers to consider a good pose (120/1048)
+lost a frame
+F keeping 1179 / 1342
+1342 matches before, 1179 new matches after Fundamental Matrix
+-----------------------------------------------------------------
+find 2d 3d correspondences
+query frame keypoints: 2291
+train frame keypoints: 2280
+match size: 1342
+-----------------------------------------------------------------
+found 1063 3d-2d point correspondences
+-------------------------------------------------------------------------
+find pose estimation
+3d point: 1063
+2d point: 1063
+inliers size: 110
+projected point: 1063
+--------------------------------------------------------------------------
+(110/1063)
+not enough inliers to consider a good pose (110/1063)
+lost a frame
+F keeping 1238 / 1329
+1329 matches before, 1238 new matches after Fundamental Matrix
+-----------------------------------------------------------------
+find 2d 3d correspondences
+query frame keypoints: 2311
+train frame keypoints: 2280
+match size: 1329
+-----------------------------------------------------------------
+found 1058 3d-2d point correspondences
+-------------------------------------------------------------------------
+find pose estimation
+3d point: 1058
+2d point: 1058
+inliers size: 157
+projected point: 1058
+--------------------------------------------------------------------------
+(157/1058)
+not enough inliers to consider a good pose (157/1058)
+lost a frame
+F keeping 1149 / 1298
+1298 matches before, 1149 new matches after Fundamental Matrix
+-----------------------------------------------------------------
+find 2d 3d correspondences
+query frame keypoints: 2198
+train frame keypoints: 2280
+match size: 1298
+-----------------------------------------------------------------
+found 1044 3d-2d point correspondences
+-------------------------------------------------------------------------
+find pose estimation
+3d point: 1044
+2d point: 1044
+inliers size: 134
+projected point: 1044
+--------------------------------------------------------------------------
+(134/1044)
+not enough inliers to consider a good pose (134/1044)
+lost a frame
+F keeping 1093 / 1290
+1290 matches before, 1093 new matches after Fundamental Matrix
+-----------------------------------------------------------------
+find 2d 3d correspondences
+query frame keypoints: 2205
+train frame keypoints: 2280
+match size: 1290
+-----------------------------------------------------------------
+found 1027 3d-2d point correspondences
+-------------------------------------------------------------------------
+find pose estimation
+3d point: 1027
+2d point: 1027
+inliers size: 102
+projected point: 1027
+--------------------------------------------------------------------------
+(102/1027)
+not enough inliers to consider a good pose (102/1027)
+lost a frame
+F keeping 1118 / 1305
+1305 matches before, 1118 new matches after Fundamental Matrix
+-----------------------------------------------------------------
+find 2d 3d correspondences
+query frame keypoints: 2236
+train frame keypoints: 2280
+match size: 1305
+-----------------------------------------------------------------
+found 1032 3d-2d point correspondences
+-------------------------------------------------------------------------
+find pose estimation
+3d point: 1032
+2d point: 1032
+inliers size: 118
+projected point: 1032
+--------------------------------------------------------------------------
+(118/1032)
+not enough inliers to consider a good pose (118/1032)
+lost a frame
+F keeping 1087 / 1288
+1288 matches before, 1087 new matches after Fundamental Matrix
+-----------------------------------------------------------------
+find 2d 3d correspondences
+query frame keypoints: 2168
+train frame keypoints: 2280
+match size: 1288
+-----------------------------------------------------------------
+found 1026 3d-2d point correspondences
+-------------------------------------------------------------------------
+find pose estimation
+3d point: 1026
+2d point: 1026
+inliers size: 111
+projected point: 1026
+--------------------------------------------------------------------------
+(111/1026)
+not enough inliers to consider a good pose (111/1026)
+lost a frame
+F keeping 1153 / 1360
+1360 matches before, 1153 new matches after Fundamental Matrix
+-----------------------------------------------------------------
+find 2d 3d correspondences
+query frame keypoints: 2349
+train frame keypoints: 2280
+match size: 1360
+-----------------------------------------------------------------
+found 1075 3d-2d point correspondences
+-------------------------------------------------------------------------
+find pose estimation
+3d point: 1075
+2d point: 1075
+inliers size: 234
+projected point: 1075
+--------------------------------------------------------------------------
+(234/1075)
+found t = [1.456295074426175; 2.320934948639427; -6.948185590616873]
+R = 
+[0.9995558070261155, -0.02283343075022724, -0.01915262594386244;
+  0.023170980013013, 0.999576734613526, 0.01759139859696141;
+  0.01874284731857696, -0.01802736973424579, 0.9996618026186943]
+frame pose [0.9995558070261155, -0.02283343075022724, -0.01915262594386244, 1.456295074426175;
+  0.023170980013013, 0.999576734613526, 0.01759139859696141, 2.320934948639427;
+  0.01874284731857696, -0.01802736973424579, 0.9996618026186943, -6.948185590616873]
+next to triangulate ,inliers size: 234
+match size: 1360
+match size: 234
+begin triangulation
+p query index 28
+[0.9995558070261155, -0.02283343075022724, -0.01915262594386244, 1.456295074426175;
+  0.023170980013013, 0.999576734613526, 0.01759139859696141, 2.320934948639427;
+  0.01874284731857696, -0.01802736973424579, 0.9996618026186943, -6.948185590616873]
+p train index 1
+[0.9999906221082244, 0.004175796860245149, -0.001148223055735373, 2.092185694012072;
+  -0.004138846587957378, 0.9995264421547985, 0.03049198882155041, 3.560232644728989;
+  0.001275007656883087, -0.03048695055190265, 0.999534351686582, -19.77179172916424]
+getalign
+triangulate points
+Triangulating...Done. (234points, 0.0202098s, mean reproj err = 11.9995)
+triangulation reproj error 11.9995
+test triangulate
+89/234 = 38.0342% are in front of camera
+Triangulation did not succeed
+F keeping 1307 / 1400
+1400 matches before, 1307 new matches after Fundamental Matrix
+-----------------------------------------------------------------
+find 2d 3d correspondences
+query frame keypoints: 2429
+train frame keypoints: 2280
+match size: 1400
+-----------------------------------------------------------------
+found 1075 3d-2d point correspondences
+-------------------------------------------------------------------------
+find pose estimation
+3d point: 1075
+2d point: 1075
+inliers size: 205
+projected point: 1075
+--------------------------------------------------------------------------
+(205/1075)
+not enough inliers to consider a good pose (205/1075)
+lost a frame
+F keeping 1299 / 1404
+1404 matches before, 1299 new matches after Fundamental Matrix
+-----------------------------------------------------------------
+find 2d 3d correspondences
+query frame keypoints: 2435
+train frame keypoints: 2280
+match size: 1404
+-----------------------------------------------------------------
+found 1077 3d-2d point correspondences
+-------------------------------------------------------------------------
+find pose estimation
+3d point: 1077
+2d point: 1077
+inliers size: 142
+projected point: 1077
+--------------------------------------------------------------------------
+(142/1077)
+not enough inliers to consider a good pose (142/1077)
+lost a frame
+F keeping 1283 / 1398
+1398 matches before, 1283 new matches after Fundamental Matrix
+-----------------------------------------------------------------
+find 2d 3d correspondences
+query frame keypoints: 2378
+train frame keypoints: 2280
+match size: 1398
+-----------------------------------------------------------------
+found 1086 3d-2d point correspondences
+-------------------------------------------------------------------------
+find pose estimation
+3d point: 1086
+2d point: 1086
+inliers size: 140
+projected point: 1086
+--------------------------------------------------------------------------
+(140/1086)
+not enough inliers to consider a good pose (140/1086)
+lost a frame
+F keeping 1206 / 1389
+1389 matches before, 1206 new matches after Fundamental Matrix
+-----------------------------------------------------------------
+find 2d 3d correspondences
+query frame keypoints: 2339
+train frame keypoints: 2280
+match size: 1389
+-----------------------------------------------------------------
+found 1079 3d-2d point correspondences
+-------------------------------------------------------------------------
+find pose estimation
+3d point: 1079
+2d point: 1079
+inliers size: 114
+projected point: 1079
+--------------------------------------------------------------------------
+(114/1079)
+not enough inliers to consider a good pose (114/1079)
+lost a frame
+F keeping 1219 / 1381
+1381 matches before, 1219 new matches after Fundamental Matrix
+-----------------------------------------------------------------
+find 2d 3d correspondences
+query frame keypoints: 2418
+train frame keypoints: 2280
+match size: 1381
+-----------------------------------------------------------------
+found 1074 3d-2d point correspondences
+-------------------------------------------------------------------------
+find pose estimation
+3d point: 1074
+2d point: 1074
+inliers size: 172
+projected point: 1074
+--------------------------------------------------------------------------
+(172/1074)
+not enough inliers to consider a good pose (172/1074)
+lost a frame
+F keeping 1288 / 1378
+1378 matches before, 1288 new matches after Fundamental Matrix
+-----------------------------------------------------------------
+find 2d 3d correspondences
+query frame keypoints: 2380
+train frame keypoints: 2280
+match size: 1378
+-----------------------------------------------------------------
+found 1069 3d-2d point correspondences
+-------------------------------------------------------------------------
+find pose estimation
+3d point: 1069
+2d point: 1069
+inliers size: 152
+projected point: 1069
+--------------------------------------------------------------------------
+(152/1069)
+not enough inliers to consider a good pose (152/1069)
+lost a frame
+F keeping 1287 / 1392
+1392 matches before, 1287 new matches after Fundamental Matrix
+-----------------------------------------------------------------
+find 2d 3d correspondences
+query frame keypoints: 2412
+train frame keypoints: 2280
+match size: 1392
+-----------------------------------------------------------------
+found 1071 3d-2d point correspondences
+-------------------------------------------------------------------------
+find pose estimation
+3d point: 1071
+2d point: 1071
+inliers size: 164
+projected point: 1071
+--------------------------------------------------------------------------
+(164/1071)
+not enough inliers to consider a good pose (164/1071)
+lost a frame
+F keeping 1133 / 1392
+1392 matches before, 1133 new matches after Fundamental Matrix
+-----------------------------------------------------------------
+find 2d 3d correspondences
+query frame keypoints: 2398
+train frame keypoints: 2280
+match size: 1392
+-----------------------------------------------------------------
+found 1068 3d-2d point correspondences
+-------------------------------------------------------------------------
+find pose estimation
+3d point: 1068
+2d point: 1068
+inliers size: 141
+projected point: 1068
+--------------------------------------------------------------------------
+(141/1068)
+not enough inliers to consider a good pose (141/1068)
+lost a frame
+F keeping 1283 / 1404
+1404 matches before, 1283 new matches after Fundamental Matrix
+-----------------------------------------------------------------
+find 2d 3d correspondences
+query frame keypoints: 2398
+train frame keypoints: 2280
+match size: 1404
+-----------------------------------------------------------------
+found 1104 3d-2d point correspondences
+-------------------------------------------------------------------------
+find pose estimation
+3d point: 1104
+2d point: 1104
+inliers size: 213
+projected point: 1104
+--------------------------------------------------------------------------
+(213/1104)
+not enough inliers to consider a good pose (213/1104)
+lost a frame
+F keeping 1309 / 1456
+1456 matches before, 1309 new matches after Fundamental Matrix
+-----------------------------------------------------------------
+find 2d 3d correspondences
+query frame keypoints: 2488
+train frame keypoints: 2280
+match size: 1456
+-----------------------------------------------------------------
+found 1122 3d-2d point correspondences
+-------------------------------------------------------------------------
+find pose estimation
+3d point: 1122
+2d point: 1122
+inliers size: 113
+projected point: 1122
+--------------------------------------------------------------------------
+(113/1122)
+not enough inliers to consider a good pose (113/1122)
+lost a frame
+F keeping 1203 / 1407
+1407 matches before, 1203 new matches after Fundamental Matrix
+-----------------------------------------------------------------
+find 2d 3d correspondences
+query frame keypoints: 2412
+train frame keypoints: 2280
+match size: 1407
+-----------------------------------------------------------------
+found 1092 3d-2d point correspondences
+-------------------------------------------------------------------------
+find pose estimation
+3d point: 1092
+2d point: 1092
+inliers size: 217
+projected point: 1092
+--------------------------------------------------------------------------
+(217/1092)
+not enough inliers to consider a good pose (217/1092)
+lost a frame
+F keeping 1273 / 1425
+1425 matches before, 1273 new matches after Fundamental Matrix
+-----------------------------------------------------------------
+find 2d 3d correspondences
+query frame keypoints: 2436
+train frame keypoints: 2280
+match size: 1425
+-----------------------------------------------------------------
+found 1104 3d-2d point correspondences
+-------------------------------------------------------------------------
+find pose estimation
+3d point: 1104
+2d point: 1104
+inliers size: 165
+projected point: 1104
+--------------------------------------------------------------------------
+(165/1104)
+not enough inliers to consider a good pose (165/1104)
+lost a frame
+F keeping 1150 / 1409
+1409 matches before, 1150 new matches after Fundamental Matrix
+-----------------------------------------------------------------
+find 2d 3d correspondences
+query frame keypoints: 2486
+train frame keypoints: 2280
+match size: 1409
+-----------------------------------------------------------------
+found 1088 3d-2d point correspondences
+-------------------------------------------------------------------------
+find pose estimation
+3d point: 1088
+2d point: 1088
+inliers size: 124
+projected point: 1088
+--------------------------------------------------------------------------
+(124/1088)
+not enough inliers to consider a good pose (124/1088)
+lost a frame
+F keeping 1335 / 1435
+1435 matches before, 1335 new matches after Fundamental Matrix
+-----------------------------------------------------------------
+find 2d 3d correspondences
+query frame keypoints: 2490
+train frame keypoints: 2280
+match size: 1435
+-----------------------------------------------------------------
+found 1088 3d-2d point correspondences
+-------------------------------------------------------------------------
+find pose estimation
+3d point: 1088
+2d point: 1088
+inliers size: 161
+projected point: 1088
+--------------------------------------------------------------------------
+(161/1088)
+not enough inliers to consider a good pose (161/1088)
+lost a frame
+F keeping 1229 / 1409
+1409 matches before, 1229 new matches after Fundamental Matrix
+-----------------------------------------------------------------
+find 2d 3d correspondences
+query frame keypoints: 2523
+train frame keypoints: 2280
+match size: 1409
+-----------------------------------------------------------------
+found 1082 3d-2d point correspondences
+-------------------------------------------------------------------------
+find pose estimation
+3d point: 1082
+2d point: 1082
+inliers size: 207
+projected point: 1082
+--------------------------------------------------------------------------
+(207/1082)
+not enough inliers to consider a good pose (207/1082)
+lost a frame
+F keeping 1209 / 1412
+1412 matches before, 1209 new matches after Fundamental Matrix
+-----------------------------------------------------------------
+find 2d 3d correspondences
+query frame keypoints: 2495
+train frame keypoints: 2280
+match size: 1412
+-----------------------------------------------------------------
+found 1073 3d-2d point correspondences
+-------------------------------------------------------------------------
+find pose estimation
+3d point: 1073
+2d point: 1073
+inliers size: 161
+projected point: 1073
+--------------------------------------------------------------------------
+(161/1073)
+not enough inliers to consider a good pose (161/1073)
+lost a frame
+F keeping 1245 / 1384
+1384 matches before, 1245 new matches after Fundamental Matrix
+-----------------------------------------------------------------
+find 2d 3d correspondences
+query frame keypoints: 2520
+train frame keypoints: 2280
+match size: 1384
+-----------------------------------------------------------------
+found 1051 3d-2d point correspondences
+-------------------------------------------------------------------------
+find pose estimation
+3d point: 1051
+2d point: 1051
+inliers size: 211
+projected point: 1051
+--------------------------------------------------------------------------
+(211/1051)
+found t = [-1.418252236346785; -0.7906156656845456; -4.959518243558883]
+R = 
+[0.9982325900946297, -0.04288591866285108, 0.04113993258879144;
+  0.04052364082187114, 0.9975724410257281, 0.05663090534778911;
+  -0.04346873137678348, -0.05486367547306317, 0.9975472151763442]
+frame pose [0.9982325900946297, -0.04288591866285108, 0.04113993258879144, -1.418252236346785;
+  0.04052364082187114, 0.9975724410257281, 0.05663090534778911, -0.7906156656845456;
+  -0.04346873137678348, -0.05486367547306317, 0.9975472151763442, -4.959518243558883]
+next to triangulate ,inliers size: 211
+match size: 1384
+match size: 211
+begin triangulation
+p query index 29
+[0.9982325900946297, -0.04288591866285108, 0.04113993258879144, -1.418252236346785;
+  0.04052364082187114, 0.9975724410257281, 0.05663090534778911, -0.7906156656845456;
+  -0.04346873137678348, -0.05486367547306317, 0.9975472151763442, -4.959518243558883]
+p train index 1
+[0.9999906221082244, 0.004175796860245149, -0.001148223055735373, 2.092185694012072;
+  -0.004138846587957378, 0.9995264421547985, 0.03049198882155041, 3.560232644728989;
+  0.001275007656883087, -0.03048695055190265, 0.999534351686582, -19.77179172916424]
+getalign
+triangulate points
+Triangulating...Done. (211points, 0.0174368s, mean reproj err = 99.4445)
+triangulation reproj error 99.4445
+test triangulate
+192/211 = 90.9953% are in front of camera
+174/211 = 82.4645% are in front of camera
+filtered out 74 high-error points
+119/137 points were found in other views, adding 18 new
+before triangulation: 1688 after 1688
+======================== Bundle Adjustment ==========================
+N (cams) = 2 M (points) = 137 K (measurements) = 274
+intrinsic before bundle = [ 655.94 0 312.384 
+0 655.94 197.667 
+0 0 1 ]
+Read the 3D points.
+Read the cameras.
+Read 274 valid 2D measurements.
+mean reprojection error (in pixels): 405.725
+K0 = [ 1 0 0.476239 
+0 1 0.301349 
+0 0 1 ]
+optimizer status = 0
+refined K = [ 0.998888 0 0.467984 
+0 0.998888 0.300868 
+0 0 1 ]
+Knew = [ 655.21 0 306.97 
+0 655.21 197.351 
+0 0 1 ]
+mean reprojection error (in pixels): 1.76208
+use new K 
+[655.2101991743483, 0, 306.9696409964819;
+  0, 655.2101991743483, 197.3513007078946;
+  0, 0, 1]
+F keeping 1128 / 1313
+1313 matches before, 1128 new matches after Fundamental Matrix
+-----------------------------------------------------------------
+find 2d 3d correspondences
+query frame keypoints: 2397
+train frame keypoints: 2280
+match size: 1313
+-----------------------------------------------------------------
+found 1007 3d-2d point correspondences
+-------------------------------------------------------------------------
+find pose estimation
+3d point: 1007
+2d point: 1007
+inliers size: 188
+projected point: 1007
+--------------------------------------------------------------------------
+(188/1007)
+not enough inliers to consider a good pose (188/1007)
+lost a frame
+F keeping 918 / 1150
+1150 matches before, 918 new matches after Fundamental Matrix
+-----------------------------------------------------------------
+find 2d 3d correspondences
+query frame keypoints: 2301
+train frame keypoints: 2280
+match size: 1150
+-----------------------------------------------------------------
+found 922 3d-2d point correspondences
+-------------------------------------------------------------------------
+find pose estimation
+3d point: 922
+2d point: 922
+inliers size: 161
+projected point: 922
+--------------------------------------------------------------------------
+(161/922)
+not enough inliers to consider a good pose (161/922)
+lost a frame
+F keeping 866 / 1128
+1128 matches before, 866 new matches after Fundamental Matrix
+-----------------------------------------------------------------
+find 2d 3d correspondences
+query frame keypoints: 2258
+train frame keypoints: 2280
+match size: 1128
+-----------------------------------------------------------------
+found 883 3d-2d point correspondences
+-------------------------------------------------------------------------
+find pose estimation
+3d point: 883
+2d point: 883
+inliers size: 214
+projected point: 883
+--------------------------------------------------------------------------
+(214/883)
+found t = [-0.7552573599240349; 1.191837880141822; 1.376540156743964]
+R = 
+[0.9985731000351579, -0.04158451177237538, -0.0335036157276775;
+  0.04160823084967513, 0.9991340025291209, 1.075633712922536e-005;
+  0.03347415438416405, -0.001404767166408166, 0.9994385962216354]
+frame pose [0.9985731000351579, -0.04158451177237538, -0.0335036157276775, -0.7552573599240349;
+  0.04160823084967513, 0.9991340025291209, 1.075633712922536e-005, 1.191837880141822;
+  0.03347415438416405, -0.001404767166408166, 0.9994385962216354, 1.376540156743964]
+next to triangulate ,inliers size: 214
+match size: 1128
+match size: 214
+begin triangulation
+p query index 30
+[0.9985731000351579, -0.04158451177237538, -0.0335036157276775, -0.7552573599240349;
+  0.04160823084967513, 0.9991340025291209, 1.075633712922536e-005, 1.191837880141822;
+  0.03347415438416405, -0.001404767166408166, 0.9994385962216354, 1.376540156743964]
+p train index 1
+[0.9998508464307852, 0.004118946183020433, 0.01677257207410204, 0.02522673875801756;
+  -0.004970495030793693, 0.9986837625077289, 0.05104935535888251, 0.9147790289668842;
+  -0.016540225838495, -0.05112510915147259, 0.9985552784615666, -15.01993545268218]
+getalign
+triangulate points
+Triangulating...Done. (214points, 0.0183442s, mean reproj err = 92.8747)
+triangulation reproj error 92.8747
+test triangulate
+150/214 = 70.0935% are in front of camera
+Triangulation did not succeed
+F keeping 862 / 1153
+1153 matches before, 862 new matches after Fundamental Matrix
+-----------------------------------------------------------------
+find 2d 3d correspondences
+query frame keypoints: 2289
+train frame keypoints: 2280
+match size: 1153
+-----------------------------------------------------------------
+found 909 3d-2d point correspondences
+-------------------------------------------------------------------------
+find pose estimation
+3d point: 909
+2d point: 909
+inliers size: 111
+projected point: 909
+--------------------------------------------------------------------------
+(111/909)
+not enough inliers to consider a good pose (111/909)
+lost a frame
+F keeping 885 / 1146
+1146 matches before, 885 new matches after Fundamental Matrix
+-----------------------------------------------------------------
+find 2d 3d correspondences
+query frame keypoints: 2388
+train frame keypoints: 2280
+match size: 1146
+-----------------------------------------------------------------
+found 903 3d-2d point correspondences
+-------------------------------------------------------------------------
+find pose estimation
+3d point: 903
+2d point: 903
+inliers size: 151
+projected point: 903
+--------------------------------------------------------------------------
+(151/903)
+not enough inliers to consider a good pose (151/903)
+lost a frame
+F keeping 940 / 1152
+1152 matches before, 940 new matches after Fundamental Matrix
+-----------------------------------------------------------------
+find 2d 3d correspondences
+query frame keypoints: 2391
+train frame keypoints: 2280
+match size: 1152
+-----------------------------------------------------------------
+found 905 3d-2d point correspondences
+-------------------------------------------------------------------------
+find pose estimation
+3d point: 905
+2d point: 905
+inliers size: 114
+projected point: 905
+--------------------------------------------------------------------------
+(114/905)
+not enough inliers to consider a good pose (114/905)
+lost a frame
+F keeping 924 / 1154
+1154 matches before, 924 new matches after Fundamental Matrix
+-----------------------------------------------------------------
+find 2d 3d correspondences
+query frame keypoints: 2308
+train frame keypoints: 2280
+match size: 1154
+-----------------------------------------------------------------
+found 917 3d-2d point correspondences
+-------------------------------------------------------------------------
+find pose estimation
+3d point: 917
+2d point: 917
+inliers size: 102
+projected point: 917
+--------------------------------------------------------------------------
+(102/917)
+not enough inliers to consider a good pose (102/917)
+lost a frame
+F keeping 943 / 1172
+1172 matches before, 943 new matches after Fundamental Matrix
+-----------------------------------------------------------------
+find 2d 3d correspondences
+query frame keypoints: 2331
+train frame keypoints: 2280
+match size: 1172
+-----------------------------------------------------------------
+found 951 3d-2d point correspondences
+-------------------------------------------------------------------------
+find pose estimation
+3d point: 951
+2d point: 951
+inliers size: 204
+projected point: 951
+--------------------------------------------------------------------------
+(204/951)
+found t = [-0.2210857403855852; 0.1089681927284575; -0.6181639127274607]
+R = 
+[0.9971225398083834, -0.06998508474030722, -0.02913294561095671;
+  0.07085573793077378, 0.9970350454020981, 0.03000970913424076;
+  0.02694633571312527, -0.03198759375020642, 0.999124961572729]
+frame pose [0.9971225398083834, -0.06998508474030722, -0.02913294561095671, -0.2210857403855852;
+  0.07085573793077378, 0.9970350454020981, 0.03000970913424076, 0.1089681927284575;
+  0.02694633571312527, -0.03198759375020642, 0.999124961572729, -0.6181639127274607]
+next to triangulate ,inliers size: 204
+match size: 1172
+match size: 204
+begin triangulation
+p query index 31
+[0.9971225398083834, -0.06998508474030722, -0.02913294561095671, -0.2210857403855852;
+  0.07085573793077378, 0.9970350454020981, 0.03000970913424076, 0.1089681927284575;
+  0.02694633571312527, -0.03198759375020642, 0.999124961572729, -0.6181639127274607]
+p train index 1
+[0.9998508464307852, 0.004118946183020433, 0.01677257207410204, 0.02522673875801756;
+  -0.004970495030793693, 0.9986837625077289, 0.05104935535888251, 0.9147790289668842;
+  -0.016540225838495, -0.05112510915147259, 0.9985552784615666, -15.01993545268218]
+getalign
+triangulate points
+Triangulating...Done. (204points, 0.0172338s, mean reproj err = 54.1252)
+triangulation reproj error 54.1252
+test triangulate
+132/204 = 64.7059% are in front of camera
+Triangulation did not succeed
+F keeping 968 / 1204
+1204 matches before, 968 new matches after Fundamental Matrix
+-----------------------------------------------------------------
+find 2d 3d correspondences
+query frame keypoints: 2394
+train frame keypoints: 2280
+match size: 1204
+-----------------------------------------------------------------
+found 971 3d-2d point correspondences
+-------------------------------------------------------------------------
+find pose estimation
+3d point: 971
+2d point: 971
+inliers size: 150
+projected point: 971
+--------------------------------------------------------------------------
+(150/971)
+not enough inliers to consider a good pose (150/971)
+lost a frame
+F keeping 954 / 1134
+1134 matches before, 954 new matches after Fundamental Matrix
+-----------------------------------------------------------------
+find 2d 3d correspondences
+query frame keypoints: 2342
+train frame keypoints: 2280
+match size: 1134
+-----------------------------------------------------------------
+found 897 3d-2d point correspondences
+-------------------------------------------------------------------------
+find pose estimation
+3d point: 897
+2d point: 897
+inliers size: 94
+projected point: 897
+--------------------------------------------------------------------------
+(94/897)
+not enough inliers to consider a good pose (94/897)
+lost a frame
+F keeping 888 / 1133
+1133 matches before, 888 new matches after Fundamental Matrix
+-----------------------------------------------------------------
+find 2d 3d correspondences
+query frame keypoints: 2341
+train frame keypoints: 2280
+match size: 1133
+-----------------------------------------------------------------
+found 909 3d-2d point correspondences
+-------------------------------------------------------------------------
+find pose estimation
+3d point: 909
+2d point: 909
+inliers size: 102
+projected point: 909
+--------------------------------------------------------------------------
+(102/909)
+not enough inliers to consider a good pose (102/909)
+lost a frame
+F keeping 914 / 1147
+1147 matches before, 914 new matches after Fundamental Matrix
+-----------------------------------------------------------------
+find 2d 3d correspondences
+query frame keypoints: 2328
+train frame keypoints: 2280
+match size: 1147
+-----------------------------------------------------------------
+found 928 3d-2d point correspondences
+-------------------------------------------------------------------------
+find pose estimation
+3d point: 928
+2d point: 928
+inliers size: 143
+projected point: 928
+--------------------------------------------------------------------------
+(143/928)
+not enough inliers to consider a good pose (143/928)
+lost a frame
+F keeping 861 / 1134
+1134 matches before, 861 new matches after Fundamental Matrix
+-----------------------------------------------------------------
+find 2d 3d correspondences
+query frame keypoints: 2358
+train frame keypoints: 2280
+match size: 1134
+-----------------------------------------------------------------
+found 909 3d-2d point correspondences
+-------------------------------------------------------------------------
+find pose estimation
+3d point: 909
+2d point: 909
+inliers size: 104
+projected point: 909
+--------------------------------------------------------------------------
+(104/909)
+not enough inliers to consider a good pose (104/909)
+lost a frame
+F keeping 845 / 1140
+1140 matches before, 845 new matches after Fundamental Matrix
+-----------------------------------------------------------------
+find 2d 3d correspondences
+query frame keypoints: 2360
+train frame keypoints: 2280
+match size: 1140
+-----------------------------------------------------------------
+found 892 3d-2d point correspondences
+-------------------------------------------------------------------------
+find pose estimation
+3d point: 892
+2d point: 892
+inliers size: 115
+projected point: 892
+--------------------------------------------------------------------------
+(115/892)
+not enough inliers to consider a good pose (115/892)
+lost a frame
+F keeping 889 / 1117
+1117 matches before, 889 new matches after Fundamental Matrix
+-----------------------------------------------------------------
+find 2d 3d correspondences
+query frame keypoints: 2364
+train frame keypoints: 2280
+match size: 1117
+-----------------------------------------------------------------
+found 888 3d-2d point correspondences
+-------------------------------------------------------------------------
+find pose estimation
+3d point: 888
+2d point: 888
+inliers size: 178
+projected point: 888
+--------------------------------------------------------------------------
+(178/888)
+found t = [0.6270219358636937; 1.33958091801952; -1.525994998662654]
+R = 
+[0.9936064662430557, -0.09669950254388604, -0.05827003044235067;
+  0.09648924078061336, 0.995313336111921, -0.006417894618878102;
+  0.05861754561194384, 0.0007544305953381494, 0.9982802282830751]
+frame pose [0.9936064662430557, -0.09669950254388604, -0.05827003044235067, 0.6270219358636937;
+  0.09648924078061336, 0.995313336111921, -0.006417894618878102, 1.33958091801952;
+  0.05861754561194384, 0.0007544305953381494, 0.9982802282830751, -1.525994998662654]
+next to triangulate ,inliers size: 178
+match size: 1117
+match size: 178
+begin triangulation
+p query index 32
+[0.9936064662430557, -0.09669950254388604, -0.05827003044235067, 0.6270219358636937;
+  0.09648924078061336, 0.995313336111921, -0.006417894618878102, 1.33958091801952;
+  0.05861754561194384, 0.0007544305953381494, 0.9982802282830751, -1.525994998662654]
+p train index 1
+[0.9998508464307852, 0.004118946183020433, 0.01677257207410204, 0.02522673875801756;
+  -0.004970495030793693, 0.9986837625077289, 0.05104935535888251, 0.9147790289668842;
+  -0.016540225838495, -0.05112510915147259, 0.9985552784615666, -15.01993545268218]
+getalign
+triangulate points
+Triangulating...Done. (178points, 0.0150625s, mean reproj err = 39.2785)
+triangulation reproj error 39.2785
+test triangulate
+67/178 = 37.6404% are in front of camera
+Triangulation did not succeed
+F keeping 907 / 1150
+1150 matches before, 907 new matches after Fundamental Matrix
+-----------------------------------------------------------------
+find 2d 3d correspondences
+query frame keypoints: 2294
+train frame keypoints: 2280
+match size: 1150
+-----------------------------------------------------------------
+found 894 3d-2d point correspondences
+-------------------------------------------------------------------------
+find pose estimation
+3d point: 894
+2d point: 894
+inliers size: 122
+projected point: 894
+--------------------------------------------------------------------------
+(122/894)
+not enough inliers to consider a good pose (122/894)
+lost a frame
+F keeping 955 / 1148
+1148 matches before, 955 new matches after Fundamental Matrix
+-----------------------------------------------------------------
+find 2d 3d correspondences
+query frame keypoints: 2344
+train frame keypoints: 2280
+match size: 1148
+-----------------------------------------------------------------
+found 910 3d-2d point correspondences
+-------------------------------------------------------------------------
+find pose estimation
+3d point: 910
+2d point: 910
+inliers size: 95
+projected point: 910
+--------------------------------------------------------------------------
+(95/910)
+not enough inliers to consider a good pose (95/910)
+lost a frame
+F keeping 904 / 1136
+1136 matches before, 904 new matches after Fundamental Matrix
+-----------------------------------------------------------------
+find 2d 3d correspondences
+query frame keypoints: 2356
+train frame keypoints: 2280
+match size: 1136
+-----------------------------------------------------------------
+found 888 3d-2d point correspondences
+-------------------------------------------------------------------------
+find pose estimation
+3d point: 888
+2d point: 888
+inliers size: 214
+projected point: 888
+--------------------------------------------------------------------------
+(214/888)
+found t = [-0.8542016037323776; -0.5272457640375917; -1.814600273473708]
+R = 
+[0.9938632570770338, -0.1081502822366521, -0.02322375259001622;
+  0.1086482699731097, 0.993850513271084, 0.02137079087570482;
+  0.02076968136684035, -0.02376286436722894, 0.9995018492293972]
+frame pose [0.9938632570770338, -0.1081502822366521, -0.02322375259001622, -0.8542016037323776;
+  0.1086482699731097, 0.993850513271084, 0.02137079087570482, -0.5272457640375917;
+  0.02076968136684035, -0.02376286436722894, 0.9995018492293972, -1.814600273473708]
+next to triangulate ,inliers size: 214
+match size: 1136
+match size: 214
+begin triangulation
+p query index 33
+[0.9938632570770338, -0.1081502822366521, -0.02322375259001622, -0.8542016037323776;
+  0.1086482699731097, 0.993850513271084, 0.02137079087570482, -0.5272457640375917;
+  0.02076968136684035, -0.02376286436722894, 0.9995018492293972, -1.814600273473708]
+p train index 1
+[0.9998508464307852, 0.004118946183020433, 0.01677257207410204, 0.02522673875801756;
+  -0.004970495030793693, 0.9986837625077289, 0.05104935535888251, 0.9147790289668842;
+  -0.016540225838495, -0.05112510915147259, 0.9985552784615666, -15.01993545268218]
+getalign
+triangulate points
+Triangulating...Done. (214points, 0.0183217s, mean reproj err = 49.3781)
+triangulation reproj error 49.3781
+test triangulate
+164/214 = 76.6355% are in front of camera
+143/214 = 66.8224% are in front of camera
+Triangulation did not succeed
+F keeping 923 / 1134
+1134 matches before, 923 new matches after Fundamental Matrix
+-----------------------------------------------------------------
+find 2d 3d correspondences
+query frame keypoints: 2350
+train frame keypoints: 2280
+match size: 1134
+-----------------------------------------------------------------
+found 900 3d-2d point correspondences
+-------------------------------------------------------------------------
+find pose estimation
+3d point: 900
+2d point: 900
+inliers size: 108
+projected point: 900
+--------------------------------------------------------------------------
+(108/900)
+not enough inliers to consider a good pose (108/900)
+lost a frame
+F keeping 919 / 1160
+1160 matches before, 919 new matches after Fundamental Matrix
+-----------------------------------------------------------------
+find 2d 3d correspondences
+query frame keypoints: 2379
+train frame keypoints: 2280
+match size: 1160
+-----------------------------------------------------------------
+found 941 3d-2d point correspondences
+-------------------------------------------------------------------------
+find pose estimation
+3d point: 941
+2d point: 941
+inliers size: 119
+projected point: 941
+--------------------------------------------------------------------------
+(119/941)
+not enough inliers to consider a good pose (119/941)
+lost a frame
+F keeping 1032 / 1179
+1179 matches before, 1032 new matches after Fundamental Matrix
+-----------------------------------------------------------------
+find 2d 3d correspondences
+query frame keypoints: 2439
+train frame keypoints: 2280
+match size: 1179
+-----------------------------------------------------------------
+found 933 3d-2d point correspondences
+-------------------------------------------------------------------------
+find pose estimation
+3d point: 933
+2d point: 933
+inliers size: 134
+projected point: 933
+--------------------------------------------------------------------------
+(134/933)
+not enough inliers to consider a good pose (134/933)
+lost a frame
+F keeping 1016 / 1174
+1174 matches before, 1016 new matches after Fundamental Matrix
+-----------------------------------------------------------------
+find 2d 3d correspondences
+query frame keypoints: 2419
+train frame keypoints: 2280
+match size: 1174
+-----------------------------------------------------------------
+found 930 3d-2d point correspondences
+-------------------------------------------------------------------------
+find pose estimation
+3d point: 930
+2d point: 930
+inliers size: 204
+projected point: 930
+--------------------------------------------------------------------------
+(204/930)
+found t = [0.7360780899902744; 1.745647383621154; 0.02452350920599145]
+R = 
+[0.9957292961988472, -0.08322922048007618, -0.03995078909893032;
+  0.08317927601771923, 0.9965303401593524, -0.002913620265837457;
+  0.04005467179389218, -0.0004219006568925831, 0.9991974005507217]
+frame pose [0.9957292961988472, -0.08322922048007618, -0.03995078909893032, 0.7360780899902744;
+  0.08317927601771923, 0.9965303401593524, -0.002913620265837457, 1.745647383621154;
+  0.04005467179389218, -0.0004219006568925831, 0.9991974005507217, 0.02452350920599145]
+next to triangulate ,inliers size: 204
+match size: 1174
+match size: 204
+begin triangulation
+p query index 34
+[0.9957292961988472, -0.08322922048007618, -0.03995078909893032, 0.7360780899902744;
+  0.08317927601771923, 0.9965303401593524, -0.002913620265837457, 1.745647383621154;
+  0.04005467179389218, -0.0004219006568925831, 0.9991974005507217, 0.02452350920599145]
+p train index 1
+[0.9998508464307852, 0.004118946183020433, 0.01677257207410204, 0.02522673875801756;
+  -0.004970495030793693, 0.9986837625077289, 0.05104935535888251, 0.9147790289668842;
+  -0.016540225838495, -0.05112510915147259, 0.9985552784615666, -15.01993545268218]
+getalign
+triangulate points
+Triangulating...Done. (204points, 0.0176087s, mean reproj err = 33.6832)
+triangulation reproj error 33.6832
+test triangulate
+81/204 = 39.7059% are in front of camera
+Triangulation did not succeed
+F keeping 956 / 1167
+1167 matches before, 956 new matches after Fundamental Matrix
+-----------------------------------------------------------------
+find 2d 3d correspondences
+query frame keypoints: 2364
+train frame keypoints: 2280
+match size: 1167
+-----------------------------------------------------------------
+found 916 3d-2d point correspondences
+-------------------------------------------------------------------------
+find pose estimation
+3d point: 916
+2d point: 916
+inliers size: 100
+projected point: 916
+--------------------------------------------------------------------------
+(100/916)
+not enough inliers to consider a good pose (100/916)
+lost a frame
+F keeping 884 / 1188
+1188 matches before, 884 new matches after Fundamental Matrix
+-----------------------------------------------------------------
+find 2d 3d correspondences
+query frame keypoints: 2402
+train frame keypoints: 2280
+match size: 1188
+-----------------------------------------------------------------
+found 940 3d-2d point correspondences
+-------------------------------------------------------------------------
+find pose estimation
+3d point: 940
+2d point: 940
+inliers size: 134
+projected point: 940
+--------------------------------------------------------------------------
+(134/940)
+not enough inliers to consider a good pose (134/940)
+lost a frame
+F keeping 962 / 1158
+1158 matches before, 962 new matches after Fundamental Matrix
+-----------------------------------------------------------------
+find 2d 3d correspondences
+query frame keypoints: 2352
+train frame keypoints: 2280
+match size: 1158
+-----------------------------------------------------------------
+found 912 3d-2d point correspondences
+-------------------------------------------------------------------------
+find pose estimation
+3d point: 912
+2d point: 912
+inliers size: 95
+projected point: 912
+--------------------------------------------------------------------------
+(95/912)
+not enough inliers to consider a good pose (95/912)
+lost a frame
+F keeping 897 / 1151
+1151 matches before, 897 new matches after Fundamental Matrix
+-----------------------------------------------------------------
+find 2d 3d correspondences
+query frame keypoints: 2409
+train frame keypoints: 2280
+match size: 1151
+-----------------------------------------------------------------
+found 918 3d-2d point correspondences
+-------------------------------------------------------------------------
+find pose estimation
+3d point: 918
+2d point: 918
+inliers size: 117
+projected point: 918
+--------------------------------------------------------------------------
+(117/918)
+not enough inliers to consider a good pose (117/918)
+lost a frame
+F keeping 835 / 1073
+1073 matches before, 835 new matches after Fundamental Matrix
+-----------------------------------------------------------------
+find 2d 3d correspondences
+query frame keypoints: 2081
+train frame keypoints: 2280
+match size: 1073
+-----------------------------------------------------------------
+found 830 3d-2d point correspondences
+-------------------------------------------------------------------------
+find pose estimation
+3d point: 830
+2d point: 830
+inliers size: 152
+projected point: 830
+--------------------------------------------------------------------------
+(152/830)
+not enough inliers to consider a good pose (152/830)
+lost a frame
+F keeping 975 / 1142
+1142 matches before, 975 new matches after Fundamental Matrix
+-----------------------------------------------------------------
+find 2d 3d correspondences
+query frame keypoints: 2321
+train frame keypoints: 2280
+match size: 1142
+-----------------------------------------------------------------
+found 872 3d-2d point correspondences
+-------------------------------------------------------------------------
+find pose estimation
+3d point: 872
+2d point: 872
+inliers size: 89
+projected point: 872
+--------------------------------------------------------------------------
+(89/872)
+not enough inliers to consider a good pose (89/872)
+lost a frame
+F keeping 814 / 1104
+1104 matches before, 814 new matches after Fundamental Matrix
+-----------------------------------------------------------------
+find 2d 3d correspondences
+query frame keypoints: 2394
+train frame keypoints: 2280
+match size: 1104
+-----------------------------------------------------------------
+found 836 3d-2d point correspondences
+-------------------------------------------------------------------------
+find pose estimation
+3d point: 836
+2d point: 836
+inliers size: 88
+projected point: 836
+--------------------------------------------------------------------------
+(88/836)
+not enough inliers to consider a good pose (88/836)
+lost a frame
+F keeping 894 / 1159
+1159 matches before, 894 new matches after Fundamental Matrix
+-----------------------------------------------------------------
+find 2d 3d correspondences
+query frame keypoints: 2478
+train frame keypoints: 2280
+match size: 1159
+-----------------------------------------------------------------
+found 875 3d-2d point correspondences
+-------------------------------------------------------------------------
+find pose estimation
+3d point: 875
+2d point: 875
+inliers size: 100
+projected point: 875
+--------------------------------------------------------------------------
+(100/875)
+not enough inliers to consider a good pose (100/875)
+lost a frame
+F keeping 827 / 1119
+1119 matches before, 827 new matches after Fundamental Matrix
+-----------------------------------------------------------------
+find 2d 3d correspondences
+query frame keypoints: 2306
+train frame keypoints: 2280
+match size: 1119
+-----------------------------------------------------------------
+found 862 3d-2d point correspondences
+-------------------------------------------------------------------------
+find pose estimation
+3d point: 862
+2d point: 862
+inliers size: 92
+projected point: 862
+--------------------------------------------------------------------------
+(92/862)
+not enough inliers to consider a good pose (92/862)
+lost a frame
+F keeping 838 / 1126
+1126 matches before, 838 new matches after Fundamental Matrix
+-----------------------------------------------------------------
+find 2d 3d correspondences
+query frame keypoints: 2432
+train frame keypoints: 2280
+match size: 1126
+-----------------------------------------------------------------
+found 854 3d-2d point correspondences
+-------------------------------------------------------------------------
+find pose estimation
+3d point: 854
+2d point: 854
+inliers size: 121
+projected point: 854
+--------------------------------------------------------------------------
+(121/854)
+not enough inliers to consider a good pose (121/854)
+lost a frame
+F keeping 816 / 1124
+1124 matches before, 816 new matches after Fundamental Matrix
+-----------------------------------------------------------------
+find 2d 3d correspondences
+query frame keypoints: 2431
+train frame keypoints: 2280
+match size: 1124
+-----------------------------------------------------------------
+found 848 3d-2d point correspondences
+-------------------------------------------------------------------------
+find pose estimation
+3d point: 848
+2d point: 848
+inliers size: 101
+projected point: 848
+--------------------------------------------------------------------------
+(101/848)
+not enough inliers to consider a good pose (101/848)
+lost a frame
+F keeping 870 / 1141
+1141 matches before, 870 new matches after Fundamental Matrix
+-----------------------------------------------------------------
+find 2d 3d correspondences
+query frame keypoints: 2418
+train frame keypoints: 2280
+match size: 1141
+-----------------------------------------------------------------
+found 870 3d-2d point correspondences
+-------------------------------------------------------------------------
+find pose estimation
+3d point: 870
+2d point: 870
+inliers size: 183
+projected point: 870
+--------------------------------------------------------------------------
+(183/870)
+found t = [-1.134341717877362; -0.1700327465822497; -1.641612712404928]
+R = 
+[0.998980525651652, -0.02290678290616437, 0.03889972577845419;
+  0.02351576851017716, 0.999606833015206, -0.01527049510283512;
+  -0.03853463377437028, 0.0161696841713067, 0.9991264300946479]
+frame pose [0.998980525651652, -0.02290678290616437, 0.03889972577845419, -1.134341717877362;
+  0.02351576851017716, 0.999606833015206, -0.01527049510283512, -0.1700327465822497;
+  -0.03853463377437028, 0.0161696841713067, 0.9991264300946479, -1.641612712404928]
+next to triangulate ,inliers size: 183
+match size: 1141
+match size: 183
+begin triangulation
+p query index 35
+[0.998980525651652, -0.02290678290616437, 0.03889972577845419, -1.134341717877362;
+  0.02351576851017716, 0.999606833015206, -0.01527049510283512, -0.1700327465822497;
+  -0.03853463377437028, 0.0161696841713067, 0.9991264300946479, -1.641612712404928]
+p train index 1
+[0.9998508464307852, 0.004118946183020433, 0.01677257207410204, 0.02522673875801756;
+  -0.004970495030793693, 0.9986837625077289, 0.05104935535888251, 0.9147790289668842;
+  -0.016540225838495, -0.05112510915147259, 0.9985552784615666, -15.01993545268218]
+getalign
+triangulate points
+Triangulating...Done. (183points, 0.0152861s, mean reproj err = 54.4063)
+triangulation reproj error 54.4063
+test triangulate
+149/183 = 81.4208% are in front of camera
+131/183 = 71.5847% are in front of camera
+Triangulation did not succeed
+F keeping 877 / 1140
+1140 matches before, 877 new matches after Fundamental Matrix
+-----------------------------------------------------------------
+find 2d 3d correspondences
+query frame keypoints: 2397
+train frame keypoints: 2280
+match size: 1140
+-----------------------------------------------------------------
+found 862 3d-2d point correspondences
+-------------------------------------------------------------------------
+find pose estimation
+3d point: 862
+2d point: 862
+inliers size: 191
+projected point: 862
+--------------------------------------------------------------------------
+(191/862)
+found t = [0.01505312654605651; 1.325919374709038; -4.544516900712985]
+R = 
+[0.999760081894739, -0.008168043093950406, -0.02032391994276985;
+  0.006799212287253917, 0.9977611773400238, -0.06653122353694112;
+  0.02082184819120542, 0.06637707484564941, 0.9975773326278207]
+frame pose [0.999760081894739, -0.008168043093950406, -0.02032391994276985, 0.01505312654605651;
+  0.006799212287253917, 0.9977611773400238, -0.06653122353694112, 1.325919374709038;
+  0.02082184819120542, 0.06637707484564941, 0.9975773326278207, -4.544516900712985]
+next to triangulate ,inliers size: 191
+match size: 1140
+match size: 191
+begin triangulation
+p query index 36
+[0.999760081894739, -0.008168043093950406, -0.02032391994276985, 0.01505312654605651;
+  0.006799212287253917, 0.9977611773400238, -0.06653122353694112, 1.325919374709038;
+  0.02082184819120542, 0.06637707484564941, 0.9975773326278207, -4.544516900712985]
+p train index 1
+[0.9998508464307852, 0.004118946183020433, 0.01677257207410204, 0.02522673875801756;
+  -0.004970495030793693, 0.9986837625077289, 0.05104935535888251, 0.9147790289668842;
+  -0.016540225838495, -0.05112510915147259, 0.9985552784615666, -15.01993545268218]
+getalign
+triangulate points
+Triangulating...Done. (191points, 0.0162495s, mean reproj err = 42.1778)
+triangulation reproj error 42.1778
+test triangulate
+77/191 = 40.3141% are in front of camera
+Triangulation did not succeed
+F keeping 847 / 1164
+1164 matches before, 847 new matches after Fundamental Matrix
+-----------------------------------------------------------------
+find 2d 3d correspondences
+query frame keypoints: 2433
+train frame keypoints: 2280
+match size: 1164
+-----------------------------------------------------------------
+found 873 3d-2d point correspondences
+-------------------------------------------------------------------------
+find pose estimation
+3d point: 873
+2d point: 873
+inliers size: 103
+projected point: 873
+--------------------------------------------------------------------------
+(103/873)
+not enough inliers to consider a good pose (103/873)
+lost a frame
+F keeping 956 / 1195
+1195 matches before, 956 new matches after Fundamental Matrix
+-----------------------------------------------------------------
+find 2d 3d correspondences
+query frame keypoints: 2482
+train frame keypoints: 2280
+match size: 1195
+-----------------------------------------------------------------
+found 898 3d-2d point correspondences
+-------------------------------------------------------------------------
+find pose estimation
+3d point: 898
+2d point: 898
+inliers size: 111
+projected point: 898
+--------------------------------------------------------------------------
+(111/898)
+not enough inliers to consider a good pose (111/898)
+lost a frame
+F keeping 971 / 1232
+1232 matches before, 971 new matches after Fundamental Matrix
+-----------------------------------------------------------------
+find 2d 3d correspondences
+query frame keypoints: 2478
+train frame keypoints: 2280
+match size: 1232
+-----------------------------------------------------------------
+found 937 3d-2d point correspondences
+-------------------------------------------------------------------------
+find pose estimation
+3d point: 937
+2d point: 937
+inliers size: 122
+projected point: 937
+--------------------------------------------------------------------------
+(122/937)
+not enough inliers to consider a good pose (122/937)
+lost a frame
+F keeping 976 / 1166
+1166 matches before, 976 new matches after Fundamental Matrix
+-----------------------------------------------------------------
+find 2d 3d correspondences
+query frame keypoints: 2433
+train frame keypoints: 2280
+match size: 1166
+-----------------------------------------------------------------
+found 875 3d-2d point correspondences
+-------------------------------------------------------------------------
+find pose estimation
+3d point: 875
+2d point: 875
+inliers size: 113
+projected point: 875
+--------------------------------------------------------------------------
+(113/875)
+not enough inliers to consider a good pose (113/875)
+lost a frame
+F keeping 920 / 1187
+1187 matches before, 920 new matches after Fundamental Matrix
+-----------------------------------------------------------------
+find 2d 3d correspondences
+query frame keypoints: 2440
+train frame keypoints: 2280
+match size: 1187
+-----------------------------------------------------------------
+found 902 3d-2d point correspondences
+-------------------------------------------------------------------------
+find pose estimation
+3d point: 902
+2d point: 902
+inliers size: 97
+projected point: 902
+--------------------------------------------------------------------------
+(97/902)
+not enough inliers to consider a good pose (97/902)
+lost a frame
+F keeping 916 / 1182
+1182 matches before, 916 new matches after Fundamental Matrix
+-----------------------------------------------------------------
+find 2d 3d correspondences
+query frame keypoints: 2418
+train frame keypoints: 2280
+match size: 1182
+-----------------------------------------------------------------
+found 900 3d-2d point correspondences
+-------------------------------------------------------------------------
+find pose estimation
+3d point: 900
+2d point: 900
+inliers size: 105
+projected point: 900
+--------------------------------------------------------------------------
+(105/900)
+not enough inliers to consider a good pose (105/900)
+lost a frame
+F keeping 1060 / 1244
+1244 matches before, 1060 new matches after Fundamental Matrix
+-----------------------------------------------------------------
+find 2d 3d correspondences
+query frame keypoints: 2644
+train frame keypoints: 2280
+match size: 1244
+-----------------------------------------------------------------
+found 923 3d-2d point correspondences
+-------------------------------------------------------------------------
+find pose estimation
+3d point: 923
+2d point: 923
+inliers size: 107
+projected point: 923
+--------------------------------------------------------------------------
+(107/923)
+not enough inliers to consider a good pose (107/923)
+lost a frame
+F keeping 1050 / 1258
+1258 matches before, 1050 new matches after Fundamental Matrix
+-----------------------------------------------------------------
+find 2d 3d correspondences
+query frame keypoints: 2618
+train frame keypoints: 2280
+match size: 1258
+-----------------------------------------------------------------
+found 953 3d-2d point correspondences
+-------------------------------------------------------------------------
+find pose estimation
+3d point: 953
+2d point: 953
+inliers size: 107
+projected point: 953
+--------------------------------------------------------------------------
+(107/953)
+not enough inliers to consider a good pose (107/953)
+lost a frame
+F keeping 1020 / 1225
+1225 matches before, 1020 new matches after Fundamental Matrix
+-----------------------------------------------------------------
+find 2d 3d correspondences
+query frame keypoints: 2614
+train frame keypoints: 2280
+match size: 1225
+-----------------------------------------------------------------
+found 913 3d-2d point correspondences
+-------------------------------------------------------------------------
+find pose estimation
+3d point: 913
+2d point: 913
+inliers size: 107
+projected point: 913
+--------------------------------------------------------------------------
+(107/913)
+not enough inliers to consider a good pose (107/913)
+lost a frame
+F keeping 1044 / 1264
+1264 matches before, 1044 new matches after Fundamental Matrix
+-----------------------------------------------------------------
+find 2d 3d correspondences
+query frame keypoints: 2716
+train frame keypoints: 2280
+match size: 1264
+-----------------------------------------------------------------
+found 941 3d-2d point correspondences
+-------------------------------------------------------------------------
+find pose estimation
+3d point: 941
+2d point: 941
+inliers size: 128
+projected point: 941
+--------------------------------------------------------------------------
+(128/941)
+not enough inliers to consider a good pose (128/941)
+lost a frame
+F keeping 910 / 1238
+1238 matches before, 910 new matches after Fundamental Matrix
+-----------------------------------------------------------------
+find 2d 3d correspondences
+query frame keypoints: 2757
+train frame keypoints: 2280
+match size: 1238
+-----------------------------------------------------------------
+found 927 3d-2d point correspondences
+-------------------------------------------------------------------------
+find pose estimation
+3d point: 927
+2d point: 927
+inliers size: 117
+projected point: 927
+--------------------------------------------------------------------------
+(117/927)
+not enough inliers to consider a good pose (117/927)
+lost a frame
+F keeping 1041 / 1248
+1248 matches before, 1041 new matches after Fundamental Matrix
+-----------------------------------------------------------------
+find 2d 3d correspondences
+query frame keypoints: 2590
+train frame keypoints: 2280
+match size: 1248
+-----------------------------------------------------------------
+found 945 3d-2d point correspondences
+-------------------------------------------------------------------------
+find pose estimation
+3d point: 945
+2d point: 945
+inliers size: 119
+projected point: 945
+--------------------------------------------------------------------------
+(119/945)
+not enough inliers to consider a good pose (119/945)
+lost a frame
+F keeping 885 / 1227
+1227 matches before, 885 new matches after Fundamental Matrix
+-----------------------------------------------------------------
+find 2d 3d correspondences
+query frame keypoints: 2657
+train frame keypoints: 2280
+match size: 1227
+-----------------------------------------------------------------
+found 908 3d-2d point correspondences
+-------------------------------------------------------------------------
+find pose estimation
+3d point: 908
+2d point: 908
+inliers size: 115
+projected point: 908
+--------------------------------------------------------------------------
+(115/908)
+not enough inliers to consider a good pose (115/908)
+lost a frame
+F keeping 988 / 1239
+1239 matches before, 988 new matches after Fundamental Matrix
+-----------------------------------------------------------------
+find 2d 3d correspondences
+query frame keypoints: 2745
+train frame keypoints: 2280
+match size: 1239
+-----------------------------------------------------------------
+found 942 3d-2d point correspondences
+-------------------------------------------------------------------------
+find pose estimation
+3d point: 942
+2d point: 942
+inliers size: 101
+projected point: 942
+--------------------------------------------------------------------------
+(101/942)
+not enough inliers to consider a good pose (101/942)
+lost a frame
+F keeping 973 / 1210
+1210 matches before, 973 new matches after Fundamental Matrix
+-----------------------------------------------------------------
+find 2d 3d correspondences
+query frame keypoints: 2576
+train frame keypoints: 2280
+match size: 1210
+-----------------------------------------------------------------
+found 890 3d-2d point correspondences
+-------------------------------------------------------------------------
+find pose estimation
+3d point: 890
+2d point: 890
+inliers size: 147
+projected point: 890
+--------------------------------------------------------------------------
+(147/890)
+not enough inliers to consider a good pose (147/890)
+lost a frame
+F keeping 905 / 1150
+1150 matches before, 905 new matches after Fundamental Matrix
+-----------------------------------------------------------------
+find 2d 3d correspondences
+query frame keypoints: 2453
+train frame keypoints: 2280
+match size: 1150
+-----------------------------------------------------------------
+found 881 3d-2d point correspondences
+-------------------------------------------------------------------------
+find pose estimation
+3d point: 881
+2d point: 881
+inliers size: 188
+projected point: 881
+--------------------------------------------------------------------------
+(188/881)
+found t = [-0.3780491664602788; -0.06854358342672429; -5.198467797836187]
+R = 
+[0.9982212650339104, -0.05943464643891885, 0.004672134071313298;
+  0.05942530735381937, 0.9982305184042061, 0.002113048123934186;
+  -0.004789455084215476, -0.00183164656816507, 0.9999868530090011]
+frame pose [0.9982212650339104, -0.05943464643891885, 0.004672134071313298, -0.3780491664602788;
+  0.05942530735381937, 0.9982305184042061, 0.002113048123934186, -0.06854358342672429;
+  -0.004789455084215476, -0.00183164656816507, 0.9999868530090011, -5.198467797836187]
+next to triangulate ,inliers size: 188
+match size: 1150
+match size: 188
+begin triangulation
+p query index 37
+[0.9982212650339104, -0.05943464643891885, 0.004672134071313298, -0.3780491664602788;
+  0.05942530735381937, 0.9982305184042061, 0.002113048123934186, -0.06854358342672429;
+  -0.004789455084215476, -0.00183164656816507, 0.9999868530090011, -5.198467797836187]
+p train index 1
+[0.9998508464307852, 0.004118946183020433, 0.01677257207410204, 0.02522673875801756;
+  -0.004970495030793693, 0.9986837625077289, 0.05104935535888251, 0.9147790289668842;
+  -0.016540225838495, -0.05112510915147259, 0.9985552784615666, -15.01993545268218]
+getalign
+triangulate points
+Triangulating...Done. (188points, 0.0160289s, mean reproj err = 45.3697)
+triangulation reproj error 45.3697
+test triangulate
+126/188 = 67.0213% are in front of camera
+Triangulation did not succeed
+F keeping 967 / 1147
+1147 matches before, 967 new matches after Fundamental Matrix
+-----------------------------------------------------------------
+find 2d 3d correspondences
+query frame keypoints: 2426
+train frame keypoints: 2280
+match size: 1147
+-----------------------------------------------------------------
+found 897 3d-2d point correspondences
+-------------------------------------------------------------------------
+find pose estimation
+3d point: 897
+2d point: 897
+inliers size: 197
+projected point: 897
+--------------------------------------------------------------------------
+(197/897)
+found t = [-0.5929462380408861; -0.1306609299000736; 0.07085280446755604]
+R = 
+[0.9982341330062979, -0.05911237200218675, 0.005860305234360624;
+  0.05901023939905015, 0.9981244440638016, 0.01629066629680249;
+  -0.006812293830390459, -0.01591608113205243, 0.9998501242757169]
+frame pose [0.9982341330062979, -0.05911237200218675, 0.005860305234360624, -0.5929462380408861;
+  0.05901023939905015, 0.9981244440638016, 0.01629066629680249, -0.1306609299000736;
+  -0.006812293830390459, -0.01591608113205243, 0.9998501242757169, 0.07085280446755604]
+next to triangulate ,inliers size: 197
+match size: 1147
+match size: 197
+begin triangulation
+p query index 38
+[0.9982341330062979, -0.05911237200218675, 0.005860305234360624, -0.5929462380408861;
+  0.05901023939905015, 0.9981244440638016, 0.01629066629680249, -0.1306609299000736;
+  -0.006812293830390459, -0.01591608113205243, 0.9998501242757169, 0.07085280446755604]
+p train index 1
+[0.9998508464307852, 0.004118946183020433, 0.01677257207410204, 0.02522673875801756;
+  -0.004970495030793693, 0.9986837625077289, 0.05104935535888251, 0.9147790289668842;
+  -0.016540225838495, -0.05112510915147259, 0.9985552784615666, -15.01993545268218]
+getalign
+triangulate points
+Triangulating...Done. (197points, 0.0171113s, mean reproj err = 50.3087)
+triangulation reproj error 50.3087
+test triangulate
+160/197 = 81.2183% are in front of camera
+134/197 = 68.0203% are in front of camera
+Triangulation did not succeed
+F keeping 889 / 1114
+1114 matches before, 889 new matches after Fundamental Matrix
+-----------------------------------------------------------------
+find 2d 3d correspondences
+query frame keypoints: 2439
+train frame keypoints: 2280
+match size: 1114
+-----------------------------------------------------------------
+found 842 3d-2d point correspondences
+-------------------------------------------------------------------------
+find pose estimation
+3d point: 842
+2d point: 842
+inliers size: 123
+projected point: 842
+--------------------------------------------------------------------------
+(123/842)
+not enough inliers to consider a good pose (123/842)
+lost a frame
+F keeping 884 / 1155
+1155 matches before, 884 new matches after Fundamental Matrix
+-----------------------------------------------------------------
+find 2d 3d correspondences
+query frame keypoints: 2475
+train frame keypoints: 2280
+match size: 1155
+-----------------------------------------------------------------
+found 872 3d-2d point correspondences
+-------------------------------------------------------------------------
+find pose estimation
+3d point: 872
+2d point: 872
+inliers size: 118
+projected point: 872
+--------------------------------------------------------------------------
+(118/872)
+not enough inliers to consider a good pose (118/872)
+lost a frame
+F keeping 871 / 1130
+1130 matches before, 871 new matches after Fundamental Matrix
+-----------------------------------------------------------------
+find 2d 3d correspondences
+query frame keypoints: 2453
+train frame keypoints: 2280
+match size: 1130
+-----------------------------------------------------------------
+found 846 3d-2d point correspondences
+-------------------------------------------------------------------------
+find pose estimation
+3d point: 846
+2d point: 846
+inliers size: 114
+projected point: 846
+--------------------------------------------------------------------------
+(114/846)
+not enough inliers to consider a good pose (114/846)
+lost a frame
+F keeping 859 / 1148
+1148 matches before, 859 new matches after Fundamental Matrix
+-----------------------------------------------------------------
+find 2d 3d correspondences
+query frame keypoints: 2421
+train frame keypoints: 2280
+match size: 1148
+-----------------------------------------------------------------
+found 883 3d-2d point correspondences
+-------------------------------------------------------------------------
+find pose estimation
+3d point: 883
+2d point: 883
+inliers size: 141
+projected point: 883
+--------------------------------------------------------------------------
+(141/883)
+not enough inliers to consider a good pose (141/883)
+lost a frame
+F keeping 917 / 1128
+1128 matches before, 917 new matches after Fundamental Matrix
+-----------------------------------------------------------------
+find 2d 3d correspondences
+query frame keypoints: 2359
+train frame keypoints: 2280
+match size: 1128
+-----------------------------------------------------------------
+found 856 3d-2d point correspondences
+-------------------------------------------------------------------------
+find pose estimation
+3d point: 856
+2d point: 856
+inliers size: 118
+projected point: 856
+--------------------------------------------------------------------------
+(118/856)
+not enough inliers to consider a good pose (118/856)
+lost a frame
+F keeping 840 / 1120
+1120 matches before, 840 new matches after Fundamental Matrix
+-----------------------------------------------------------------
+find 2d 3d correspondences
+query frame keypoints: 2353
+train frame keypoints: 2280
+match size: 1120
+-----------------------------------------------------------------
+found 857 3d-2d point correspondences
+-------------------------------------------------------------------------
+find pose estimation
+3d point: 857
+2d point: 857
+inliers size: 120
+projected point: 857
+--------------------------------------------------------------------------
+(120/857)
+not enough inliers to consider a good pose (120/857)
+lost a frame
+F keeping 782 / 1128
+1128 matches before, 782 new matches after Fundamental Matrix
+-----------------------------------------------------------------
+find 2d 3d correspondences
+query frame keypoints: 2356
+train frame keypoints: 2280
+match size: 1128
+-----------------------------------------------------------------
+found 854 3d-2d point correspondences
+-------------------------------------------------------------------------
+find pose estimation
+3d point: 854
+2d point: 854
+inliers size: 190
+projected point: 854
+--------------------------------------------------------------------------
+(190/854)
+found t = [1.194776424635245; 0.7622136406019155; -0.7138599205112683]
+R = 
+[0.9922912122048194, -0.05868398989699463, -0.1091528263988591;
+  0.05543505818214039, 0.9979310105288993, -0.03256766109367511;
+  0.110838190644889, 0.02626571062315279, 0.993491322528802]
+frame pose [0.9922912122048194, -0.05868398989699463, -0.1091528263988591, 1.194776424635245;
+  0.05543505818214039, 0.9979310105288993, -0.03256766109367511, 0.7622136406019155;
+  0.110838190644889, 0.02626571062315279, 0.993491322528802, -0.7138599205112683]
+next to triangulate ,inliers size: 190
+match size: 1128
+match size: 190
+begin triangulation
+p query index 39
+[0.9922912122048194, -0.05868398989699463, -0.1091528263988591, 1.194776424635245;
+  0.05543505818214039, 0.9979310105288993, -0.03256766109367511, 0.7622136406019155;
+  0.110838190644889, 0.02626571062315279, 0.993491322528802, -0.7138599205112683]
+p train index 1
+[0.9998508464307852, 0.004118946183020433, 0.01677257207410204, 0.02522673875801756;
+  -0.004970495030793693, 0.9986837625077289, 0.05104935535888251, 0.9147790289668842;
+  -0.016540225838495, -0.05112510915147259, 0.9985552784615666, -15.01993545268218]
+getalign
+triangulate points
+Triangulating...Done. (190points, 0.0163297s, mean reproj err = 155.767)
+triangulation reproj error 155.767
+test triangulate
+100/190 = 52.6316% are in front of camera
+Triangulation did not succeed
+F keeping 706 / 1090
+1090 matches before, 706 new matches after Fundamental Matrix
+-----------------------------------------------------------------
+find 2d 3d correspondences
+query frame keypoints: 2299
+train frame keypoints: 2280
+match size: 1090
+-----------------------------------------------------------------
+found 837 3d-2d point correspondences
+-------------------------------------------------------------------------
+find pose estimation
+3d point: 837
+2d point: 837
+inliers size: 86
+projected point: 837
+--------------------------------------------------------------------------
+(86/837)
+not enough inliers to consider a good pose (86/837)
+lost a frame
+F keeping 863 / 1111
+1111 matches before, 863 new matches after Fundamental Matrix
+-----------------------------------------------------------------
+find 2d 3d correspondences
+query frame keypoints: 2383
+train frame keypoints: 2280
+match size: 1111
+-----------------------------------------------------------------
+found 859 3d-2d point correspondences
+-------------------------------------------------------------------------
+find pose estimation
+3d point: 859
+2d point: 859
+inliers size: 99
+projected point: 859
+--------------------------------------------------------------------------
+(99/859)
+not enough inliers to consider a good pose (99/859)
+lost a frame
+F keeping 863 / 1158
+1158 matches before, 863 new matches after Fundamental Matrix
+-----------------------------------------------------------------
+find 2d 3d correspondences
+query frame keypoints: 2354
+train frame keypoints: 2280
+match size: 1158
+-----------------------------------------------------------------
+found 891 3d-2d point correspondences
+-------------------------------------------------------------------------
+find pose estimation
+3d point: 891
+2d point: 891
+inliers size: 194
+projected point: 891
+--------------------------------------------------------------------------
+(194/891)
+found t = [-2.377680929063655; 0.084216912617255; 0.3611995176656606]
+R = 
+[0.9985700174445407, -0.03889678081583249, 0.03667370588002974;
+  0.03886325330173303, 0.9992432139938986, 0.001626908094881403;
+  -0.03670923322020196, -0.0001993221235575349, 0.9993259690746938]
+frame pose [0.9985700174445407, -0.03889678081583249, 0.03667370588002974, -2.377680929063655;
+  0.03886325330173303, 0.9992432139938986, 0.001626908094881403, 0.084216912617255;
+  -0.03670923322020196, -0.0001993221235575349, 0.9993259690746938, 0.3611995176656606]
+next to triangulate ,inliers size: 194
+match size: 1158
+match size: 194
+begin triangulation
+p query index 40
+[0.9985700174445407, -0.03889678081583249, 0.03667370588002974, -2.377680929063655;
+  0.03886325330173303, 0.9992432139938986, 0.001626908094881403, 0.084216912617255;
+  -0.03670923322020196, -0.0001993221235575349, 0.9993259690746938, 0.3611995176656606]
+p train index 1
+[0.9998508464307852, 0.004118946183020433, 0.01677257207410204, 0.02522673875801756;
+  -0.004970495030793693, 0.9986837625077289, 0.05104935535888251, 0.9147790289668842;
+  -0.016540225838495, -0.05112510915147259, 0.9985552784615666, -15.01993545268218]
+getalign
+triangulate points
+Triangulating...Done. (194points, 0.0169586s, mean reproj err = 66.553)
+triangulation reproj error 66.553
+test triangulate
+173/194 = 89.1753% are in front of camera
+141/194 = 72.6804% are in front of camera
+Triangulation did not succeed
+F keeping 935 / 1138
+1138 matches before, 935 new matches after Fundamental Matrix
+-----------------------------------------------------------------
+find 2d 3d correspondences
+query frame keypoints: 2336
+train frame keypoints: 2280
+match size: 1138
+-----------------------------------------------------------------
+found 865 3d-2d point correspondences
+-------------------------------------------------------------------------
+find pose estimation
+3d point: 865
+2d point: 865
+inliers size: 133
+projected point: 865
+--------------------------------------------------------------------------
+(133/865)
+not enough inliers to consider a good pose (133/865)
+lost a frame
+F keeping 816 / 1112
+1112 matches before, 816 new matches after Fundamental Matrix
+-----------------------------------------------------------------
+find 2d 3d correspondences
+query frame keypoints: 2365
+train frame keypoints: 2280
+match size: 1112
+-----------------------------------------------------------------
+found 859 3d-2d point correspondences
+-------------------------------------------------------------------------
+find pose estimation
+3d point: 859
+2d point: 859
+inliers size: 95
+projected point: 859
+--------------------------------------------------------------------------
+(95/859)
+not enough inliers to consider a good pose (95/859)
+lost a frame
+F keeping 865 / 1119
+1119 matches before, 865 new matches after Fundamental Matrix
+-----------------------------------------------------------------
+find 2d 3d correspondences
+query frame keypoints: 2372
+train frame keypoints: 2280
+match size: 1119
+-----------------------------------------------------------------
+found 849 3d-2d point correspondences
+-------------------------------------------------------------------------
+find pose estimation
+3d point: 849
+2d point: 849
+inliers size: 84
+projected point: 849
+--------------------------------------------------------------------------
+(84/849)
+not enough inliers to consider a good pose (84/849)
+lost a frame
+F keeping 810 / 1086
+1086 matches before, 810 new matches after Fundamental Matrix
+-----------------------------------------------------------------
+find 2d 3d correspondences
+query frame keypoints: 2217
+train frame keypoints: 2280
+match size: 1086
+-----------------------------------------------------------------
+found 846 3d-2d point correspondences
+-------------------------------------------------------------------------
+find pose estimation
+3d point: 846
+2d point: 846
+inliers size: 105
+projected point: 846
+--------------------------------------------------------------------------
+(105/846)
+not enough inliers to consider a good pose (105/846)
+lost a frame
+F keeping 897 / 1108
+1108 matches before, 897 new matches after Fundamental Matrix
+-----------------------------------------------------------------
+find 2d 3d correspondences
+query frame keypoints: 2384
+train frame keypoints: 2280
+match size: 1108
+-----------------------------------------------------------------
+found 862 3d-2d point correspondences
+-------------------------------------------------------------------------
+find pose estimation
+3d point: 862
+2d point: 862
+inliers size: 177
+projected point: 862
+--------------------------------------------------------------------------
+(177/862)
+found t = [-0.1152648755669645; 2.053645289325232; 5.42984640313626]
+R = 
+[0.9972777977046125, -0.01966880399642527, -0.07106428325669928;
+  0.01642289001370809, 0.9988075916867831, -0.04597481345743439;
+  0.0718838152092377, 0.04468257980688277, 0.9964116539727773]
+frame pose [0.9972777977046125, -0.01966880399642527, -0.07106428325669928, -0.1152648755669645;
+  0.01642289001370809, 0.9988075916867831, -0.04597481345743439, 2.053645289325232;
+  0.0718838152092377, 0.04468257980688277, 0.9964116539727773, 5.42984640313626]
+next to triangulate ,inliers size: 177
+match size: 1108
+match size: 177
+begin triangulation
+p query index 41
+[0.9972777977046125, -0.01966880399642527, -0.07106428325669928, -0.1152648755669645;
+  0.01642289001370809, 0.9988075916867831, -0.04597481345743439, 2.053645289325232;
+  0.0718838152092377, 0.04468257980688277, 0.9964116539727773, 5.42984640313626]
+p train index 1
+[0.9998508464307852, 0.004118946183020433, 0.01677257207410204, 0.02522673875801756;
+  -0.004970495030793693, 0.9986837625077289, 0.05104935535888251, 0.9147790289668842;
+  -0.016540225838495, -0.05112510915147259, 0.9985552784615666, -15.01993545268218]
+getalign
+triangulate points
+Triangulating...Done. (177points, 0.0154779s, mean reproj err = 370.686)
+triangulation reproj error 370.686
+test triangulate
+70/177 = 39.548% are in front of camera
+Triangulation did not succeed
+F keeping 889 / 1128
+1128 matches before, 889 new matches after Fundamental Matrix
+-----------------------------------------------------------------
+find 2d 3d correspondences
+query frame keypoints: 2291
+train frame keypoints: 2280
+match size: 1128
+-----------------------------------------------------------------
+found 873 3d-2d point correspondences
+-------------------------------------------------------------------------
+find pose estimation
+3d point: 873
+2d point: 873
+inliers size: 99
+projected point: 873
+--------------------------------------------------------------------------
+(99/873)
+not enough inliers to consider a good pose (99/873)
+lost a frame
+F keeping 863 / 1140
+1140 matches before, 863 new matches after Fundamental Matrix
+-----------------------------------------------------------------
+find 2d 3d correspondences
+query frame keypoints: 2388
+train frame keypoints: 2280
+match size: 1140
+-----------------------------------------------------------------
+found 880 3d-2d point correspondences
+-------------------------------------------------------------------------
+find pose estimation
+3d point: 880
+2d point: 880
+inliers size: 96
+projected point: 880
+--------------------------------------------------------------------------
+(96/880)
+not enough inliers to consider a good pose (96/880)
+lost a frame
+F keeping 773 / 1090
+1090 matches before, 773 new matches after Fundamental Matrix
+-----------------------------------------------------------------
+find 2d 3d correspondences
+query frame keypoints: 2326
+train frame keypoints: 2280
+match size: 1090
+-----------------------------------------------------------------
+found 851 3d-2d point correspondences
+-------------------------------------------------------------------------
+find pose estimation
+3d point: 851
+2d point: 851
+inliers size: 114
+projected point: 851
+--------------------------------------------------------------------------
+(114/851)
+not enough inliers to consider a good pose (114/851)
+lost a frame
+F keeping 846 / 1108
+1108 matches before, 846 new matches after Fundamental Matrix
+-----------------------------------------------------------------
+find 2d 3d correspondences
+query frame keypoints: 2326
+train frame keypoints: 2280
+match size: 1108
+-----------------------------------------------------------------
+found 841 3d-2d point correspondences
+-------------------------------------------------------------------------
+find pose estimation
+3d point: 841
+2d point: 841
+inliers size: 101
+projected point: 841
+--------------------------------------------------------------------------
+(101/841)
+not enough inliers to consider a good pose (101/841)
+lost a frame
+F keeping 911 / 1102
+1102 matches before, 911 new matches after Fundamental Matrix
+-----------------------------------------------------------------
+find 2d 3d correspondences
+query frame keypoints: 2320
+train frame keypoints: 2280
+match size: 1102
+-----------------------------------------------------------------
+found 856 3d-2d point correspondences
+-------------------------------------------------------------------------
+find pose estimation
+3d point: 856
+2d point: 856
+inliers size: 135
+projected point: 856
+--------------------------------------------------------------------------
+(135/856)
+not enough inliers to consider a good pose (135/856)
+lost a frame
+F keeping 926 / 1135
+1135 matches before, 926 new matches after Fundamental Matrix
+-----------------------------------------------------------------
+find 2d 3d correspondences
+query frame keypoints: 2383
+train frame keypoints: 2280
+match size: 1135
+-----------------------------------------------------------------
+found 881 3d-2d point correspondences
+-------------------------------------------------------------------------
+find pose estimation
+3d point: 881
+2d point: 881
+inliers size: 110
+projected point: 881
+--------------------------------------------------------------------------
+(110/881)
+not enough inliers to consider a good pose (110/881)
+lost a frame
+1688  3376

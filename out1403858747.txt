@@ -1,0 +1,7 @@
+hello world
+=========================== Baseline triangulation ===========================
+Find camera matrices...
+before fundamentalMat 439
+F keeping 413 / 439
+439 matches before, 413 new matches after Fundamental Matrix
+after fundamentalMat 413

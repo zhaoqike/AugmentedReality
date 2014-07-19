@@ -1,0 +1,8 @@
+hello world
+=========================== Baseline triangulation ===========================
+Find camera matrices...
+before fundamentalMat 31
+F keeping 0 / 31
+31 matches before, 0 new matches after Fundamental Matrix
+after fundamentalMat 0
+not enough inliers after F matrix

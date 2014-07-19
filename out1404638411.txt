@@ -1,0 +1,449 @@
+hello world
+preprocessor begin
+camera open successfully
+getFirst  0
+getSecond  0
+Frame size: 640  480
+get first is true now
+create first keyframe
+keyframe number: 1
+first keyframe keypoints number: 3731F keeping 2445 / 2631
+2631 matches before, 2445 new matches after Fundamental Matrix
+F keeping 2389 / 2557
+2557 matches before, 2389 new matches after Fundamental Matrix
+F keeping 2390 / 2548
+2548 matches before, 2390 new matches after Fundamental Matrix
+F keeping 2278 / 2507
+2507 matches before, 2278 new matches after Fundamental Matrix
+F keeping 2111 / 2443
+2443 matches before, 2111 new matches after Fundamental Matrix
+F keeping 2165 / 2477
+2477 matches before, 2165 new matches after Fundamental Matrix
+F keeping 2291 / 2501
+2501 matches before, 2291 new matches after Fundamental Matrix
+F keeping 2327 / 2478
+2478 matches before, 2327 new matches after Fundamental Matrix
+F keeping 2141 / 2433
+2433 matches before, 2141 new matches after Fundamental Matrix
+F keeping 2206 / 2467
+2467 matches before, 2206 new matches after Fundamental Matrix
+F keeping 2170 / 2397
+2397 matches before, 2170 new matches after Fundamental Matrix
+F keeping 2054 / 2435
+2435 matches before, 2054 new matches after Fundamental Matrix
+F keeping 2112 / 2421
+2421 matches before, 2112 new matches after Fundamental Matrix
+get second is true now
+F keeping 2099 / 2444
+2444 matches before, 2099 new matches after Fundamental Matrix
+F keeping 2099 / 2444
+2444 matches before, 2099 new matches after Fundamental Matrix
+=========================== Baseline triangulation ===========================
+Find camera matrices...
+before fundamentalMat 2444
+F keeping 2099 / 2444
+2444 matches before, 2099 new matches after Fundamental Matrix
+after fundamentalMat 2099
+K
+[640, 0, 320;
+  0, 640, 240;
+  0, 0, 1]
+F
+[9.580030087105021e-007, -4.19815449290077e-005, 0.007183425823472978;
+  4.190282679322191e-005, -3.294190092853607e-007, -0.02848237139038956;
+  -0.008919684726304999, 0.0271948326086591, 1]
+det(F)
+1.15711e-019
+E
+[0.3923980323678217, -17.19564080292155, -1.654773757888965;
+  17.16339785450369, -0.1349300262032838, -9.697617522423704;
+  0.9238749867875962, 8.756273708254815, 0.2084672638072118]
+----------------------- SVD ------------------------
+U:
+[-0.5045303718711947, 0.7347862514770029, 0.4533632853461875;
+  -0.839381024748599, -0.5404141804854226, -0.05824095485361709;
+  0.202209295413208, -0.4099288696477032, 0.8894210041807257]
+W:
+[20.01710124908022; 19.08170650369389; 5.082490380524688e-011]
+Vt:
+[-0.7202736757405153, 0.527527965119424, 0.4504665115768395;
+  -0.4908228692131362, -0.8464469217265405, 0.2064473776947726;
+  0.4902027571246736, -0.07240065411737245, 0.8685962250613025]
+----------------------------------------------------
+singular value ratio: 0.95327
+P
+[1, 0, 0, 0;
+  0, 1, 0, 0;
+  0, 0, 1, 0]
+Testing P1 
+[-0.5546423065061247, -0.07226168256039167, 0.8289452099307331, 0.4533632853461875;
+  -0.05129117137645306, -0.9913583942794546, -0.1207383527736431, -0.05824095485361709;
+  0.8305065487835708, -0.1094841692903707, 0.5461429200332091, 0.8894210041807257]
+test branch 1
+Triangulating...Done. (2099points, 0.182043s, mean reproj err = 2.71787)
+Triangulating...Done. (2099points, 0.18011s, mean reproj err = 2.673)
+2099/2099 = 100% are in front of camera
+0/2099 = 0% are in front of camera
+P
+[1, 0, 0, 0;
+  0, 1, 0, 0;
+  0, 0, 1, 0]
+Testing P1 
+[-0.5546423065061247, -0.07226168256039167, 0.8289452099307331, -0.4533632853461875;
+  -0.05129117137645306, -0.9913583942794546, -0.1207383527736431, 0.05824095485361709;
+  0.8305065487835708, -0.1094841692903707, 0.5461429200332091, -0.8894210041807257]
+test branch 2
+Triangulating...Done. (2099points, 0.175402s, mean reproj err = 2.71787)
+Triangulating...Done. (2099points, 0.175586s, mean reproj err = 2.673)
+0/2099 = 0% are in front of camera
+P
+[1, 0, 0, 0;
+  0, 1, 0, 0;
+  0, 0, 1, 0]
+Testing P1 
+[0.9991221714177271, 0.006614085736661772, -0.04136593346455592, 0.4533632853461875;
+  -0.005808581917180419, 0.999791760735099, 0.01956260571400798, -0.05824095485361709;
+  0.04148670820440442, -0.01930515568645891, 0.9989525334100136, 0.8894210041807257]
+test branch 3
+Triangulating...Done. (2099points, 0.174475s, mean reproj err = 9.69078)
+Triangulating...Done. (2099points, 0.173678s, mean reproj err = 11.5609)
+306/2099 = 14.5784% are in front of camera
+P
+[1, 0, 0, 0;
+  0, 1, 0, 0;
+  0, 0, 1, 0]
+Testing P1 
+[0.9991221714177271, 0.006614085736661772, -0.04136593346455592, -0.4533632853461875;
+  -0.005808581917180419, 0.999791760735099, 0.01956260571400798, 0.05824095485361709;
+  0.04148670820440442, -0.01930515568645891, 0.9989525334100136, -0.8894210041807257]
+test branch 4
+Triangulating...Done. (2099points, 0.17291s, mean reproj err = 9.69078)
+Triangulating...Done. (2099points, 0.177222s, mean reproj err = 11.5609)
+1793/2099 = 85.4216% are in front of camera
+1796/2099 = 85.5646% are in front of camera
+Done. (1.49942s)
+begin triangulation
+p query index 1
+[1, 0, 0, 0;
+  0, 1, 0, 0;
+  0, 0, 1, 0]
+p train index 0
+[0.9991221714177271, 0.006614085736661772, -0.04136593346455592, -0.4533632853461875;
+  -0.005808581917180419, 0.999791760735099, 0.01956260571400798, 0.05824095485361709;
+  0.04148670820440442, -0.01930515568645891, 0.9989525334100136, -0.8894210041807257]
+getalign
+triangulate points
+Triangulating...Done. (2099points, 0.182363s, mean reproj err = 9.69078)
+triangulation reproj error 9.69078
+test triangulate
+1796/2099 = 85.5646% are in front of camera
+1793/2099 = 85.4216% are in front of camera
+filtered out 540 high-error points
+0/1559 points were found in other views, adding 1559 new
+ after 1559
+create second keyframe
+create init map
+keyframe number: 2
+second keyframe keypoints number: 3792
+point number: 1559
+1559/3731
+1559/3792
+start tracking is true now
+F keeping 2303 / 2560
+2560 matches before, 2303 new matches after Fundamental Matrix
+-----------------------------------------------------------------
+find 2d 3d correspondences
+query frame keypoints: 3701
+train frame keypoints: 3792
+match size: 2560
+-----------------------------------------------------------------
+found 1142 3d-2d point correspondences
+-------------------------------------------------------------------------
+find pose estimation
+3d point: 1142
+2d point: 1142
+inliers size: 1105
+projected point: 1142
+--------------------------------------------------------------------------
+(1105/1142)
+found t = [-0.1742993202071097; -0.07105529200887151; -0.1262059991516509]
+R = 
+[0.9996076577311318, 0.003801428531291696, 0.02775031074423931;
+  -0.003791478154835568, 0.9999927277870062, -0.000411176974015246;
+  -0.02775167199794936, 0.0003058009549316724, 0.9996148014045682]
+frame pose [0.9996076577311318, 0.003801428531291696, 0.02775031074423931, -0.1742993202071097;
+  -0.003791478154835568, 0.9999927277870062, -0.000411176974015246, -0.07105529200887151;
+  -0.02775167199794936, 0.0003058009549316724, 0.9996148014045682, -0.1262059991516509]
+next to triangulate ,inliers size: 1105
+match size: 2560
+match size: 1105
+begin triangulation
+p query index 2
+[0.9996076577311318, 0.003801428531291696, 0.02775031074423931, -0.1742993202071097;
+  -0.003791478154835568, 0.9999927277870062, -0.000411176974015246, -0.07105529200887151;
+  -0.02775167199794936, 0.0003058009549316724, 0.9996148014045682, -0.1262059991516509]
+p train index 1
+[1, 0, 0, 0;
+  0, 1, 0, 0;
+  0, 0, 1, 0]
+getalign
+triangulate points
+Triangulating...Done. (1105points, 0.0962591s, mean reproj err = 14.6152)
+triangulation reproj error 14.6152
+test triangulate
+692/1105 = 62.6244% are in front of camera
+Triangulation did not succeed
+F keeping 2665 / 2777
+2777 matches before, 2665 new matches after Fundamental Matrix
+-----------------------------------------------------------------
+find 2d 3d correspondences
+query frame keypoints: 3794
+train frame keypoints: 3701
+match size: 2777
+-----------------------------------------------------------------
+found 0 3d-2d point correspondences
+couldn't find [enough] corresponding cloud points... (only 0)
+lost a frame
+F keeping 2462 / 2605
+2605 matches before, 2462 new matches after Fundamental Matrix
+-----------------------------------------------------------------
+find 2d 3d correspondences
+query frame keypoints: 3789
+train frame keypoints: 3701
+match size: 2605
+-----------------------------------------------------------------
+found 0 3d-2d point correspondences
+couldn't find [enough] corresponding cloud points... (only 0)
+lost a frame
+F keeping 2304 / 2536
+2536 matches before, 2304 new matches after Fundamental Matrix
+-----------------------------------------------------------------
+find 2d 3d correspondences
+query frame keypoints: 3618
+train frame keypoints: 3701
+match size: 2536
+-----------------------------------------------------------------
+found 0 3d-2d point correspondences
+couldn't find [enough] corresponding cloud points... (only 0)
+lost a frame
+F keeping 2344 / 2540
+2540 matches before, 2344 new matches after Fundamental Matrix
+-----------------------------------------------------------------
+find 2d 3d correspondences
+query frame keypoints: 3666
+train frame keypoints: 3701
+match size: 2540
+-----------------------------------------------------------------
+found 0 3d-2d point correspondences
+couldn't find [enough] corresponding cloud points... (only 0)
+lost a frame
+F keeping 2303 / 2486
+2486 matches before, 2303 new matches after Fundamental Matrix
+-----------------------------------------------------------------
+find 2d 3d correspondences
+query frame keypoints: 3633
+train frame keypoints: 3701
+match size: 2486
+-----------------------------------------------------------------
+found 0 3d-2d point correspondences
+couldn't find [enough] corresponding cloud points... (only 0)
+lost a frame
+F keeping 2197 / 2449
+2449 matches before, 2197 new matches after Fundamental Matrix
+-----------------------------------------------------------------
+find 2d 3d correspondences
+query frame keypoints: 3615
+train frame keypoints: 3701
+match size: 2449
+-----------------------------------------------------------------
+found 0 3d-2d point correspondences
+couldn't find [enough] corresponding cloud points... (only 0)
+lost a frame
+F keeping 2235 / 2426
+2426 matches before, 2235 new matches after Fundamental Matrix
+-----------------------------------------------------------------
+find 2d 3d correspondences
+query frame keypoints: 3641
+train frame keypoints: 3701
+match size: 2426
+-----------------------------------------------------------------
+found 0 3d-2d point correspondences
+couldn't find [enough] corresponding cloud points... (only 0)
+lost a frame
+F keeping 2205 / 2398
+2398 matches before, 2205 new matches after Fundamental Matrix
+-----------------------------------------------------------------
+find 2d 3d correspondences
+query frame keypoints: 3610
+train frame keypoints: 3701
+match size: 2398
+-----------------------------------------------------------------
+found 0 3d-2d point correspondences
+couldn't find [enough] corresponding cloud points... (only 0)
+lost a frame
+F keeping 2112 / 2388
+2388 matches before, 2112 new matches after Fundamental Matrix
+-----------------------------------------------------------------
+find 2d 3d correspondences
+query frame keypoints: 3576
+train frame keypoints: 3701
+match size: 2388
+-----------------------------------------------------------------
+found 0 3d-2d point correspondences
+couldn't find [enough] corresponding cloud points... (only 0)
+lost a frame
+F keeping 2218 / 2445
+2445 matches before, 2218 new matches after Fundamental Matrix
+-----------------------------------------------------------------
+find 2d 3d correspondences
+query frame keypoints: 3585
+train frame keypoints: 3701
+match size: 2445
+-----------------------------------------------------------------
+found 0 3d-2d point correspondences
+couldn't find [enough] corresponding cloud points... (only 0)
+lost a frame
+F keeping 2232 / 2480
+2480 matches before, 2232 new matches after Fundamental Matrix
+-----------------------------------------------------------------
+find 2d 3d correspondences
+query frame keypoints: 3692
+train frame keypoints: 3701
+match size: 2480
+-----------------------------------------------------------------
+found 0 3d-2d point correspondences
+couldn't find [enough] corresponding cloud points... (only 0)
+lost a frame
+F keeping 2187 / 2448
+2448 matches before, 2187 new matches after Fundamental Matrix
+-----------------------------------------------------------------
+find 2d 3d correspondences
+query frame keypoints: 3532
+train frame keypoints: 3701
+match size: 2448
+-----------------------------------------------------------------
+found 0 3d-2d point correspondences
+couldn't find [enough] corresponding cloud points... (only 0)
+lost a frame
+F keeping 2068 / 2309
+2309 matches before, 2068 new matches after Fundamental Matrix
+-----------------------------------------------------------------
+find 2d 3d correspondences
+query frame keypoints: 3537
+train frame keypoints: 3701
+match size: 2309
+-----------------------------------------------------------------
+found 0 3d-2d point correspondences
+couldn't find [enough] corresponding cloud points... (only 0)
+lost a frame
+F keeping 2135 / 2337
+2337 matches before, 2135 new matches after Fundamental Matrix
+-----------------------------------------------------------------
+find 2d 3d correspondences
+query frame keypoints: 3456
+train frame keypoints: 3701
+match size: 2337
+-----------------------------------------------------------------
+found 0 3d-2d point correspondences
+couldn't find [enough] corresponding cloud points... (only 0)
+lost a frame
+F keeping 2216 / 2446
+2446 matches before, 2216 new matches after Fundamental Matrix
+-----------------------------------------------------------------
+find 2d 3d correspondences
+query frame keypoints: 3610
+train frame keypoints: 3701
+match size: 2446
+-----------------------------------------------------------------
+found 0 3d-2d point correspondences
+couldn't find [enough] corresponding cloud points... (only 0)
+lost a frame
+F keeping 2163 / 2361
+2361 matches before, 2163 new matches after Fundamental Matrix
+-----------------------------------------------------------------
+find 2d 3d correspondences
+query frame keypoints: 3520
+train frame keypoints: 3701
+match size: 2361
+-----------------------------------------------------------------
+found 0 3d-2d point correspondences
+couldn't find [enough] corresponding cloud points... (only 0)
+lost a frame
+F keeping 2055 / 2311
+2311 matches before, 2055 new matches after Fundamental Matrix
+-----------------------------------------------------------------
+find 2d 3d correspondences
+query frame keypoints: 3518
+train frame keypoints: 3701
+match size: 2311
+-----------------------------------------------------------------
+found 0 3d-2d point correspondences
+couldn't find [enough] corresponding cloud points... (only 0)
+lost a frame
+F keeping 2226 / 2422
+2422 matches before, 2226 new matches after Fundamental Matrix
+-----------------------------------------------------------------
+find 2d 3d correspondences
+query frame keypoints: 3576
+train frame keypoints: 3701
+match size: 2422
+-----------------------------------------------------------------
+found 0 3d-2d point correspondences
+couldn't find [enough] corresponding cloud points... (only 0)
+lost a frame
+F keeping 2183 / 2400
+2400 matches before, 2183 new matches after Fundamental Matrix
+-----------------------------------------------------------------
+find 2d 3d correspondences
+query frame keypoints: 3495
+train frame keypoints: 3701
+match size: 2400
+-----------------------------------------------------------------
+found 0 3d-2d point correspondences
+couldn't find [enough] corresponding cloud points... (only 0)
+lost a frame
+F keeping 1921 / 2289
+2289 matches before, 1921 new matches after Fundamental Matrix
+-----------------------------------------------------------------
+find 2d 3d correspondences
+query frame keypoints: 3372
+train frame keypoints: 3701
+match size: 2289
+-----------------------------------------------------------------
+found 0 3d-2d point correspondences
+couldn't find [enough] corresponding cloud points... (only 0)
+lost a frame
+F keeping 1958 / 2252
+2252 matches before, 1958 new matches after Fundamental Matrix
+-----------------------------------------------------------------
+find 2d 3d correspondences
+query frame keypoints: 3578
+train frame keypoints: 3701
+match size: 2252
+-----------------------------------------------------------------
+found 0 3d-2d point correspondences
+couldn't find [enough] corresponding cloud points... (only 0)
+lost a frame
+F keeping 2006 / 2249
+2249 matches before, 2006 new matches after Fundamental Matrix
+-----------------------------------------------------------------
+find 2d 3d correspondences
+query frame keypoints: 3442
+train frame keypoints: 3701
+match size: 2249
+-----------------------------------------------------------------
+found 0 3d-2d point correspondences
+couldn't find [enough] corresponding cloud points... (only 0)
+lost a frame
+F keeping 2093 / 2335
+2335 matches before, 2093 new matches after Fundamental Matrix
+-----------------------------------------------------------------
+find 2d 3d correspondences
+query frame keypoints: 3468
+train frame keypoints: 3701
+match size: 2335
+-----------------------------------------------------------------
+found 0 3d-2d point correspondences
+couldn't find [enough] corresponding cloud points... (only 0)
+lost a frame
+1559  3118

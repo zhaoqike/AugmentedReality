@@ -1,0 +1,11 @@
+hello world
+=========================== Baseline triangulation ===========================
+Find camera matrices...
+before fundamentalMat 1169
+F keeping 1032 / 1169
+1169 matches before, 1032 new matches after Fundamental Matrix
+after fundamentalMat 1032
+det(E) != 0 : -5.398e+033
+after init map size: 0
+get color: 
+0  0

@@ -1,0 +1,80 @@
+hello world
+F keeping 22 / 377
+377 matches before, 22 new matches after Fundamental Matrix
+=========================== Baseline triangulation ===========================
+Find camera matrices...
+before fundamentalMat 22
+F keeping 20 / 22
+22 matches before, 20 new matches after Fundamental Matrix
+after fundamentalMat 20
+----------------------- SVD ------------------------
+U:
+[0.1581598439893074, -0.9678087961560641, 0.195784569954397;
+  0.9654745132402317, 0.1931402825433525, 0.1748021611497168;
+  -0.2069889563064067, 0.1613783298402366, 0.964941763333498]
+W:
+[2.526134497703584; 0.02218335588777086; 6.891961501497385e-008]
+Vt:
+[0.03801596736661329, 0.9727783625126285, -0.2285979957314352;
+  -0.7635851571638211, -0.119285478794955, -0.6345933204090324;
+  -0.644587072461342, 0.198678715457663, 0.7382643659555902]
+----------------------------------------------------
+singular values are too far apart
+after init map size: 0
+F keeping 31 / 245
+245 matches before, 31 new matches after Fundamental Matrix
+-----------------------------------------------------------------
+find 2d 3d correspondences
+query frame keypoints: 245
+train frame keypoints: 377
+match size: 31-----------------------------------------------------------------
+found 0 3d-2d point correspondences
+couldn't find [enough] corresponding cloud points... (only 0)
+lost a frame
+after 2 map size: 0
+F keeping 48 / 225
+225 matches before, 48 new matches after Fundamental Matrix
+-----------------------------------------------------------------
+find 2d 3d correspondences
+query frame keypoints: 225
+train frame keypoints: 377
+match size: 48-----------------------------------------------------------------
+found 0 3d-2d point correspondences
+couldn't find [enough] corresponding cloud points... (only 0)
+lost a frame
+after 3 map size: 0
+F keeping 66 / 313
+313 matches before, 66 new matches after Fundamental Matrix
+-----------------------------------------------------------------
+find 2d 3d correspondences
+query frame keypoints: 313
+train frame keypoints: 377
+match size: 66-----------------------------------------------------------------
+found 0 3d-2d point correspondences
+couldn't find [enough] corresponding cloud points... (only 0)
+lost a frame
+after 4 map size: 0
+F keeping 41 / 260
+260 matches before, 41 new matches after Fundamental Matrix
+-----------------------------------------------------------------
+find 2d 3d correspondences
+query frame keypoints: 260
+train frame keypoints: 377
+match size: 41-----------------------------------------------------------------
+found 0 3d-2d point correspondences
+couldn't find [enough] corresponding cloud points... (only 0)
+lost a frame
+after 5 map size: 0
+F keeping 83 / 367
+367 matches before, 83 new matches after Fundamental Matrix
+-----------------------------------------------------------------
+find 2d 3d correspondences
+query frame keypoints: 367
+train frame keypoints: 377
+match size: 83-----------------------------------------------------------------
+found 0 3d-2d point correspondences
+couldn't find [enough] corresponding cloud points... (only 0)
+lost a frame
+after 6 map size: 0
+get color: 
+0  0

@@ -1,0 +1,108 @@
+hello world
+=========================== Baseline triangulation ===========================
+Find camera matrices...
+before fundamentalMat 500
+F keeping 60 / 500
+500 matches before, 60 new matches after Fundamental Matrix
+after fundamentalMat 60
+P
+[1, 0, 0, 0;
+  0, 1, 0, 0;
+  0, 0, 1, 0]
+Testing P1 
+[-6.277438562204193e+066, -6.277438562204193e+066, -6.277438562204193e+066, -6.277438562204193e+066;
+  -6.277438562204193e+066, -6.277438562204193e+066, -6.277438562204193e+066, -6.277438562204193e+066;
+  -6.277438562204193e+066, -6.277438562204193e+066, -6.277438562204193e+066, -6.277438562204193e+066]
+test branch 1
+Triangulating...Done. (60points, 0.0052902s, mean reproj err = 1725.26)
+Triangulating...Done. (60points, 0.00571611s, mean reproj err = 1319.13)
+48/60 = 80% are in front of camera
+0/60 = 0% are in front of camera
+P
+[1, 0, 0, 0;
+  0, 1, 0, 0;
+  0, 0, 1, 0]
+Testing P1 
+[-6.277438562204193e+066, -6.277438562204193e+066, -6.277438562204193e+066, -6.277438562204193e+066;
+  -6.277438562204193e+066, -6.277438562204193e+066, -6.277438562204193e+066, -6.277438562204193e+066;
+  -6.277438562204193e+066, -6.277438562204193e+066, -6.277438562204193e+066, -6.277438562204193e+066]
+test branch 2
+Triangulating...Done. (60points, 0.00505287s, mean reproj err = 1725.26)
+Triangulating...Done. (60points, 0.00500413s, mean reproj err = 1319.13)
+48/60 = 80% are in front of camera
+0/60 = 0% are in front of camera
+P
+[1, 0, 0, 0;
+  0, 1, 0, 0;
+  0, 0, 1, 0]
+Testing P1 
+[-6.277438562204193e+066, -6.277438562204193e+066, -6.277438562204193e+066, -6.277438562204193e+066;
+  -6.277438562204193e+066, -6.277438562204193e+066, -6.277438562204193e+066, -6.277438562204193e+066;
+  -6.277438562204193e+066, -6.277438562204193e+066, -6.277438562204193e+066, -6.277438562204193e+066]
+test branch 3
+Triangulating...Done. (60points, 0.00598199s, mean reproj err = 1725.26)
+Triangulating...Done. (60points, 0.005592s, mean reproj err = 1319.13)
+48/60 = 80% are in front of camera
+0/60 = 0% are in front of camera
+P
+[1, 0, 0, 0;
+  0, 1, 0, 0;
+  0, 0, 1, 0]
+Testing P1 
+[-6.277438562204193e+066, -6.277438562204193e+066, -6.277438562204193e+066, -6.277438562204193e+066;
+  -6.277438562204193e+066, -6.277438562204193e+066, -6.277438562204193e+066, -6.277438562204193e+066;
+  -6.277438562204193e+066, -6.277438562204193e+066, -6.277438562204193e+066, -6.277438562204193e+066]
+test branch 4
+Triangulating...Done. (60points, 0.00560258s, mean reproj err = 1725.26)
+Triangulating...Done. (60points, 0.00510643s, mean reproj err = 1319.13)
+48/60 = 80% are in front of camera
+0/60 = 0% are in front of camera
+Shit.
+after init map size: 0
+-----------------------------------------------------------------
+find 2d 3d correspondences
+query frame keypoints: 500
+train frame keypoints: 500
+match size: 500-----------------------------------------------------------------
+found 0 3d-2d point correspondences
+couldn't find [enough] corresponding cloud points... (only 0)
+lost a frame
+after 2 map size: 0
+-----------------------------------------------------------------
+find 2d 3d correspondences
+query frame keypoints: 500
+train frame keypoints: 500
+match size: 500-----------------------------------------------------------------
+found 0 3d-2d point correspondences
+couldn't find [enough] corresponding cloud points... (only 0)
+lost a frame
+after 3 map size: 0
+-----------------------------------------------------------------
+find 2d 3d correspondences
+query frame keypoints: 500
+train frame keypoints: 500
+match size: 500-----------------------------------------------------------------
+found 0 3d-2d point correspondences
+couldn't find [enough] corresponding cloud points... (only 0)
+lost a frame
+after 4 map size: 0
+-----------------------------------------------------------------
+find 2d 3d correspondences
+query frame keypoints: 500
+train frame keypoints: 500
+match size: 500-----------------------------------------------------------------
+found 0 3d-2d point correspondences
+couldn't find [enough] corresponding cloud points... (only 0)
+lost a frame
+after 5 map size: 0
+-----------------------------------------------------------------
+find 2d 3d correspondences
+query frame keypoints: 500
+train frame keypoints: 500
+match size: 500-----------------------------------------------------------------
+found 0 3d-2d point correspondences
+couldn't find [enough] corresponding cloud points... (only 0)
+lost a frame
+after 6 map size: 0
+get color: 
+0  0

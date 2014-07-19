@@ -1,0 +1,122 @@
+hello world
+preprocessor begin
+camera open successfully
+getFirst  0
+getSecond  0
+Frame size: 640  480
+get first is true now
+create first keyframe
+keyframe number: 1
+first keyframe keypoints number: 3879F keeping 2404 / 2618
+2618 matches before, 2404 new matches after Fundamental Matrix
+F keeping 2476 / 2706
+2706 matches before, 2476 new matches after Fundamental Matrix
+F keeping 2427 / 2608
+2608 matches before, 2427 new matches after Fundamental Matrix
+F keeping 2488 / 2628
+2628 matches before, 2488 new matches after Fundamental Matrix
+F keeping 2236 / 2553
+2553 matches before, 2236 new matches after Fundamental Matrix
+F keeping 2406 / 2537
+2537 matches before, 2406 new matches after Fundamental Matrix
+F keeping 2235 / 2495
+2495 matches before, 2235 new matches after Fundamental Matrix
+F keeping 2297 / 2492
+2492 matches before, 2297 new matches after Fundamental Matrix
+F keeping 2217 / 2481
+2481 matches before, 2217 new matches after Fundamental Matrix
+F keeping 2065 / 2476
+2476 matches before, 2065 new matches after Fundamental Matrix
+get second is true now
+F keeping 2225 / 2466
+2466 matches before, 2225 new matches after Fundamental Matrix
+F keeping 2225 / 2466
+2466 matches before, 2225 new matches after Fundamental Matrix
+=========================== Baseline triangulation ===========================
+Find camera matrices...
+before fundamentalMat 2466
+F keeping 2225 / 2466
+2466 matches before, 2225 new matches after Fundamental Matrix
+after fundamentalMat 2225
+K
+[640, 0, 320;
+  0, 640, 240;
+  0, 0, 1]
+F
+[7.031842147701919e-006, -0.0003612175365910875, 0.05713738114874815;
+  0.0003603814602553611, -1.96614158198248e-005, 0.1128240004629402;
+  -0.05795137171441454, -0.1225729372651115, 1]
+det(F)
+-1.34255e-019
+E
+[2.880242543698706, -147.9547029877095, -17.47496841334288;
+  147.6122461205959, -8.053315919800237, 142.9934898866546;
+  19.70583566984751, -155.4440248134512, -2.076869391415393]
+----------------------- SVD ------------------------
+U:
+[-0.6088958307931852, 0.3326891663028292, 0.7201137312032072;
+  -0.4054098733642922, -0.9108020694568247, 0.07798990224326682;
+  -0.6818274721815083, 0.2444534902550864, -0.6894590555505678]
+W:
+[217.8864790414323; 203.9279141104125; 5.022165993926235e-013]
+Vt:
+[-0.3443683616137973, 0.914879633485833, -0.2107265710636813;
+  -0.6309590033645058, -0.3917403104683042, -0.6696493599096963;
+  -0.6951986533306134, -0.09764622566707006, 0.7121545106367557]
+----------------------------------------------------
+singular value ratio: 0.935937
+det(R) == -1 [-1]: flip E's sign
+----------------------- SVD ------------------------
+U:
+[0.6088958307931852, -0.3326891663028292, -0.7201137312032072;
+  0.4054098733642922, 0.9108020694568247, -0.07798990224326682;
+  0.6818274721815083, -0.2444534902550864, 0.6894590555505678]
+W:
+[217.8864790414323; 203.9279141104125; 5.022165993926235e-013]
+Vt:
+[-0.3443683616137973, 0.914879633485833, -0.2107265710636813;
+  -0.6309590033645058, -0.3917403104683042, -0.6696493599096963;
+  -0.6951986533306134, -0.09764622566707006, 0.7121545106367557]
+----------------------------------------------------
+singular value ratio: 0.935937
+P
+[1, 0, 0, 0;
+  0, 1, 0, 0;
+  0, 0, 1, 0]
+Testing P1 
+[0.9993780258537893, 0.004474887168962868, -0.03497909126045901, -0.7201137312032072;
+  -0.003635931748333043, 0.9997050727356405, 0.02401140451846568, -0.07798990224326682;
+  0.03507622329875204, -0.02386928845719875, 0.999099552410891, 0.6894590555505678]
+test branch 1
+Triangulating...Done. (2225points, 0.193711s, mean reproj err = 13.6338)
+Triangulating...Done. (2225points, 0.191387s, mean reproj err = 9.40503)
+2188/2225 = 98.3371% are in front of camera
+2185/2225 = 98.2022% are in front of camera
+Done. (0.440487s)
+begin triangulation
+p query index 1
+[1, 0, 0, 0;
+  0, 1, 0, 0;
+  0, 0, 1, 0]
+p train index 0
+[0.9993780258537893, 0.004474887168962868, -0.03497909126045901, -0.7201137312032072;
+  -0.003635931748333043, 0.9997050727356405, 0.02401140451846568, -0.07798990224326682;
+  0.03507622329875204, -0.02386928845719875, 0.999099552410891, 0.6894590555505678]
+getalign
+triangulate points
+Triangulating...Done. (2225points, 0.194858s, mean reproj err = 13.6338)
+triangulation reproj error 13.6338
+test triangulate
+2185/2225 = 98.2022% are in front of camera
+2188/2225 = 98.3371% are in front of camera
+filtered out 150 high-error points
+0/2075 points were found in other views, adding 2075 new
+ after 2075
+create second keyframe
+create init map
+keyframe number: 2
+second keyframe keypoints number: 3704
+point number: 2075
+2075/3879
+2075/3704
+2075  4150

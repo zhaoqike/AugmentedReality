@@ -1,0 +1,116 @@
+hello world
+matches1: 377
+matches1: 377
+matches2: 271
+matches2: 271
+symmatches: 0
+symmatches: 3
+symmatches: 3
+matches: 0
+symmatches: 3
+matches: 3
+=========================== Baseline triangulation ===========================
+Find camera matrices...
+before fundamentalMat 3
+F keeping 0 / 3
+3 matches before, 0 new matches after Fundamental Matrix
+after fundamentalMat 0
+not enough inliers after F matrix
+after init map size: 0
+matches1: 245
+matches1: 245
+matches2: 377
+matches2: 377
+symmatches: 0
+symmatches: 7
+symmatches: 7
+matches: 0
+symmatches: 7
+matches: 7
+-----------------------------------------------------------------
+find 2d 3d correspondences
+query frame keypoints: 245
+train frame keypoints: 377
+match size: 7-----------------------------------------------------------------
+found 0 3d-2d point correspondences
+couldn't find [enough] corresponding cloud points... (only 0)
+lost a frame
+after 2 map size: 0
+matches1: 225
+matches1: 225
+matches2: 377
+matches2: 377
+symmatches: 0
+symmatches: 17
+symmatches: 17
+matches: 0
+symmatches: 17
+matches: 17
+-----------------------------------------------------------------
+find 2d 3d correspondences
+query frame keypoints: 225
+train frame keypoints: 377
+match size: 17-----------------------------------------------------------------
+found 0 3d-2d point correspondences
+couldn't find [enough] corresponding cloud points... (only 0)
+lost a frame
+after 3 map size: 0
+matches1: 313
+matches1: 313
+matches2: 377
+matches2: 377
+symmatches: 0
+symmatches: 20
+symmatches: 20
+matches: 0
+symmatches: 20
+matches: 20
+-----------------------------------------------------------------
+find 2d 3d correspondences
+query frame keypoints: 313
+train frame keypoints: 377
+match size: 20-----------------------------------------------------------------
+found 0 3d-2d point correspondences
+couldn't find [enough] corresponding cloud points... (only 0)
+lost a frame
+after 4 map size: 0
+matches1: 260
+matches1: 260
+matches2: 377
+matches2: 377
+symmatches: 0
+symmatches: 4
+symmatches: 4
+matches: 0
+symmatches: 4
+matches: 4
+-----------------------------------------------------------------
+find 2d 3d correspondences
+query frame keypoints: 260
+train frame keypoints: 377
+match size: 4-----------------------------------------------------------------
+found 0 3d-2d point correspondences
+couldn't find [enough] corresponding cloud points... (only 0)
+lost a frame
+after 5 map size: 0
+matches1: 367
+matches1: 367
+matches2: 377
+matches2: 377
+symmatches: 0
+symmatches: 29
+symmatches: 29
+matches: 0
+symmatches: 29
+matches: 29
+-----------------------------------------------------------------
+find 2d 3d correspondences
+query frame keypoints: 367
+train frame keypoints: 377
+match size: 29-----------------------------------------------------------------
+found 0 3d-2d point correspondences
+couldn't find [enough] corresponding cloud points... (only 0)
+lost a frame
+after 6 map size: 0
+get color: 
+0  0
